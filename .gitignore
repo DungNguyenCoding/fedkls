@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+
+# Datasets
+data/
+
+# Logs
+logs/*.log
+
+# Experiment outputs
+# Ignore everything in outputs/ by default
+outputs/*
+
+# Keep plots
+!outputs/plots/
+!outputs/plots/**
+!outputs/plots/.gitkeep
+
+# Keep reusable partitions
+!outputs/partitions/
+!outputs/partitions/**
+!outputs/partitions/.gitkeep
+
+# Keep FULL simulation results only
+# Any output directory whose run_name starts with "run"
+!outputs/run*/
+!outputs/run*/**
+
+# ==========================================
+# Large archives
+# ==========================================
+*.zip
+*.tar.gz
+
+# ==========================================
+# Model weights and checkpoints
+# ==========================================
+*.pt
+*.pth
+*.ckpt
+
+/outputs/**/checkpoints/
+/outputs/**/resume/
+/outputs/**/posterior/
+
+# ==========================================
+# Large experiment logs
+# ==========================================
+/outputs/**/communication/events.jsonl
+/outputs/**/metrics/client_metrics.csv
+/outputs/**/metrics/round_train_metrics.csv
