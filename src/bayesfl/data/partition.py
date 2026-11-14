@@ -1,0 +1,672 @@
+"""Deterministic non-IID partition generators and persisted manifests."""
+
+from __future__ import annotations
+
+import hashlib
+import json
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any, Dict, Iterable
+
+import numpy as np
+
+
+@dataclass
+class PartitionResult:
+    indices: list[np.ndarray]
+    metadata: Dict[str, Any]
+
+
+def _hash_partitions(parts: list[np.ndarray]) -> str:
+    digest = hashlib.sha256()
+    for cid, arr in enumerate(parts):
+        digest.update(np.asarray([cid, len(arr)], dtype=np.int64).tobytes())
+        digest.update(np.asarray(arr, dtype=np.int64).tobytes())
+    return digest.hexdigest()
+
+
+def _adjust_total_sizes(
+    sizes: np.ndarray,
+    target_total: int,
+    rng: np.random.RandomState,
+    min_size: int,
+) -> np.ndarray:
+    sizes = sizes.astype(np.int64, copy=True)
+    delta = int(target_total) - int(sizes.sum())
+    if delta > 0:
+        candidates = np.arange(len(sizes))
+        for idx in rng.choice(candidates, size=delta, replace=True):
+            sizes[idx] += 1
+    elif delta < 0:
+        for _ in range(-delta):
+            candidates = np.flatnonzero(sizes > min_size)
+            if len(candidates) == 0:
+                raise ValueError("Cannot reduce client sizes to target_total without violating min_size")
+            idx = int(rng.choice(candidates))
+            sizes[idx] -= 1
+    return sizes
+
+
+def build_sparse_dirichlet_indices(
+    labels: np.ndarray,
+    *,
+    num_clients: int,
+    num_classes: int,
+    alpha: float,
+    avg_samples_per_client: float,
+    classes_per_client: int,
+    min_samples_per_client: int,
+    seed: int,
+    target_total_samples: int | None = None,
+) -> PartitionResult:
+    """Sparse, unbalanced partition used by the CIFAR-10 experiments.
+
+    Each client receives a Poisson-sized local set and exactly `classes_per_client`
+    active classes. One sample is reserved for every active class, then the
+    remaining count is drawn from a Dirichlet allocation over those classes.
+    Samples are assigned without replacement from class-specific pools.
+    """
+    if classes_per_client > num_classes:
+        raise ValueError("classes_per_client cannot exceed num_classes")
+    rng = np.random.RandomState(seed)
+    sizes = np.maximum(rng.poisson(avg_samples_per_client, size=num_clients), min_samples_per_client)
+    sizes = np.maximum(sizes, classes_per_client)
+    if target_total_samples is not None:
+        sizes = _adjust_total_sizes(sizes, int(target_total_samples), rng, max(min_samples_per_client, classes_per_client))
+
+    pools: dict[int, np.ndarray] = {}
+    cursor = {c: 0 for c in range(num_classes)}
+    for c in range(num_classes):
+        arr = np.flatnonzero(labels == c).astype(np.int64)
+        rng.shuffle(arr)
+        pools[c] = arr
+
+    partitions: list[np.ndarray] = []
+    class_draws_exhausted = 0
+    for client_size in sizes:
+        active = rng.choice(num_classes, size=classes_per_client, replace=False)
+        remaining = int(client_size) - classes_per_client
+        proportions = rng.dirichlet(np.full(classes_per_client, alpha, dtype=np.float64))
+        extra = rng.multinomial(remaining, proportions) if remaining > 0 else np.zeros(classes_per_client, dtype=int)
+        counts = extra + 1
+
+        client_chunks: list[np.ndarray] = []
+        shortage = 0
+        for c, count in zip(active, counts):
+            c = int(c)
+            start = cursor[c]
+            end = min(start + int(count), len(pools[c]))
+            if end > start:
+                client_chunks.append(pools[c][start:end])
+                cursor[c] = end
+            shortage += int(count) - (end - start)
+
+        # With CIFAR-10's 50k pool and ~10k samples used this should stay zero.
+        if shortage:
+            class_draws_exhausted += shortage
+            available_classes = [c for c in range(num_classes) if cursor[c] < len(pools[c])]
+            while shortage and available_classes:
+                c = int(rng.choice(available_classes))
+                take = min(shortage, len(pools[c]) - cursor[c])
+                client_chunks.append(pools[c][cursor[c] : cursor[c] + take])
+                cursor[c] += take
+                shortage -= take
+                available_classes = [j for j in available_classes if cursor[j] < len(pools[j])]
+            if shortage:
+                raise RuntimeError("Dataset exhausted while constructing sparse partition")
+
+        client_indices = np.concatenate(client_chunks).astype(np.int64)
+        rng.shuffle(client_indices)
+        partitions.append(client_indices)
+
+    realized_classes = [len(np.unique(labels[idx])) for idx in partitions]
+    realized_sizes = np.asarray([len(idx) for idx in partitions], dtype=np.int64)
+    metadata = {
+        "type": "sparse_dirichlet",
+        "seed": int(seed),
+        "num_clients": int(num_clients),
+        "num_classes": int(num_classes),
+        "dirichlet_alpha": float(alpha),
+        "avg_samples_per_client_config": float(avg_samples_per_client),
+        "classes_per_client_config": int(classes_per_client),
+        "total_samples_used": int(realized_sizes.sum()),
+        "mean_size": float(realized_sizes.mean()),
+        "min_size": int(realized_sizes.min()),
+        "max_size": int(realized_sizes.max()),
+        "mean_classes_per_client": float(np.mean(realized_classes)),
+        "empty_client_backfills": 0,
+        "num_empty_clients_after_backfill": int(np.sum(realized_sizes == 0)),
+        "class_draws_exhausted": int(class_draws_exhausted),
+    }
+    metadata["sha256"] = _hash_partitions(partitions)
+    return PartitionResult(partitions, metadata)
+
+
+def build_mnist_dirichlet_lognormal_indices(
+    labels: np.ndarray,
+    *,
+    num_clients: int,
+    num_classes: int,
+    alpha: float,
+    lognormal_sigma: float,
+    min_samples_per_client: int,
+    seed: int,
+) -> PartitionResult:
+    """Use all MNIST data with non-IID labels and unbalanced client sizes."""
+    rng = np.random.RandomState(seed)
+    size_bias = rng.lognormal(mean=0.0, sigma=lognormal_sigma, size=num_clients)
+    size_bias = size_bias / size_bias.mean()
+
+    partitions: list[list[int]] = [[] for _ in range(num_clients)]
+    concentration = np.maximum(alpha * size_bias, 1e-6)
+    for c in range(num_classes):
+        class_idx = np.flatnonzero(labels == c).astype(np.int64)
+        rng.shuffle(class_idx)
+        proportions = rng.dirichlet(concentration)
+        counts = rng.multinomial(len(class_idx), proportions)
+        cursor = 0
+        for cid, count in enumerate(counts):
+            if count:
+                partitions[cid].extend(class_idx[cursor : cursor + count].tolist())
+                cursor += count
+
+    # Backfill very small clients by moving samples from the largest clients.
+    backfills = 0
+    sizes = np.asarray([len(p) for p in partitions], dtype=np.int64)
+    for cid in np.argsort(sizes):
+        while len(partitions[int(cid)]) < min_samples_per_client:
+            donor = int(np.argmax([len(p) for p in partitions]))
+            if donor == int(cid) or len(partitions[donor]) <= min_samples_per_client:
+                raise RuntimeError("Unable to satisfy MNIST min_samples_per_client")
+            move_pos = int(rng.randint(0, len(partitions[donor])))
+            partitions[int(cid)].append(partitions[donor].pop(move_pos))
+            backfills += 1
+
+    arrays = [np.asarray(p, dtype=np.int64) for p in partitions]
+    for arr in arrays:
+        rng.shuffle(arr)
+    realized_sizes = np.asarray([len(p) for p in arrays], dtype=np.int64)
+    realized_classes = [len(np.unique(labels[p])) for p in arrays]
+    metadata = {
+        "type": "dirichlet_lognormal",
+        "seed": int(seed),
+        "num_clients": int(num_clients),
+        "num_classes": int(num_classes),
+        "dirichlet_alpha": float(alpha),
+        "lognormal_sigma": float(lognormal_sigma),
+        "total_samples_used": int(realized_sizes.sum()),
+        "mean_size": float(realized_sizes.mean()),
+        "min_size": int(realized_sizes.min()),
+        "max_size": int(realized_sizes.max()),
+        "mean_classes_per_client": float(np.mean(realized_classes)),
+        "empty_client_backfills": int(backfills),
+        "num_empty_clients_after_backfill": int(np.sum(realized_sizes == 0)),
+        "class_draws_exhausted": 0,
+    }
+    metadata["sha256"] = _hash_partitions(arrays)
+    return PartitionResult(arrays, metadata)
+
+
+
+def apply_local_data_fraction(
+    result: PartitionResult,
+    *,
+    labels: np.ndarray,
+    fraction: float,
+    seed: int,
+) -> PartitionResult:
+    """Deterministically reduce each client's local dataset.
+
+    The full federated partition is constructed first.  A fixed permutation is
+    then generated for every client and only the first
+
+        max(1, floor(fraction * client_size))
+
+    indices are retained.
+
+    Because the permutation depends on the partition seed but NOT on the
+    fraction, smaller fractions are nested subsets of larger fractions.
+    """
+    fraction = float(fraction)
+
+    if not (0.0 < fraction <= 1.0):
+        raise ValueError(
+            "local_data_fraction must satisfy 0 < fraction <= 1"
+        )
+
+    # Preserve the exact original partition when fraction=1.
+    if fraction == 1.0:
+        return result
+
+    original = [
+        np.asarray(arr, dtype=np.int64)
+        for arr in result.indices
+    ]
+
+    # Independent RNG stream from the partition-generation RNG.
+    # Same seed for every fraction => nested subsets.
+    rng = np.random.RandomState(
+        (int(seed) + 104729) % (2**32 - 1)
+    )
+
+    reduced: list[np.ndarray] = []
+
+    for arr in original:
+        n = len(arr)
+
+        if n == 0:
+            reduced.append(arr.copy())
+            continue
+
+        keep = max(
+            1,
+            int(np.floor(fraction * n)),
+        )
+
+        order = rng.permutation(n)
+
+        reduced.append(
+            arr[order[:keep]].copy()
+        )
+
+    before_sizes = np.asarray(
+        [len(x) for x in original],
+        dtype=np.int64,
+    )
+
+    after_sizes = np.asarray(
+        [len(x) for x in reduced],
+        dtype=np.int64,
+    )
+
+    before_all = (
+        np.concatenate(original)
+        if original
+        else np.asarray([], dtype=np.int64)
+    )
+
+    after_all = (
+        np.concatenate(reduced)
+        if reduced
+        else np.asarray([], dtype=np.int64)
+    )
+
+    unique_after = np.unique(after_all)
+
+    realized_classes = [
+        len(np.unique(labels[idx]))
+        if len(idx)
+        else 0
+        for idx in reduced
+    ]
+
+    # Count unique retained examples by class. This correctly handles the
+    # reference implementation's possible duplicated empty-client backfills.
+    unique_class_counts = np.bincount(
+        labels[unique_after],
+        minlength=int(np.max(labels)) + 1,
+    )
+
+    dataset_class_counts = np.bincount(
+        labels,
+        minlength=len(unique_class_counts),
+    )
+
+    unassigned_per_class = (
+        dataset_class_counts
+        - unique_class_counts
+    ).astype(np.int64)
+
+    metadata = dict(result.metadata)
+
+    base_sha = metadata.get(
+        "sha256",
+        _hash_partitions(original),
+    )
+
+    metadata.update(
+        {
+            "local_data_fraction": float(fraction),
+            "local_data_subsample_strategy": (
+                "deterministic_nested_fraction"
+            ),
+            "local_data_subsample_seed": int(seed),
+
+            "base_partition_sha256": base_sha,
+
+            "pre_subsample_total_samples_used": int(
+                before_sizes.sum()
+            ),
+            "pre_subsample_mean_size": float(
+                before_sizes.mean()
+            ),
+            "pre_subsample_min_size": int(
+                before_sizes.min()
+            ),
+            "pre_subsample_max_size": int(
+                before_sizes.max()
+            ),
+
+            "total_samples_used": int(
+                after_sizes.sum()
+            ),
+            "total_unique_samples_used": int(
+                len(unique_after)
+            ),
+            "total_unassigned_samples": int(
+                len(labels) - len(unique_after)
+            ),
+            "unassigned_per_class": [
+                int(x)
+                for x in unassigned_per_class
+            ],
+
+            "mean_size": float(
+                after_sizes.mean()
+            ),
+            "min_size": int(
+                after_sizes.min()
+            ),
+            "max_size": int(
+                after_sizes.max()
+            ),
+            "mean_classes_per_client": float(
+                np.mean(realized_classes)
+            ),
+
+            "num_empty_clients_after_backfill": int(
+                np.sum(after_sizes == 0)
+            ),
+
+            "realized_local_data_fraction": float(
+                after_sizes.sum()
+                / max(1, before_sizes.sum())
+            ),
+        }
+    )
+
+    metadata["sha256"] = _hash_partitions(
+        reduced
+    )
+
+    return PartitionResult(
+        reduced,
+        metadata,
+    )
+
+
+def save_partition(result: PartitionResult, npz_path: Path, metadata_path: Path) -> None:
+    npz_path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {f"client_{cid:04d}": arr for cid, arr in enumerate(result.indices)}
+    np.savez_compressed(npz_path, **payload)
+    with metadata_path.open("w", encoding="utf-8") as handle:
+        json.dump(result.metadata, handle, indent=2, sort_keys=True)
+
+
+def load_partition(npz_path: str | Path) -> list[np.ndarray]:
+    with np.load(npz_path, allow_pickle=False) as data:
+        keys = sorted(data.files)
+        return [np.asarray(data[key], dtype=np.int64) for key in keys]
+
+
+def build_paper_dirichlet_indices(
+    labels: np.ndarray,
+    *,
+    num_clients: int,
+    num_classes: int,
+    alpha: float,
+    seed: int,
+) -> PartitionResult:
+    """Reproduce the CIFAR class-wise Dirichlet partition from the authors' code.
+
+    For each class, a Dirichlet vector allocates a fraction of that class to
+    every client.  Integer flooring is applied client-by-client, exactly as in
+    the released ``dirichlet_data.py`` logic.  This intentionally differs from
+    the project's old sparse four-class/Poisson partition.
+    """
+    if alpha <= 0:
+        raise ValueError("alpha must be positive")
+    rng = np.random.RandomState(int(seed))
+
+    class_indices = [
+        np.flatnonzero(labels == c).astype(np.int64)
+        for c in range(num_classes)
+    ]
+    # sample_matrix[client, class], same orientation as the released code after .T
+    sample_matrix = rng.dirichlet(
+        np.full(num_clients, float(alpha), dtype=np.float64),
+        size=num_classes,
+    ).T
+
+    cursor = np.zeros(num_classes, dtype=np.int64)
+    partitions: list[np.ndarray] = []
+    empty_backfills = 0
+
+    for cid in range(num_clients):
+        chunks: list[np.ndarray] = []
+        for c in range(num_classes):
+            start = int(cursor[c])
+            count = int(len(class_indices[c]) * float(sample_matrix[cid, c]))
+            end = min(start + count, len(class_indices[c]))
+            if end > start:
+                chunks.append(class_indices[c][start:end])
+            cursor[c] = end
+
+        if chunks:
+            arr = np.concatenate(chunks).astype(np.int64, copy=False)
+        else:
+            # The reference implementation backfills an empty client with the
+            # first example of class 0.  Preserve that behavior for fidelity.
+            arr = class_indices[0][0:1].copy()
+            empty_backfills += 1
+        partitions.append(arr)
+
+    realized_sizes = np.asarray([len(p) for p in partitions], dtype=np.int64)
+    realized_classes = [len(np.unique(labels[p])) for p in partitions]
+    unique_used = len(np.unique(np.concatenate(partitions))) if partitions else 0
+    unassigned_per_class = [
+        int(len(class_indices[c]) - cursor[c]) for c in range(num_classes)
+    ]
+    metadata = {
+        "type": "paper_dirichlet",
+        "reference": "OnlineLaplaceApproximationBayesianFL released dirichlet_data.py",
+        "seed": int(seed),
+        "num_clients": int(num_clients),
+        "num_classes": int(num_classes),
+        "dirichlet_alpha": float(alpha),
+        "total_samples_used": int(realized_sizes.sum()),
+        "total_unique_samples_used": int(unique_used),
+        "total_unassigned_samples": int(sum(unassigned_per_class)),
+        "unassigned_per_class": unassigned_per_class,
+        "mean_size": float(realized_sizes.mean()),
+        "min_size": int(realized_sizes.min()),
+        "max_size": int(realized_sizes.max()),
+        "mean_classes_per_client": float(np.mean(realized_classes)),
+        "empty_client_backfills": int(empty_backfills),
+        "num_empty_clients_after_backfill": int(np.sum(realized_sizes == 0)),
+        "class_draws_exhausted": 0,
+    }
+    metadata["sha256"] = _hash_partitions(partitions)
+    return PartitionResult(partitions, metadata)
+
+
+
+def build_fixed_labels_indices(
+    labels: np.ndarray,
+    *,
+    num_clients: int,
+    num_classes: int,
+    samples_per_client: int,
+    labels_per_client: int,
+    seed: int,
+) -> PartitionResult:
+    """Build a deterministic balanced fixed-label partition.
+
+    Current controlled mode requires exactly one label per client.
+    Client labels are balanced across classes when num_clients is
+    divisible by num_classes. Samples are unique across clients.
+    """
+    if num_clients < 1:
+        raise ValueError("num_clients must be positive")
+
+    if num_classes < 1:
+        raise ValueError("num_classes must be positive")
+
+    if samples_per_client < 1:
+        raise ValueError("samples_per_client must be positive")
+
+    if labels_per_client != 1:
+        raise ValueError(
+            "fixed_labels currently requires labels_per_client=1"
+        )
+
+    if num_clients % num_classes != 0:
+        raise ValueError(
+            "For balanced fixed_labels partition, "
+            "num_clients must be divisible by num_classes"
+        )
+
+    rng = np.random.RandomState(seed)
+
+    # Exactly equal number of clients assigned to every class.
+    clients_per_class = num_clients // num_classes
+
+    client_labels = np.repeat(
+        np.arange(num_classes, dtype=np.int64),
+        clients_per_class,
+    )
+
+    # Randomize which client ID receives which label,
+    # while retaining exact global balance.
+    rng.shuffle(client_labels)
+
+    pools: dict[int, np.ndarray] = {}
+
+    for c in range(num_classes):
+        idx = np.flatnonzero(
+            labels == c
+        ).astype(np.int64)
+
+        rng.shuffle(idx)
+        pools[c] = idx
+
+        required = (
+            clients_per_class
+            * samples_per_client
+        )
+
+        if len(idx) < required:
+            raise RuntimeError(
+                f"Class {c} has only {len(idx)} samples, "
+                f"but {required} are required"
+            )
+
+    cursor = {
+        c: 0
+        for c in range(num_classes)
+    }
+
+    partitions: list[np.ndarray] = []
+
+    for cid in range(num_clients):
+        c = int(client_labels[cid])
+
+        start = cursor[c]
+        end = start + samples_per_client
+
+        arr = pools[c][start:end].copy()
+
+        if len(arr) != samples_per_client:
+            raise RuntimeError(
+                f"Unexpected class-pool exhaustion for class {c}"
+            )
+
+        cursor[c] = end
+
+        # Order does not affect membership, but shuffle deterministically
+        # so clients do not receive a simple contiguous class-pool slice.
+        rng.shuffle(arr)
+
+        partitions.append(
+            arr.astype(np.int64)
+        )
+
+    realized_sizes = np.asarray(
+        [
+            len(idx)
+            for idx in partitions
+        ],
+        dtype=np.int64,
+    )
+
+    realized_classes = np.asarray(
+        [
+            len(np.unique(labels[idx]))
+            for idx in partitions
+        ],
+        dtype=np.int64,
+    )
+
+    flat = np.concatenate(partitions)
+
+    if len(flat) != len(np.unique(flat)):
+        raise RuntimeError(
+            "fixed_labels partition contains duplicated samples"
+        )
+
+    class_client_counts = {
+        str(c): int(
+            np.sum(client_labels == c)
+        )
+        for c in range(num_classes)
+    }
+
+    metadata = {
+        "type": "fixed_labels",
+        "seed": int(seed),
+        "num_clients": int(num_clients),
+        "num_classes": int(num_classes),
+        "samples_per_client_config": int(
+            samples_per_client
+        ),
+        "labels_per_client_config": int(
+            labels_per_client
+        ),
+        "total_samples_used": int(
+            realized_sizes.sum()
+        ),
+        "mean_size": float(
+            realized_sizes.mean()
+        ),
+        "median_size": float(
+            np.median(realized_sizes)
+        ),
+        "min_size": int(
+            realized_sizes.min()
+        ),
+        "max_size": int(
+            realized_sizes.max()
+        ),
+        "mean_classes_per_client": float(
+            realized_classes.mean()
+        ),
+        "min_classes_per_client": int(
+            realized_classes.min()
+        ),
+        "max_classes_per_client": int(
+            realized_classes.max()
+        ),
+        "class_client_counts": class_client_counts,
+        "num_empty_clients_after_backfill": 0,
+        "empty_client_backfills": 0,
+        "class_draws_exhausted": 0,
+    }
+
+    metadata["sha256"] = _hash_partitions(
+        partitions
+    )
+
+    return PartitionResult(
+        partitions,
+        metadata,
+    )
