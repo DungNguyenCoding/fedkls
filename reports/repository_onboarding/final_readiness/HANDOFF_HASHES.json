@@ -1,0 +1,157 @@
+{
+  "schema": "fedkls-final-readiness-v1",
+  "generated_seoul": "2026-11-14T17:25:17.352074+09:00",
+  "scope": "Final readiness report and compact diagnostics; no raw model arrays or checkpoint copies",
+  "files": [
+    {
+      "file": "reports/repository_onboarding/FINAL_READINESS.md",
+      "bytes": 13880,
+      "sha256": "d493d5d1de588433feb2e346e2f78840848bcd4915c2c070c313032ca2eddc8f"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/archive_verification.json",
+      "bytes": 28239,
+      "sha256": "abfee390c062461d679349fddb838e24234839f41390e192e16c17aaec63013e"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/baseline.json",
+      "bytes": 291661,
+      "sha256": "cacf88661adf01bb6cfeda292afa5bd4e3abb4ee71fe2ec989a0df929571b423"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/dependency_checks.json",
+      "bytes": 2744,
+      "sha256": "1003c7bc7d646199341791a80d362633e0cdc10b93a2621db172bb872c5195b6"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/document_investigation.json",
+      "bytes": 8874,
+      "sha256": "5cf24df1b3c5d5fb8f7a3afb61556e2eefc1e1428df45f435a4df86d76129d91"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/historical_whitespace_checks.json",
+      "bytes": 4715,
+      "sha256": "c39f661ba4c183188a32577c1609f07972e149469352ed68b107c9a8d2f4ad61"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/host_cuda.json",
+      "bytes": 2714,
+      "sha256": "8f3a982b116bf7b64b16076ce1983a5f4328a576a10f3691c97531b1dedc1ae6"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/archive_test.transcript.json",
+      "bytes": 673,
+      "sha256": "76f96e392d7abd91cfc657da1f0aa68ede01698d78adc44a59cba4b0f5855667"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/cuda_probe_source.txt",
+      "bytes": 5274,
+      "sha256": "57bbd61af5511698266119a5688279262b6e9dab4050e90f6f2f1b33d3665dee"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/document_investigation.transcript.json",
+      "bytes": 2276,
+      "sha256": "99a6e43eff7832d414687eda69c75013b6875f44526673bd1765d6fb870d3733"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/host_cuda.transcript.json",
+      "bytes": 3466,
+      "sha256": "3006c01a7ff45e131779483c8f47824ae3b1b9ee729cc0896c23b4ddce2fd6be"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/legacy_endpoints.transcript.json",
+      "bytes": 2557,
+      "sha256": "bcb0281b3171f182238b9389c5a1e4e0a214e8d19a56a5e664cdfa631297c04b"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/pip_check.transcript.json",
+      "bytes": 1082,
+      "sha256": "77e12edca2918233ea208cd8079a54c1730be1df90a015ef3c01bfc3c0b575eb"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/preservation.transcript.json",
+      "bytes": 1707,
+      "sha256": "89f9ebd5871f34ede44213e30346965b1e5e4279fa2cda89a068e262e4111b4f"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/pytest_full.transcript.json",
+      "bytes": 2871,
+      "sha256": "9555217bc651919ae4b916ec49eee7f4acf09635dc3633d36ec8c4c7fb5a0cb0"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/pytest_wireless.transcript.json",
+      "bytes": 687,
+      "sha256": "72ecfaf5a6a9eb7ed9e03a3742139f008e85b3a2b12b6f43f9b524c2d7551943"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/report_generation.transcript.json",
+      "bytes": 569,
+      "sha256": "735a0647d9c67d41b51238e8a9299ab88874eacfbb4ae06f3407e8bf3b110f87"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/report_validation.transcript.json",
+      "bytes": 2009,
+      "sha256": "6ada5912b401ac38e3ce72dc550038f6f837af331831b0b5f9a0f428414e659a"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/sandbox_cuda.transcript.json",
+      "bytes": 1690,
+      "sha256": "0218d8622c237204cf60e1a6379b633f88e96a075d2d31acd59127876dd83f46"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/strict_wireless_checks.transcript.json",
+      "bytes": 1087,
+      "sha256": "920eca5875a815d005ceb667155271aff3ff0c34ec8b20150052eeaa535d5d2c"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/wireless_b0550_strict.transcript.json",
+      "bytes": 820,
+      "sha256": "d9d7cffa19bb58c164b616e750acf682d2f937b09b77c274efe2ac07bbe00bfe"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/wireless_b0750_strict.transcript.json",
+      "bytes": 821,
+      "sha256": "ef910556a6e6110fb5014dd6d52d8c80b230d8f0e1b86be745ef5aff2408157a"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/wireless_b0950_strict.transcript.json",
+      "bytes": 821,
+      "sha256": "52e16e5cfc6eaa52d13aa389d0f840e0976ece5adbe07059a7a211066f9289fe"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/wireless_reference_strict.transcript.json",
+      "bytes": 825,
+      "sha256": "da72effd98780373867c8898f6e51f906c51e0e7983fa093920d5e4a369f6a56"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/wireless_u150_strict.transcript.json",
+      "bytes": 818,
+      "sha256": "bc4191d997cc3233d701d5d816713983240dfc88c6c2f8d98e4f2ac4d7b0b956"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/wireless_u160_strict.transcript.json",
+      "bytes": 819,
+      "sha256": "3939c4f07aec027d123665dce949f2c221485a609bf60efd9978ffd8905a137b"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/logs/wireless_u170_strict.transcript.json",
+      "bytes": 818,
+      "sha256": "8bc7cb542f1cf69899f332c1602dc5687ce0aef00b0ac6234648a0ae6d903354"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/preservation_checks.json",
+      "bytes": 1152,
+      "sha256": "9ea3c0b0b4753b43b356f42eeb1e1951af3cc8e7a6bce05a35368f5ebfb67f8d"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/sandbox_cuda.json",
+      "bytes": 939,
+      "sha256": "3cbe30fda9c3ce3262a09b0086aaee310002b3638c17980d5ce1f220df7d1b08"
+    },
+    {
+      "file": "reports/repository_onboarding/final_readiness/wireless_strict_checks.json",
+      "bytes": 29169,
+      "sha256": "a163874e3507506cd244f2957ba455c673f6cde2703bc9f0ed1d31a94c33191e"
+    }
+  ]
+}

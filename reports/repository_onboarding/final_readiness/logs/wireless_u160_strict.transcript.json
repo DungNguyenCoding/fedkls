@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python",
+    "scripts/export_research_report.py",
+    "--run-dir",
+    "outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008"
+  ],
+  "started_utc": "2026-11-14T08:17:57.963108+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 0.17063775309361517,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null,
+  "pytest_addopts": null,
+  "stdout_utf8": "run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008: R150, accuracy=52.470%, keep=31.03%, modeled_time=24000.000s; checkpoint=verified_byte_digests scope=recorded_metrics_and_raw_checkpoint_digests\n",
+  "encoding_note": "JSON string preserves exact emitted UTF-8 bytes, including whitespace and CR/LF; no transcript trimming."
+}

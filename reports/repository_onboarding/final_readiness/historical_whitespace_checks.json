@@ -1,0 +1,156 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--check"
+  ],
+  "exit_code": 2,
+  "diagnostics": [
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 1,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 2,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 3,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 4,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 5,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 6,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 7,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 8,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 9,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 10,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 11,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 12,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 13,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 14,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 15,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 16,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 17,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 18,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 19,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 20,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 21,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 22,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 23,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 24,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 25,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 26,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 27,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 28,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "line": 29,
+      "message": "trailing whitespace."
+    }
+  ],
+  "assessment": "Only authenticated original document line endings are flagged; original bytes are preserved. New report artifacts are checked separately."
+}

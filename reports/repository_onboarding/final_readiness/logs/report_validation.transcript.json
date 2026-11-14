@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python",
+    "-c",
+    "import hashlib,json,pathlib,re; f=pathlib.Path(\"reports/repository_onboarding/final_readiness\"); report=f.parent/\"FINAL_READINESS.md\"; text=report.read_text(); assert not re.findall(r\"@[A-Z_]+@\",text); assert all(\"://\" in p or (report.parent/p).exists() for p in re.findall(r\"\\]\\(([^)]+)\\)\",text)); host=json.loads((f/\"host_cuda.json\").read_text()); assert host[\"all_visible_gpu_kernel_tests_passed\"] and len(host[\"devices\"])==2 and all(r[\"passed\"] for r in host[\"devices\"]); assert json.loads((f/\"archive_verification.json\").read_text())[\"matching\"]==91; assert all(r[\"strict_resume_eligible\"] for r in json.loads((f/\"wireless_strict_checks.json\").read_text())); assert \"217 passed\" in json.loads((f/\"logs/pytest_full.transcript.json\").read_text())[\"stdout_utf8\"]; assert \"77 passed\" in json.loads((f/\"logs/pytest_wireless.transcript.json\").read_text())[\"stdout_utf8\"]; assert not any(p.suffix in {\".npz\",\".pt\",\".pth\",\".ckpt\"} for p in f.rglob(\"*\") if p.is_file()); baseline=json.loads((f/\"baseline.json\").read_text()); assert all(hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()==h for p,h in baseline[\"protected_hashes\"].items()); assert all(hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()==h for p,h in baseline[\"prior_report_hashes\"].items()); print(\"PASS: all report links, kernel results, test counts, strict checks, artifact restrictions and protected bytes.\")"
+  ],
+  "started_utc": "2026-11-14T08:25:16.704078+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 0.09479769901372492,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null,
+  "pytest_addopts": null,
+  "stdout_utf8": "PASS: all report links, kernel results, test counts, strict checks, artifact restrictions and protected bytes.\n",
+  "encoding_note": "JSON string preserves exact emitted UTF-8 bytes, including whitespace and CR/LF; no transcript trimming."
+}

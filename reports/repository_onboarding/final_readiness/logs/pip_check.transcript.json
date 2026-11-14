@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "pip",
+    "check"
+  ],
+  "started_utc": "2026-11-14T08:19:10.780639+00:00",
+  "exit_code": 1,
+  "measured_wall_seconds": 0.7267013581003994,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null,
+  "pytest_addopts": null,
+  "stdout_utf8": "WARNING: The directory '/home/micl/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.\nflwr-baselines 1.0.0 has requirement pandas<2.0.0,>=1.5.3, but you have pandas 2.2.2.\nflwr-baselines 1.0.0 has requirement pillow==10.2.0, but you have pillow 12.1.1.\nflwr-baselines 1.0.0 has requirement torch==2.4.1, but you have torch 2.11.0+cu128.\nflwr-baselines 1.0.0 has requirement torchvision==0.19.1, but you have torchvision 0.26.0+cu128.\n",
+  "encoding_note": "JSON string preserves exact emitted UTF-8 bytes, including whitespace and CR/LF; no transcript trimming."
+}

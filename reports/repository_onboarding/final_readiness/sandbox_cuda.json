@@ -1,0 +1,22 @@
+{
+  "scope": "sandbox",
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "python_version": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+  "conda": "dungndh",
+  "bayesfl_origin": "/home/micl/DungNDH/fedkls/src/bayesfl/__init__.py",
+  "torch_version": "2.11.0+cu128",
+  "compiled_cuda": "12.8",
+  "cuda_available": false,
+  "device_count": 0,
+  "compiled_architectures": [],
+  "devices": [],
+  "operation": "64x64 float64 CUDA allocation, matrix multiplication, squared-mean loss, backward, CPU reference comparison, synchronization",
+  "training_performed": false,
+  "nvidia_smi": {
+    "exit_code": 9,
+    "stdout": "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.\n\n",
+    "stderr": ""
+  },
+  "all_visible_gpu_kernel_tests_passed": false,
+  "status": "cuda_unavailable_in_execution_scope"
+}

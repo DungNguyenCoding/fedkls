@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/wireless"
+  ],
+  "started_utc": "2026-11-14T08:19:11.967274+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 51.32716447790153,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null,
+  "pytest_addopts": "-p no:cacheprovider",
+  "stdout_utf8": "........................................................................ [ 93%]\n.....                                                                    [100%]\n77 passed in 49.81s\n",
+  "encoding_note": "JSON string preserves exact emitted UTF-8 bytes, including whitespace and CR/LF; no transcript trimming."
+}

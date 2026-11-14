@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python",
+    "/tmp/fedkls_final_document.py"
+  ],
+  "started_utc": "2026-11-14T08:17:29.477194+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 0.23285633395425975,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null,
+  "pytest_addopts": null,
+  "stdout_utf8": "{\n  \"expected_sha256\": \"3ecf9ba6c65c5c3700a03134165a05c0f09fd2b52d5b7f3d66bce35524a70048\",\n  \"target\": \"docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md\",\n  \"base_commit\": \"02ce3de8a90d37fa311f7ff3287df3efd241595c\",\n  \"search_errors\": \"\",\n  \"exact_matching_candidates\": 3,\n  \"before_sha256\": \"c93b9ac8555a62d10bd3b37e69c799a7b440c78ddb94761bfe860f0f8470fd99\",\n  \"before_newlines\": {\n    \"bytes\": 2867,\n    \"CRLF\": 0,\n    \"lone_LF\": 38,\n    \"bare_CR\": 0\n  },\n  \"authority_manifest_sha256\": \"f086991fbbe715982f91f45f3ab39950e151a4bb5fa93decd62b4a645ff0cabe\",\n  \"restored\": true,\n  \"selected_authentic_source\": {\n    \"kind\": \"existing_zip_member\",\n    \"origin\": \"/home/micl/DungNDH/micl/FedKLS_Wireless_Update_v1.zip :: fedkls_wireless_update_v1/payload/docs/DOCUMENTATION_VALIDATION.md\",\n    \"sha256\": \"3ecf9ba6c65c5c3700a03134165a05c0f09fd2b52d5b7f3d66bce35524a70048\",\n    \"matches_expected\": true,\n    \"newlines\": {\n      \"bytes\": 2896,\n      \"CRLF\": 29,\n      \"lone_LF\": 9,\n      \"bare_CR\": 0\n    },\n    \"archive_sha256\": \"ce4a89f177c1da30e7766808ff70f9ceda5f0a1b4131598d733b6a815378f9df\"\n  },\n  \"backup_path\": \"/tmp/fedkls_final_document_backup_3bnwiw_x/DOCUMENTATION_VALIDATION.before.md\",\n  \"backup_sha256\": \"c93b9ac8555a62d10bd3b37e69c799a7b440c78ddb94761bfe860f0f8470fd99\",\n  \"restored_sha256\": \"3ecf9ba6c65c5c3700a03134165a05c0f09fd2b52d5b7f3d66bce35524a70048\",\n  \"restored_newlines\": {\n    \"bytes\": 2896,\n    \"CRLF\": 29,\n    \"lone_LF\": 9,\n    \"bare_CR\": 0\n  },\n  \"normalized_newline_content_equal\": true,\n  \"restoration_method\": \"Copy exact existing candidate bytes; no content generation or newline rewriting\"\n}\nCandidate sources examined: 14\n",
+  "encoding_note": "JSON string preserves exact emitted UTF-8 bytes, including whitespace and CR/LF; no transcript trimming."
+}

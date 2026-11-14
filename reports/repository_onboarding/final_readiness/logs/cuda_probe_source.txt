@@ -1,0 +1,93 @@
+import argparse
+import json
+import os
+from pathlib import Path
+import subprocess
+import sys
+import time
+import traceback
+
+import bayesfl
+import torch
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--scope', choices=['sandbox', 'host'], required=True)
+args = parser.parse_args()
+ROOT = Path('/home/micl/DungNDH/fedkls')
+REPORT = ROOT / 'reports/repository_onboarding/final_readiness'
+assert os.environ.get('CONDA_DEFAULT_ENV') == 'dungndh'
+assert Path(sys.executable) == Path('/home/micl/anaconda3/envs/dungndh/bin/python')
+assert Path(bayesfl.__file__).resolve() == ROOT / 'src/bayesfl/__init__.py'
+
+result = {
+    'scope': args.scope, 'python': sys.executable, 'python_version': sys.version,
+    'conda': os.environ['CONDA_DEFAULT_ENV'], 'bayesfl_origin': bayesfl.__file__,
+    'torch_version': torch.__version__, 'compiled_cuda': torch.version.cuda,
+    'cuda_available': torch.cuda.is_available(), 'device_count': torch.cuda.device_count(),
+    'compiled_architectures': torch.cuda.get_arch_list(), 'devices': [],
+    'operation': '64x64 float64 CUDA allocation, matrix multiplication, squared-mean loss, backward, CPU reference comparison, synchronization',
+    'training_performed': False,
+}
+try:
+    query = subprocess.run(['nvidia-smi', '--query-gpu=index,name,driver_version,memory.total,memory.used,utilization.gpu',
+                            '--format=csv,noheader'], capture_output=True, text=True)
+    result['nvidia_smi'] = {'exit_code': query.returncode, 'stdout': query.stdout, 'stderr': query.stderr}
+except Exception:
+    result['nvidia_smi_traceback'] = traceback.format_exc()
+
+for index in range(result['device_count']):
+    start = time.perf_counter()
+    device_result = {'index': index, 'device': f'cuda:{index}', 'passed': False}
+    try:
+        device = torch.device(f'cuda:{index}')
+        with torch.cuda.device(device):
+            prop = torch.cuda.get_device_properties(device)
+            device_result.update(name=prop.name, total_memory_bytes=prop.total_memory,
+                                 capability=[prop.major, prop.minor])
+            torch.cuda.synchronize(device)
+            a = (torch.arange(4096, dtype=torch.float64, device=device).reshape(64, 64) / 4096 - 0.5).requires_grad_()
+            b = (torch.arange(4096, dtype=torch.float64, device=device).reshape(64, 64).t() / 2048 - 0.25).requires_grad_()
+            assert a.device == device and b.device == device and a.is_leaf and b.is_leaf
+            output = a @ b
+            loss = output.square().mean()
+            loss.backward()
+            assert a.grad is not None and b.grad is not None
+            assert all(bool(torch.isfinite(x).all().item()) for x in [a, b, output, loss, a.grad, b.grad])
+            assert output.device == device and a.grad.device == device and b.grad.device == device
+            torch.cuda.synchronize(device)
+            a_ref = a.detach().cpu().clone().requires_grad_()
+            b_ref = b.detach().cpu().clone().requires_grad_()
+            output_ref = a_ref @ b_ref
+            loss_ref = output_ref.square().mean()
+            loss_ref.backward()
+            torch.testing.assert_close(output.detach().cpu(), output_ref.detach(), rtol=1e-10, atol=1e-10)
+            torch.testing.assert_close(a.grad.cpu(), a_ref.grad, rtol=1e-10, atol=1e-10)
+            torch.testing.assert_close(b.grad.cpu(), b_ref.grad, rtol=1e-10, atol=1e-10)
+            device_result.update(
+                cuda_allocation=True, matrix_multiplication=True, backward=True,
+                finite_output_and_gradients=True, cpu_reference_outputs_match=True,
+                cpu_reference_gradients_match=True, synchronization=True,
+                output_sum=float(output.sum().item()), loss=float(loss.item()),
+                a_gradient_max_abs=float(a.grad.abs().max().item()),
+                b_gradient_max_abs=float(b.grad.abs().max().item()),
+                output_max_abs_reference_error=float((output.detach().cpu() - output_ref.detach()).abs().max().item()),
+                a_gradient_max_abs_reference_error=float((a.grad.cpu() - a_ref.grad).abs().max().item()),
+                b_gradient_max_abs_reference_error=float((b.grad.cpu() - b_ref.grad).abs().max().item()),
+                torch_allocated_bytes=int(torch.cuda.memory_allocated(device)), passed=True,
+            )
+            del a, b, output, loss, a_ref, b_ref, output_ref, loss_ref
+            torch.cuda.synchronize(device)
+    except Exception:
+        device_result['traceback'] = traceback.format_exc()
+    device_result['measured_wall_seconds'] = time.perf_counter() - start
+    result['devices'].append(device_result)
+
+result['all_visible_gpu_kernel_tests_passed'] = bool(result['devices']) and all(x['passed'] for x in result['devices'])
+result['status'] = ('passed_actual_cuda_kernels' if result['all_visible_gpu_kernel_tests_passed']
+                    else 'cuda_unavailable_in_execution_scope' if not result['cuda_available']
+                    else 'cuda_kernel_failure')
+with (REPORT / (args.scope + '_cuda.json')).open('x') as stream:
+    json.dump(result, stream, indent=2)
+    stream.write('\n')
+print(json.dumps(result, indent=2))
+raise SystemExit(0 if result['all_visible_gpu_kernel_tests_passed'] else 2 if not result['cuda_available'] else 1)

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "pytest",
+    "-q"
+  ],
+  "started_utc": "2026-11-14T08:17:54.984984+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 24.407461061142385,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null,
+  "pytest_addopts": "-p no:cacheprovider",
+  "stdout_utf8": "........................................................................ [ 33%]\n........................................................................ [ 66%]\n........................................................................ [ 99%]\n.                                                                        [100%]\n=============================== warnings summary ===============================\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88\n  /home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n    parse = parser.parseString(pattern)\n\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92\n  /home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n    parser.resetCache()\n\n../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_mathtext.py:45\n  /home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n    ParserElement.enablePackrat()\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n217 passed, 13 warnings in 22.21s\n",
+  "encoding_note": "JSON string preserves exact emitted UTF-8 bytes, including whitespace and CR/LF; no transcript trimming."
+}

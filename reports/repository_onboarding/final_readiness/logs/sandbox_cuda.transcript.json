@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python",
+    "/tmp/fedkls_final_cuda_probe.py",
+    "--scope",
+    "sandbox"
+  ],
+  "started_utc": "2026-11-14T08:16:00.943280+00:00",
+  "exit_code": 2,
+  "measured_wall_seconds": 1.4812793678138405,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null,
+  "pytest_addopts": null,
+  "stdout_utf8": "/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/torch/cuda/__init__.py:1061: UserWarning: Can't initialize NVML\n  raw_cnt = _raw_device_count_nvml()\n{\n  \"scope\": \"sandbox\",\n  \"python\": \"/home/micl/anaconda3/envs/dungndh/bin/python\",\n  \"python_version\": \"3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]\",\n  \"conda\": \"dungndh\",\n  \"bayesfl_origin\": \"/home/micl/DungNDH/fedkls/src/bayesfl/__init__.py\",\n  \"torch_version\": \"2.11.0+cu128\",\n  \"compiled_cuda\": \"12.8\",\n  \"cuda_available\": false,\n  \"device_count\": 0,\n  \"compiled_architectures\": [],\n  \"devices\": [],\n  \"operation\": \"64x64 float64 CUDA allocation, matrix multiplication, squared-mean loss, backward, CPU reference comparison, synchronization\",\n  \"training_performed\": false,\n  \"nvidia_smi\": {\n    \"exit_code\": 9,\n    \"stdout\": \"NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.\\n\\n\",\n    \"stderr\": \"\"\n  },\n  \"all_visible_gpu_kernel_tests_passed\": false,\n  \"status\": \"cuda_unavailable_in_execution_scope\"\n}\n",
+  "encoding_note": "JSON string preserves exact emitted UTF-8 bytes, including whitespace and CR/LF; no transcript trimming."
+}

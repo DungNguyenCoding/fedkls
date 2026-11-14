@@ -1,0 +1,84 @@
+{
+  "scope": "host",
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "python_version": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+  "conda": "dungndh",
+  "bayesfl_origin": "/home/micl/DungNDH/fedkls/src/bayesfl/__init__.py",
+  "torch_version": "2.11.0+cu128",
+  "compiled_cuda": "12.8",
+  "cuda_available": true,
+  "device_count": 2,
+  "compiled_architectures": [
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "devices": [
+    {
+      "index": 0,
+      "device": "cuda:0",
+      "passed": true,
+      "name": "NVIDIA GeForce RTX 5090",
+      "total_memory_bytes": 33668988928,
+      "capability": [
+        12,
+        0
+      ],
+      "cuda_allocation": true,
+      "matrix_multiplication": true,
+      "backward": true,
+      "finite_output_and_gradients": true,
+      "cpu_reference_outputs_match": true,
+      "cpu_reference_gradients_match": true,
+      "synchronization": true,
+      "output_sum": -13.328125,
+      "loss": 305.5504357897589,
+      "a_gradient_max_abs": 0.8929062659735791,
+      "b_gradient_max_abs": 0.2889539198949933,
+      "output_max_abs_reference_error": 0.0,
+      "a_gradient_max_abs_reference_error": 0.0,
+      "b_gradient_max_abs_reference_error": 0.0,
+      "torch_allocated_bytes": 17203712,
+      "measured_wall_seconds": 1.2270005841273814
+    },
+    {
+      "index": 1,
+      "device": "cuda:1",
+      "passed": true,
+      "name": "NVIDIA GeForce RTX 5090",
+      "total_memory_bytes": 33668988928,
+      "capability": [
+        12,
+        0
+      ],
+      "cuda_allocation": true,
+      "matrix_multiplication": true,
+      "backward": true,
+      "finite_output_and_gradients": true,
+      "cpu_reference_outputs_match": true,
+      "cpu_reference_gradients_match": true,
+      "synchronization": true,
+      "output_sum": -13.328125,
+      "loss": 305.5504357897589,
+      "a_gradient_max_abs": 0.8929062659735791,
+      "b_gradient_max_abs": 0.2889539198949933,
+      "output_max_abs_reference_error": 0.0,
+      "a_gradient_max_abs_reference_error": 0.0,
+      "b_gradient_max_abs_reference_error": 0.0,
+      "torch_allocated_bytes": 17203712,
+      "measured_wall_seconds": 0.2341473549604416
+    }
+  ],
+  "operation": "64x64 float64 CUDA allocation, matrix multiplication, squared-mean loss, backward, CPU reference comparison, synchronization",
+  "training_performed": false,
+  "nvidia_smi": {
+    "exit_code": 0,
+    "stdout": "0, NVIDIA GeForce RTX 5090, 580.65.06, 32607 MiB, 18 MiB, 0 %\n1, NVIDIA GeForce RTX 5090, 580.65.06, 32607 MiB, 18 MiB, 0 %\n",
+    "stderr": ""
+  },
+  "all_visible_gpu_kernel_tests_passed": true,
+  "status": "passed_actual_cuda_kernels"
+}

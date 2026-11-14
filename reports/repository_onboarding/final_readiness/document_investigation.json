@@ -1,0 +1,242 @@
+{
+  "expected_sha256": "3ecf9ba6c65c5c3700a03134165a05c0f09fd2b52d5b7f3d66bce35524a70048",
+  "target": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+  "base_commit": "02ce3de8a90d37fa311f7ff3287df3efd241595c",
+  "git_branches": "* fix/historical-evidence-newlines\n  fix/repository-integrity\n  main\n  remotes/origin/HEAD -> origin/main\n  remotes/origin/main\n",
+  "candidate_records": [
+    {
+      "kind": "git_blob",
+      "origin": "dd50ad15cb13ab56f26ff69f4f4dc78d86a4707a:docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "c93b9ac8555a62d10bd3b37e69c799a7b440c78ddb94761bfe860f0f8470fd99",
+      "matches_expected": false,
+      "newlines": {
+        "bytes": 2867,
+        "CRLF": 0,
+        "lone_LF": 38,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "git_blob",
+      "origin": "baa298f6e637eb6d700f4cb490ba382d1615d644:docs/history/pre_wireless_v1/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "67a634b49ead701c0077183fe5f85a71550d0c23f6fbe4bb72bf2a331c75d551",
+      "matches_expected": false,
+      "newlines": {
+        "bytes": 2376,
+        "CRLF": 0,
+        "lone_LF": 30,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "local_file",
+      "origin": "/home/micl/DungNDH/micl/bayesfl_wireless_backup_20261109_152739_569299/previous/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "67a634b49ead701c0077183fe5f85a71550d0c23f6fbe4bb72bf2a331c75d551",
+      "matches_expected": false,
+      "newlines": {
+        "bytes": 2376,
+        "CRLF": 0,
+        "lone_LF": 30,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "local_file",
+      "origin": "/home/micl/DungNDH/micl/bayesfl_docs_handoff_20261026/payload/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "67a634b49ead701c0077183fe5f85a71550d0c23f6fbe4bb72bf2a331c75d551",
+      "matches_expected": false,
+      "newlines": {
+        "bytes": 2376,
+        "CRLF": 0,
+        "lone_LF": 30,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "local_file",
+      "origin": "/home/micl/DungNDH/micl/fedkls_wireless_update_v1/payload/docs/history/pre_wireless_v1/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "6681a12a0901ec682cd4e78ad2a97da1310efef5d9850cfe961bd1df485d6a9a",
+      "matches_expected": false,
+      "newlines": {
+        "bytes": 2406,
+        "CRLF": 30,
+        "lone_LF": 0,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "local_file",
+      "origin": "/home/micl/DungNDH/micl/fedkls_wireless_update_v1/payload/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "3ecf9ba6c65c5c3700a03134165a05c0f09fd2b52d5b7f3d66bce35524a70048",
+      "matches_expected": true,
+      "newlines": {
+        "bytes": 2896,
+        "CRLF": 29,
+        "lone_LF": 9,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "local_file",
+      "origin": "/home/micl/DungNDH/fedkls/docs/history/pre_wireless_v1/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "67a634b49ead701c0077183fe5f85a71550d0c23f6fbe4bb72bf2a331c75d551",
+      "matches_expected": false,
+      "newlines": {
+        "bytes": 2376,
+        "CRLF": 0,
+        "lone_LF": 30,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "local_file",
+      "origin": "/home/micl/DungNDH/fedkls/docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "c93b9ac8555a62d10bd3b37e69c799a7b440c78ddb94761bfe860f0f8470fd99",
+      "matches_expected": false,
+      "newlines": {
+        "bytes": 2867,
+        "CRLF": 0,
+        "lone_LF": 38,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "local_file",
+      "origin": "/home/micl/DungNDH/micl/bayesfl/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "3ecf9ba6c65c5c3700a03134165a05c0f09fd2b52d5b7f3d66bce35524a70048",
+      "matches_expected": true,
+      "newlines": {
+        "bytes": 2896,
+        "CRLF": 29,
+        "lone_LF": 9,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "local_file",
+      "origin": "/home/micl/DungNDH/micl/bayesfl/docs/history/pre_wireless_v1/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "6681a12a0901ec682cd4e78ad2a97da1310efef5d9850cfe961bd1df485d6a9a",
+      "matches_expected": false,
+      "newlines": {
+        "bytes": 2406,
+        "CRLF": 30,
+        "lone_LF": 0,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "existing_zip_member",
+      "origin": "/home/micl/DungNDH/micl/FedKLS_Wireless_Update_v1.zip :: fedkls_wireless_update_v1/payload/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "3ecf9ba6c65c5c3700a03134165a05c0f09fd2b52d5b7f3d66bce35524a70048",
+      "matches_expected": true,
+      "newlines": {
+        "bytes": 2896,
+        "CRLF": 29,
+        "lone_LF": 9,
+        "bare_CR": 0
+      },
+      "archive_sha256": "ce4a89f177c1da30e7766808ff70f9ceda5f0a1b4131598d733b6a815378f9df"
+    },
+    {
+      "kind": "existing_zip_member",
+      "origin": "/home/micl/DungNDH/micl/FedKLS_Wireless_Update_v1.zip :: fedkls_wireless_update_v1/payload/docs/history/pre_wireless_v1/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "6681a12a0901ec682cd4e78ad2a97da1310efef5d9850cfe961bd1df485d6a9a",
+      "matches_expected": false,
+      "newlines": {
+        "bytes": 2406,
+        "CRLF": 30,
+        "lone_LF": 0,
+        "bare_CR": 0
+      },
+      "archive_sha256": "ce4a89f177c1da30e7766808ff70f9ceda5f0a1b4131598d733b6a815378f9df"
+    },
+    {
+      "kind": "existing_zip_member",
+      "origin": "/home/micl/DungNDH/micl/bayesfl_docs_handoff_20261026.zip :: bayesfl_docs_handoff_20261026/payload/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "67a634b49ead701c0077183fe5f85a71550d0c23f6fbe4bb72bf2a331c75d551",
+      "matches_expected": false,
+      "newlines": {
+        "bytes": 2376,
+        "CRLF": 0,
+        "lone_LF": 30,
+        "bare_CR": 0
+      },
+      "archive_sha256": "a057e6153cb74b7893ce7bd6c554ec46159ad14bc74e54d96d01102213aa70ec"
+    },
+    {
+      "kind": "existing_zip_member",
+      "origin": "/home/micl/DungNDH/micl/bayesfl_LIVE_HANDOFF_20261027_071451_587016.zip :: bayesfl/docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "67a634b49ead701c0077183fe5f85a71550d0c23f6fbe4bb72bf2a331c75d551",
+      "matches_expected": false,
+      "newlines": {
+        "bytes": 2376,
+        "CRLF": 0,
+        "lone_LF": 30,
+        "bare_CR": 0
+      },
+      "archive_sha256": "f3b3c7a5bae457cc64eafb43c438dfdaa76b4c033a1522060e8b0c3b57252325"
+    }
+  ],
+  "archives_inspected": [
+    {
+      "path": "/home/micl/DungNDH/micl/FedKLS_Wireless_Update_v1.zip",
+      "exists": true,
+      "archive_sha256": "ce4a89f177c1da30e7766808ff70f9ceda5f0a1b4131598d733b6a815378f9df",
+      "matching_named_members": [
+        "fedkls_wireless_update_v1/payload/docs/DOCUMENTATION_VALIDATION.md",
+        "fedkls_wireless_update_v1/payload/docs/history/pre_wireless_v1/docs/DOCUMENTATION_VALIDATION.md"
+      ]
+    },
+    {
+      "path": "/home/micl/DungNDH/micl/bayesfl_docs_handoff_20261026.zip",
+      "exists": true,
+      "archive_sha256": "a057e6153cb74b7893ce7bd6c554ec46159ad14bc74e54d96d01102213aa70ec",
+      "matching_named_members": [
+        "bayesfl_docs_handoff_20261026/payload/docs/DOCUMENTATION_VALIDATION.md"
+      ]
+    },
+    {
+      "path": "/home/micl/DungNDH/micl/bayesfl_LIVE_HANDOFF_20261027_071451_587016.zip",
+      "exists": true,
+      "archive_sha256": "f3b3c7a5bae457cc64eafb43c438dfdaa76b4c033a1522060e8b0c3b57252325",
+      "matching_named_members": [
+        "bayesfl/docs/DOCUMENTATION_VALIDATION.md"
+      ]
+    }
+  ],
+  "search_errors": "",
+  "exact_matching_candidates": 3,
+  "before_sha256": "c93b9ac8555a62d10bd3b37e69c799a7b440c78ddb94761bfe860f0f8470fd99",
+  "before_newlines": {
+    "bytes": 2867,
+    "CRLF": 0,
+    "lone_LF": 38,
+    "bare_CR": 0
+  },
+  "authority_manifest_sha256": "f086991fbbe715982f91f45f3ab39950e151a4bb5fa93decd62b4a645ff0cabe",
+  "restored": true,
+  "selected_authentic_source": {
+    "kind": "existing_zip_member",
+    "origin": "/home/micl/DungNDH/micl/FedKLS_Wireless_Update_v1.zip :: fedkls_wireless_update_v1/payload/docs/DOCUMENTATION_VALIDATION.md",
+    "sha256": "3ecf9ba6c65c5c3700a03134165a05c0f09fd2b52d5b7f3d66bce35524a70048",
+    "matches_expected": true,
+    "newlines": {
+      "bytes": 2896,
+      "CRLF": 29,
+      "lone_LF": 9,
+      "bare_CR": 0
+    },
+    "archive_sha256": "ce4a89f177c1da30e7766808ff70f9ceda5f0a1b4131598d733b6a815378f9df"
+  },
+  "backup_path": "/tmp/fedkls_final_document_backup_3bnwiw_x/DOCUMENTATION_VALIDATION.before.md",
+  "backup_sha256": "c93b9ac8555a62d10bd3b37e69c799a7b440c78ddb94761bfe860f0f8470fd99",
+  "restored_sha256": "3ecf9ba6c65c5c3700a03134165a05c0f09fd2b52d5b7f3d66bce35524a70048",
+  "restored_newlines": {
+    "bytes": 2896,
+    "CRLF": 29,
+    "lone_LF": 9,
+    "bare_CR": 0
+  },
+  "normalized_newline_content_equal": true,
+  "restoration_method": "Copy exact existing candidate bytes; no content generation or newline rewriting"
+}
