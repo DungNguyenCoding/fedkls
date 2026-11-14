@@ -1,0 +1,20 @@
+command: python /tmp/fedkls_historical_restore.py apply
+started_utc: 2026-11-14T07:52:59.250440+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+{
+  "backup_directory": "/tmp/fedkls_historical_integrity_backup__pishz6i",
+  "restored_documents": 86,
+  "restored_wireless_metrics": 21,
+  "documents_verified": 90,
+  "wireless_metrics_verified": 21,
+  "unresolved": [
+    "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md"
+  ]
+}
+
+exit_code=0
+measured_wall_seconds=0.4705183198675513

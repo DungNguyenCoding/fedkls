@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python",
+    "-c",
+    "import hashlib,json,pathlib,re; root=pathlib.Path.cwd(); f=root/\"reports/repository_onboarding/historical_integrity\"; report=f.parent/\"HISTORICAL_INTEGRITY_RECOVERY.md\"; t=report.read_text(); assert all(\"://\" in p or (report.parent/p).exists() for p in re.findall(r\"\\]\\(([^)]+)\\)\",t)); assert not re.findall(r\"@[A-Z_]+@\",t); restored=json.loads((f/\"restoration_results.json\").read_text()); assert (restored[\"restored_documents\"],restored[\"restored_wireless_metrics\"],restored[\"documents_verified\"])==(86,21,90); strict=json.loads((f/\"wireless_strict_checks.json\").read_text()); assert len(strict)==7 and all(r[\"strict_resume_eligible\"] for r in strict); assert not any(p.suffix in {\".npz\",\".pt\",\".pth\",\".ckpt\"} for p in f.rglob(\"*\") if p.is_file()); b=json.loads((f/\"baseline.json\").read_text()); assert all(hashlib.sha256(pathlib.Path(n).read_bytes()).hexdigest()==h for n,h in b[\"protected_hashes\"].items()); assert all(hashlib.sha256(pathlib.Path(n).read_bytes()).hexdigest()==h for n,h in b[\"prior_report_hashes\"].items()); print(\"PASS: report links, counts, seven strict results, compact-artifact restrictions and protected prior bytes.\")"
+  ],
+  "started_utc": "2026-11-14T08:03:03.805032+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 0.0917322370223701,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null,
+  "pytest_addopts": null,
+  "stdout_utf8": "PASS: report links, counts, seven strict results, compact-artifact restrictions and protected prior bytes.\n",
+  "encoding_note": "JSON string preserves exact emitted UTF-8 bytes, including whitespace and CR/LF; no transcript trimming."
+}

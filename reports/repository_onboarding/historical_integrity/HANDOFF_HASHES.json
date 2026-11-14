@@ -1,0 +1,157 @@
+{
+  "schema": "fedkls-historical-integrity-recovery-v1",
+  "generated_seoul": "2026-11-14T17:03:04.460838+09:00",
+  "scope": "New report artifacts; original backups remain outside Git and raw arrays are excluded",
+  "files": [
+    {
+      "file": "reports/repository_onboarding/HISTORICAL_INTEGRITY_RECOVERY.md",
+      "bytes": 16361,
+      "sha256": "668063f4a9900fb66e4a1f230773aa99e5a1bfbc770770a21adace14b476b70f"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/archive_verification.json",
+      "bytes": 8421,
+      "sha256": "15535e9c9d8163ac86a0cf6615e4bc1042195ee669706b27bb59fb08827b23b1"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/attributes.json",
+      "bytes": 16263,
+      "sha256": "ed5e26c69593dbab71314c5820abbbe86e0e88e084e9eadc9ced039bf87c352a"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/baseline.json",
+      "bytes": 278437,
+      "sha256": "251ca4824e7628279fb35d2317f9245622ee539840565935f1fbe29b4c624dba"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/git_preservation_checks.json",
+      "bytes": 35176,
+      "sha256": "5e61d7df65dcfdeaa2312aef5ed68d9c354fcbcff6f8b1ee2591ed863b979fe1"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/historical_whitespace_checks.json",
+      "bytes": 10487,
+      "sha256": "130ade154ede6f0449ac0b1f03aea1d0e215b673e4c68bd94b27ee8bc2aed308"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/archive_test.transcript.json",
+      "bytes": 1784,
+      "sha256": "d4ce3b31b248907ff2d03f38981d6681e17b2b5e826946e21eee4b7f463f2760"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/legacy_endpoints.transcript.json",
+      "bytes": 2557,
+      "sha256": "24d5771f103949a437f954340d9a4872e9cf82e2a905ea2ce004576619b8a2e3"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/preservation.transcript.json",
+      "bytes": 1760,
+      "sha256": "6a58898b8dc172cf7124650a066ee227668386a9cb1f78a47544472df8803cf8"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/pytest_full.transcript.json",
+      "bytes": 4000,
+      "sha256": "50e669a2c7294dfff1f66458c8f13538010be4f6957d861a9d512ec2d5be228a"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/pytest_wireless.transcript.json",
+      "bytes": 688,
+      "sha256": "2d4b22d8f0bc1aa5385c2cd43e166ac71ec24d892b945ce664e981aabd96146b"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/report_generation.transcript.json",
+      "bytes": 587,
+      "sha256": "c57e85c8e1ef2230c9d33f9970639d0b4dd545f1a704853114d37c84411b4262"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/report_validation.transcript.json",
+      "bytes": 1744,
+      "sha256": "bac6ecfeb7641e9f10aca9a1f792f42d81a434fb8ad68735972e3c9af047ba8d"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/restoration_apply.log",
+      "bytes": 621,
+      "sha256": "0c36b4c4d7267dc0efb2e56df594bfb45353efff6ae0614770019044ecb24ddc"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/restoration_apply.receipt.json",
+      "bytes": 312,
+      "sha256": "66a3f5feab91c7d8b014cbc397a1efbddb464565e226b62009851973ad5fd5c0"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/restoration_plan.log",
+      "bytes": 627,
+      "sha256": "87cde2700f519dddee4e7664ffd6e45004593bbe894021b78c0952964d243509"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/restoration_plan.receipt.json",
+      "bytes": 311,
+      "sha256": "e7b073fc0f1673defe5a3db6fd9477351d1a31224f53627b96df5a9446cd9819"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/strict_wireless_checks.transcript.json",
+      "bytes": 1094,
+      "sha256": "08c2a3501842850300f74979c6fd48b7b657f75568830ab4d64bae67760e9f3d"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/wireless_b0550_strict.transcript.json",
+      "bytes": 821,
+      "sha256": "c50521d314b197bcb7c9089304f482f487b687a571337b2cad69b1c4ad3bb0ab"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/wireless_b0750_strict.transcript.json",
+      "bytes": 821,
+      "sha256": "ddbd86f474f66a437855308f7da644f2470837b87739c8ccf39553a67b2dd9da"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/wireless_b0950_strict.transcript.json",
+      "bytes": 820,
+      "sha256": "28d79a825aa27c871bf60e0a3bed484e43a48692a44dc6ae987b8e7d6ec4f831"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/wireless_reference_strict.transcript.json",
+      "bytes": 825,
+      "sha256": "448497ab99d548160cb96c91f85be9245eec8261d53fb6e6e6537505d64a136a"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/wireless_u150_strict.transcript.json",
+      "bytes": 819,
+      "sha256": "d5e54bd9f021a3db2a03cabae86ccec593a2473f810b423e2012c80647af13b7"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/wireless_u160_strict.transcript.json",
+      "bytes": 819,
+      "sha256": "5882b529e4107d71d892f88859e7e52b335cdb95a9887d488d8fb993e7279553"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/logs/wireless_u170_strict.transcript.json",
+      "bytes": 819,
+      "sha256": "2f65ba25c3c9a22b104410c8d7be76cffc57a739a52d96a7e58aeaf616b6bd57"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/preservation_checks.json",
+      "bytes": 1203,
+      "sha256": "600c5b816f59667ab6a7fce61e16ad3b73d338701829f9570d6b5aefa107e5c0"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/restoration_plan.json",
+      "bytes": 163327,
+      "sha256": "985d0327bcafd5dfe9a2a853675ff1e777b09160edb8cf4b98d3754f3112f471"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/restoration_results.json",
+      "bytes": 187202,
+      "sha256": "b26a526d448801c66162ccb856e18339cc3bc59fd1bd4cb6a5bc9cdd790f4f0c"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/restored_files.csv",
+      "bytes": 39089,
+      "sha256": "61fe35e97290bd92348bf608c4c2a27f346d2938508f71efa7b5e640f8b7a7bd"
+    },
+    {
+      "file": "reports/repository_onboarding/historical_integrity/wireless_strict_checks.json",
+      "bytes": 29169,
+      "sha256": "a163874e3507506cd244f2957ba455c673f6cde2703bc9f0ed1d31a94c33191e"
+    }
+  ]
+}

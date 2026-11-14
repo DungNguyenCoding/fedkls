@@ -1,0 +1,537 @@
+[
+  {
+    "path": "docs/archive/2026-11-12-snapshot/AGENTS.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/CHANGE_MANIFEST.json",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/CIFAR10_WIRELESS_PILOT_SETUP_MANIFEST.json",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/CIFAR_PAIRED_PRELONG_MANIFEST.json",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/DOCS_UPDATE_MANIFEST.json",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/IMPLEMENTATION_REPORT.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/INSTALL_CIFAR10_PILOT.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/INSTALL_CIFAR_PAIRED_PRELONG.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/PACKAGE_MANIFEST.txt",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/README.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/README_JOINT_SENSITIVITY.txt",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/SPARSE_README.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/VALIDATION.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/VALIDATION_SPARSE.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/WIRELESS_CHANGE_MANIFEST.json",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/WIRELESS_IMPLEMENTATION_REPORT.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/ALGORITHM_NOTES.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/BASELINE_ARCHIVE_README.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/BASELINE_HANDOFF_README.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/CHAT_HANDOFF.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/CLEANUP_STATE.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/COMMAND_RULES.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/COMMUNICATION_ACCOUNTING.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/DATA_AND_GIT.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/DECISIONS_AND_NEXT_WORK.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/DOC_CHANGELOG.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/EVIDENCE_AND_GAPS.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/LOCKED_EXPERIMENTS.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/PAPER_CIFAR10_PROFILE.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/README.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/REPOSITORY_MAP.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/RESULTS_AND_PLOTTING.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/RUNBOOK.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/RUN_REGISTRY.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/SCRIPT_REGISTRY.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/SPARSE_IMPLEMENTATION_GUIDELINE.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/START_HERE.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/CHAT_HANDOFF_PAIRED_R11.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/CIFAR10_STAGED_PLAN.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/CIFAR_PAIRED_PRELONG_GATE.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/CONFIGURATION.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/DECISIONS_AND_OPEN_ITEMS.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/DESIGN_REVIEW.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/IMPLEMENTATION.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/IMPLEMENTATION_PLAN.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_CIFAR10_SENSITIVITY_R150_20261112.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_ONLY_SIX_SCENARIO_SENSITIVITY_PLAN_v1.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_R150_AUDIT_RUNBOOK_v1.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_SENSITIVITY_PLOTS_RUNBOOK_v1.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/OUTPUTS.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/README.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/RUNBOOK.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/SAME_POSTERIOR_PROBE.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/SOURCE_AUDIT.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/STATUS.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/VALIDATION.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/VALIDATION_PLAN.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/evidence/cifar10_scheduling_pilot_v1/resource_preflight.txt",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/evidence/cifar10_scheduling_pilot_v1/setup_checks.json",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/DECISIONS_AND_OPEN_ITEMS.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/DESIGN_REVIEW.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/IMPLEMENTATION_PLAN.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/README.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/REVIEW_MANIFEST.json",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/SOURCE_AUDIT.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/VALIDATION_PLAN.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/baseline_primary_endpoints.txt",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/baseline_pytest.txt",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/baseline_source_excerpts.txt",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/primary_configuration_audit.json",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/proposal_sources.txt",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/review_checks.json",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/review_checks.py",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/source_manifest.json",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/proposal/README.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/JOINT_R150_REVIEW.md",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/independent_summary.json",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_client_retention_summary.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_clients_true_weighted_KL.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_control_event_breakdown.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/config.py.before_matched_init",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/config.py.before_paper00_strict",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/experiment_state.py.before_paper00_strict",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/models/factory.py.before_matched_init",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/server.py.before_matched_init",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/training/deterministic.py.before_paper00_strict",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/metrics/global_metrics.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/metrics/wireless_clients.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/metrics/wireless_rounds.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923/metrics/global_metrics.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923/metrics/wireless_clients.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923/metrics/wireless_rounds.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008/metrics/global_metrics.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008/metrics/wireless_clients.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008/metrics/wireless_rounds.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432/metrics/global_metrics.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432/metrics/wireless_clients.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432/metrics/wireless_rounds.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526/metrics/global_metrics.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526/metrics/wireless_clients.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526/metrics/wireless_rounds.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448/metrics/global_metrics.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448/metrics/wireless_clients.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448/metrics/wireless_rounds.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033/metrics/global_metrics.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033/metrics/wireless_clients.csv",
+    "attribute": "text",
+    "value": "unset"
+  },
+  {
+    "path": "outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033/metrics/wireless_rounds.csv",
+    "attribute": "text",
+    "value": "unset"
+  }
+]

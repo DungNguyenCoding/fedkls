@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python",
+    "/tmp/fedkls_historical_restore.py",
+    "apply"
+  ],
+  "started_utc": "2026-11-14T07:52:59.250440+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 0.4705183198675513,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null
+}

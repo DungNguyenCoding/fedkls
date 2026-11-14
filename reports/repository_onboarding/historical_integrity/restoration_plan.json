@@ -1,0 +1,3750 @@
+{
+  "reference_zip_used": false,
+  "backup_directory": "/tmp/fedkls_historical_integrity_backup__pishz6i",
+  "files": [
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/AGENTS.md",
+      "expected_sha256": "52ea3797f09017db5e67f24106d2e9a44b3b9e4a4b7fbda33af94469155b85ca",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "802d3d08b234524589a9e6f22786104f75c31b12b152e749ef49c056fa00cfa6",
+      "before_newlines": {
+        "bytes": 2271,
+        "LF_bytes": 35,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "802d3d08b234524589a9e6f22786104f75c31b12b152e749ef49c056fa00cfa6",
+        "CRLF": "52ea3797f09017db5e67f24106d2e9a44b3b9e4a4b7fbda33af94469155b85ca"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/AGENTS.md",
+      "backup_sha256": "802d3d08b234524589a9e6f22786104f75c31b12b152e749ef49c056fa00cfa6",
+      "planned_sha256": "52ea3797f09017db5e67f24106d2e9a44b3b9e4a4b7fbda33af94469155b85ca",
+      "planned_newlines": {
+        "bytes": 2306,
+        "LF_bytes": 35,
+        "CRLF_pairs": 35,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/CHANGE_MANIFEST.json",
+      "expected_sha256": "0fc92f7900f75be4837d8c3156a30f3ffec73eb046a7e38125ad2de70ef55ae5",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "70e4ae5191c3e557206156018ae9e582414a82cc34875619524373a76ea7d264",
+      "before_newlines": {
+        "bytes": 183515,
+        "LF_bytes": 4043,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "70e4ae5191c3e557206156018ae9e582414a82cc34875619524373a76ea7d264",
+        "CRLF": "0fc92f7900f75be4837d8c3156a30f3ffec73eb046a7e38125ad2de70ef55ae5"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "json_values_unchanged": true,
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/CHANGE_MANIFEST.json",
+      "backup_sha256": "70e4ae5191c3e557206156018ae9e582414a82cc34875619524373a76ea7d264",
+      "planned_sha256": "0fc92f7900f75be4837d8c3156a30f3ffec73eb046a7e38125ad2de70ef55ae5",
+      "planned_newlines": {
+        "bytes": 187558,
+        "LF_bytes": 4043,
+        "CRLF_pairs": 4043,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/CIFAR10_WIRELESS_PILOT_SETUP_MANIFEST.json",
+      "expected_sha256": "9847205074889e5a8b9fba769a9a099de6b9b53128e7571fffa952c41d450963",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "a44f8c5f9ee4927a6507352b9b0caae69a3c6f0d7a297dba2344a0748efb3585",
+      "before_newlines": {
+        "bytes": 1518,
+        "LF_bytes": 42,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "a44f8c5f9ee4927a6507352b9b0caae69a3c6f0d7a297dba2344a0748efb3585",
+        "CRLF": "9847205074889e5a8b9fba769a9a099de6b9b53128e7571fffa952c41d450963"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "json_values_unchanged": true,
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/CIFAR10_WIRELESS_PILOT_SETUP_MANIFEST.json",
+      "backup_sha256": "a44f8c5f9ee4927a6507352b9b0caae69a3c6f0d7a297dba2344a0748efb3585",
+      "planned_sha256": "9847205074889e5a8b9fba769a9a099de6b9b53128e7571fffa952c41d450963",
+      "planned_newlines": {
+        "bytes": 1560,
+        "LF_bytes": 42,
+        "CRLF_pairs": 42,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/CIFAR_PAIRED_PRELONG_MANIFEST.json",
+      "expected_sha256": "b10be6ee01cc75efc0f485c3302d237d23dc262df658bd9f6b96209c430aec57",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "c88faed623a771f5a8776f6dcb0dc9583dfe7f9f7527f573c2b797f182e49607",
+      "before_newlines": {
+        "bytes": 1664,
+        "LF_bytes": 43,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "c88faed623a771f5a8776f6dcb0dc9583dfe7f9f7527f573c2b797f182e49607",
+        "CRLF": "b10be6ee01cc75efc0f485c3302d237d23dc262df658bd9f6b96209c430aec57"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "json_values_unchanged": true,
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/CIFAR_PAIRED_PRELONG_MANIFEST.json",
+      "backup_sha256": "c88faed623a771f5a8776f6dcb0dc9583dfe7f9f7527f573c2b797f182e49607",
+      "planned_sha256": "b10be6ee01cc75efc0f485c3302d237d23dc262df658bd9f6b96209c430aec57",
+      "planned_newlines": {
+        "bytes": 1707,
+        "LF_bytes": 43,
+        "CRLF_pairs": 43,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/DOCS_UPDATE_MANIFEST.json",
+      "expected_sha256": "d24767bcba46f0ecdf3cd66c0aeb13adce95f3813c5a6d15b378acb615c38cf6",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "5587fc53878018c719b3db346c9c638d3f3a20bcbf32f2f541e574e96e1934c7",
+      "before_newlines": {
+        "bytes": 17944,
+        "LF_bytes": 446,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "5587fc53878018c719b3db346c9c638d3f3a20bcbf32f2f541e574e96e1934c7",
+        "CRLF": "d24767bcba46f0ecdf3cd66c0aeb13adce95f3813c5a6d15b378acb615c38cf6"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "json_values_unchanged": true,
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/DOCS_UPDATE_MANIFEST.json",
+      "backup_sha256": "5587fc53878018c719b3db346c9c638d3f3a20bcbf32f2f541e574e96e1934c7",
+      "planned_sha256": "d24767bcba46f0ecdf3cd66c0aeb13adce95f3813c5a6d15b378acb615c38cf6",
+      "planned_newlines": {
+        "bytes": 18390,
+        "LF_bytes": 446,
+        "CRLF_pairs": 446,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/IMPLEMENTATION_REPORT.md",
+      "expected_sha256": "72c3ee4563c980aa4e21a98d62a24cb876817889293d30334185d165236feaac",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "05b03f882561cd6da9b46c2e0712b55c730a113d8f1344deeca2d112cfffdba0",
+      "before_newlines": {
+        "bytes": 894,
+        "LF_bytes": 15,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "05b03f882561cd6da9b46c2e0712b55c730a113d8f1344deeca2d112cfffdba0",
+        "CRLF": "72c3ee4563c980aa4e21a98d62a24cb876817889293d30334185d165236feaac"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/IMPLEMENTATION_REPORT.md",
+      "backup_sha256": "05b03f882561cd6da9b46c2e0712b55c730a113d8f1344deeca2d112cfffdba0",
+      "planned_sha256": "72c3ee4563c980aa4e21a98d62a24cb876817889293d30334185d165236feaac",
+      "planned_newlines": {
+        "bytes": 909,
+        "LF_bytes": 15,
+        "CRLF_pairs": 15,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/INSTALL_CIFAR10_PILOT.md",
+      "expected_sha256": "3d96fda4b903281de9178e66aea5ffbb7b00516692763d6c3638b443850cf043",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "4fdbda7ff66261839abdfb20033008540904ae8632a6588a8c329c794cb956ab",
+      "before_newlines": {
+        "bytes": 1384,
+        "LF_bytes": 27,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "4fdbda7ff66261839abdfb20033008540904ae8632a6588a8c329c794cb956ab",
+        "CRLF": "3d96fda4b903281de9178e66aea5ffbb7b00516692763d6c3638b443850cf043"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/INSTALL_CIFAR10_PILOT.md",
+      "backup_sha256": "4fdbda7ff66261839abdfb20033008540904ae8632a6588a8c329c794cb956ab",
+      "planned_sha256": "3d96fda4b903281de9178e66aea5ffbb7b00516692763d6c3638b443850cf043",
+      "planned_newlines": {
+        "bytes": 1411,
+        "LF_bytes": 27,
+        "CRLF_pairs": 27,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/INSTALL_CIFAR_PAIRED_PRELONG.md",
+      "expected_sha256": "be748ce5995dc1d48e4da67284e412f41e782021950e42b06844425bbc647da2",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "e9fbb291d96a8b5ed2a7fac415f68ce2ed8d6b1fb43ed67ebff560a394c39fb3",
+      "before_newlines": {
+        "bytes": 6359,
+        "LF_bytes": 103,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "e9fbb291d96a8b5ed2a7fac415f68ce2ed8d6b1fb43ed67ebff560a394c39fb3",
+        "CRLF": "be748ce5995dc1d48e4da67284e412f41e782021950e42b06844425bbc647da2"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/INSTALL_CIFAR_PAIRED_PRELONG.md",
+      "backup_sha256": "e9fbb291d96a8b5ed2a7fac415f68ce2ed8d6b1fb43ed67ebff560a394c39fb3",
+      "planned_sha256": "be748ce5995dc1d48e4da67284e412f41e782021950e42b06844425bbc647da2",
+      "planned_newlines": {
+        "bytes": 6462,
+        "LF_bytes": 103,
+        "CRLF_pairs": 103,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/PACKAGE_MANIFEST.txt",
+      "expected_sha256": "72c79974ceb38ae8c502d666cd4be3e70de1aae3d492a058f60a453f571ad39c",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "bfcb1860a19218e31641fd6014c0351cb20e046d12473093e0697737cfd93292",
+      "before_newlines": {
+        "bytes": 2794,
+        "LF_bytes": 90,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "bfcb1860a19218e31641fd6014c0351cb20e046d12473093e0697737cfd93292",
+        "CRLF": "72c79974ceb38ae8c502d666cd4be3e70de1aae3d492a058f60a453f571ad39c"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/PACKAGE_MANIFEST.txt",
+      "backup_sha256": "bfcb1860a19218e31641fd6014c0351cb20e046d12473093e0697737cfd93292",
+      "planned_sha256": "72c79974ceb38ae8c502d666cd4be3e70de1aae3d492a058f60a453f571ad39c",
+      "planned_newlines": {
+        "bytes": 2884,
+        "LF_bytes": 90,
+        "CRLF_pairs": 90,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/README.md",
+      "expected_sha256": "c5d8910249aa11afeaee9095d50478d9c6011d46c194b61d25c29a4ce71a1de7",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "b655ea765c31f2cd9e13df25d22d71d5c638f35ef145221ad994b1da6bf960b9",
+      "before_newlines": {
+        "bytes": 3197,
+        "LF_bytes": 63,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "b655ea765c31f2cd9e13df25d22d71d5c638f35ef145221ad994b1da6bf960b9",
+        "CRLF": "c5d8910249aa11afeaee9095d50478d9c6011d46c194b61d25c29a4ce71a1de7"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/README.md",
+      "backup_sha256": "b655ea765c31f2cd9e13df25d22d71d5c638f35ef145221ad994b1da6bf960b9",
+      "planned_sha256": "c5d8910249aa11afeaee9095d50478d9c6011d46c194b61d25c29a4ce71a1de7",
+      "planned_newlines": {
+        "bytes": 3260,
+        "LF_bytes": 63,
+        "CRLF_pairs": 63,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/README_JOINT_SENSITIVITY.txt",
+      "expected_sha256": "5320070a7db2ca280ae813f9c56e4ed0970e724569bc8303789693c7982d76ba",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "e35f11c91c73a05077ad3d21af5600e3f1704abf2577b6765f27dc06b7998fe7",
+      "before_newlines": {
+        "bytes": 163,
+        "LF_bytes": 1,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "e35f11c91c73a05077ad3d21af5600e3f1704abf2577b6765f27dc06b7998fe7",
+        "CRLF": "5320070a7db2ca280ae813f9c56e4ed0970e724569bc8303789693c7982d76ba"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/README_JOINT_SENSITIVITY.txt",
+      "backup_sha256": "e35f11c91c73a05077ad3d21af5600e3f1704abf2577b6765f27dc06b7998fe7",
+      "planned_sha256": "5320070a7db2ca280ae813f9c56e4ed0970e724569bc8303789693c7982d76ba",
+      "planned_newlines": {
+        "bytes": 164,
+        "LF_bytes": 1,
+        "CRLF_pairs": 1,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/SPARSE_README.md",
+      "expected_sha256": "75d843a5a1e0b30cc9c4c1d943b152a3836cca7d5b6f9a445d3cd7b004b50670",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "07d7cb655f8a7bbc576ea2c686fc9f6ccee33e99dc2bfac31f1c0d545c655301",
+      "before_newlines": {
+        "bytes": 926,
+        "LF_bytes": 15,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "07d7cb655f8a7bbc576ea2c686fc9f6ccee33e99dc2bfac31f1c0d545c655301",
+        "CRLF": "75d843a5a1e0b30cc9c4c1d943b152a3836cca7d5b6f9a445d3cd7b004b50670"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/SPARSE_README.md",
+      "backup_sha256": "07d7cb655f8a7bbc576ea2c686fc9f6ccee33e99dc2bfac31f1c0d545c655301",
+      "planned_sha256": "75d843a5a1e0b30cc9c4c1d943b152a3836cca7d5b6f9a445d3cd7b004b50670",
+      "planned_newlines": {
+        "bytes": 941,
+        "LF_bytes": 15,
+        "CRLF_pairs": 15,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/VALIDATION.md",
+      "expected_sha256": "6f32ecbac8df12f902d983ad3fb244f7f76f0e3f641b8a9f60f289e252621f43",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "440b5c74c69305d2fff48f6931dabee1f5797bd0d430a13526dbe33d5fca06a6",
+      "before_newlines": {
+        "bytes": 586,
+        "LF_bytes": 10,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "440b5c74c69305d2fff48f6931dabee1f5797bd0d430a13526dbe33d5fca06a6",
+        "CRLF": "6f32ecbac8df12f902d983ad3fb244f7f76f0e3f641b8a9f60f289e252621f43"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/VALIDATION.md",
+      "backup_sha256": "440b5c74c69305d2fff48f6931dabee1f5797bd0d430a13526dbe33d5fca06a6",
+      "planned_sha256": "6f32ecbac8df12f902d983ad3fb244f7f76f0e3f641b8a9f60f289e252621f43",
+      "planned_newlines": {
+        "bytes": 596,
+        "LF_bytes": 10,
+        "CRLF_pairs": 10,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/VALIDATION_SPARSE.md",
+      "expected_sha256": "9d65bc9042af5ef03a131680d73998696f1931d462acc66a1b7419010ab63dc8",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "a459ad7b6bdf89cb040da04d316628a3e44a5f33600c32385ca73149aeb160c9",
+      "before_newlines": {
+        "bytes": 917,
+        "LF_bytes": 15,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "a459ad7b6bdf89cb040da04d316628a3e44a5f33600c32385ca73149aeb160c9",
+        "CRLF": "9d65bc9042af5ef03a131680d73998696f1931d462acc66a1b7419010ab63dc8"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/VALIDATION_SPARSE.md",
+      "backup_sha256": "a459ad7b6bdf89cb040da04d316628a3e44a5f33600c32385ca73149aeb160c9",
+      "planned_sha256": "9d65bc9042af5ef03a131680d73998696f1931d462acc66a1b7419010ab63dc8",
+      "planned_newlines": {
+        "bytes": 932,
+        "LF_bytes": 15,
+        "CRLF_pairs": 15,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/WIRELESS_CHANGE_MANIFEST.json",
+      "expected_sha256": "3c0124dfd14a30852f9ef72a59a502db799df2fbe3686ec73b79b0a035d6a418",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "173fda4a52e1eb1418a7c341109b0ad8b988a5a4ab62bee2c2b2e22d56b6909b",
+      "before_newlines": {
+        "bytes": 32574,
+        "LF_bytes": 938,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "173fda4a52e1eb1418a7c341109b0ad8b988a5a4ab62bee2c2b2e22d56b6909b",
+        "CRLF": "3c0124dfd14a30852f9ef72a59a502db799df2fbe3686ec73b79b0a035d6a418"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "json_values_unchanged": true,
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/WIRELESS_CHANGE_MANIFEST.json",
+      "backup_sha256": "173fda4a52e1eb1418a7c341109b0ad8b988a5a4ab62bee2c2b2e22d56b6909b",
+      "planned_sha256": "3c0124dfd14a30852f9ef72a59a502db799df2fbe3686ec73b79b0a035d6a418",
+      "planned_newlines": {
+        "bytes": 33512,
+        "LF_bytes": 938,
+        "CRLF_pairs": 938,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/WIRELESS_IMPLEMENTATION_REPORT.md",
+      "expected_sha256": "3dba8df2bb59bb4e1f6439bf686a8ce15ae96aa0ec0d633d904a5cfa2833df66",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "8dc810d89be3a56f8d445bdd20ecf192d0d21ae0c65fbffc4d613e0f751da3b4",
+      "before_newlines": {
+        "bytes": 3968,
+        "LF_bytes": 62,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "8dc810d89be3a56f8d445bdd20ecf192d0d21ae0c65fbffc4d613e0f751da3b4",
+        "CRLF": "3dba8df2bb59bb4e1f6439bf686a8ce15ae96aa0ec0d633d904a5cfa2833df66"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/WIRELESS_IMPLEMENTATION_REPORT.md",
+      "backup_sha256": "8dc810d89be3a56f8d445bdd20ecf192d0d21ae0c65fbffc4d613e0f751da3b4",
+      "planned_sha256": "3dba8df2bb59bb4e1f6439bf686a8ce15ae96aa0ec0d633d904a5cfa2833df66",
+      "planned_newlines": {
+        "bytes": 4030,
+        "LF_bytes": 62,
+        "CRLF_pairs": 62,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/ALGORITHM_NOTES.md",
+      "expected_sha256": "c1d26ef7a7102f8a57fe2996cc3f581061bb1987fc3d6c012d450fcd337e916c",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "f95a1114783140061392bee1e36493e0b2d60e5f5b0bae17d821ae30d2676eed",
+      "before_newlines": {
+        "bytes": 1914,
+        "LF_bytes": 28,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "f95a1114783140061392bee1e36493e0b2d60e5f5b0bae17d821ae30d2676eed",
+        "CRLF": "c1d26ef7a7102f8a57fe2996cc3f581061bb1987fc3d6c012d450fcd337e916c"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/ALGORITHM_NOTES.md",
+      "backup_sha256": "f95a1114783140061392bee1e36493e0b2d60e5f5b0bae17d821ae30d2676eed",
+      "planned_sha256": "c1d26ef7a7102f8a57fe2996cc3f581061bb1987fc3d6c012d450fcd337e916c",
+      "planned_newlines": {
+        "bytes": 1942,
+        "LF_bytes": 28,
+        "CRLF_pairs": 28,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/BASELINE_ARCHIVE_README.md",
+      "expected_sha256": "e1e7d0513e863d73b9b2f96f5888161f8afd7908742c61b10476b30db7f82d51",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "103dfc3fe92e0bb8d588ef9c1b69aedda1c159f975b056035e3ed80811a77ade",
+      "before_newlines": {
+        "bytes": 529,
+        "LF_bytes": 5,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "103dfc3fe92e0bb8d588ef9c1b69aedda1c159f975b056035e3ed80811a77ade",
+        "CRLF": "e1e7d0513e863d73b9b2f96f5888161f8afd7908742c61b10476b30db7f82d51"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/BASELINE_ARCHIVE_README.md",
+      "backup_sha256": "103dfc3fe92e0bb8d588ef9c1b69aedda1c159f975b056035e3ed80811a77ade",
+      "planned_sha256": "e1e7d0513e863d73b9b2f96f5888161f8afd7908742c61b10476b30db7f82d51",
+      "planned_newlines": {
+        "bytes": 534,
+        "LF_bytes": 5,
+        "CRLF_pairs": 5,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/BASELINE_HANDOFF_README.md",
+      "expected_sha256": "1a42447bb2dd2648772895f584adabd219b707cb414546d87c3a3b634f71b93d",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "0fea035b4276172a03146a2bc64bf64c7343c90bac49d08dd1d472c916bb5214",
+      "before_newlines": {
+        "bytes": 651,
+        "LF_bytes": 5,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "0fea035b4276172a03146a2bc64bf64c7343c90bac49d08dd1d472c916bb5214",
+        "CRLF": "1a42447bb2dd2648772895f584adabd219b707cb414546d87c3a3b634f71b93d"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/BASELINE_HANDOFF_README.md",
+      "backup_sha256": "0fea035b4276172a03146a2bc64bf64c7343c90bac49d08dd1d472c916bb5214",
+      "planned_sha256": "1a42447bb2dd2648772895f584adabd219b707cb414546d87c3a3b634f71b93d",
+      "planned_newlines": {
+        "bytes": 656,
+        "LF_bytes": 5,
+        "CRLF_pairs": 5,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/CHAT_HANDOFF.md",
+      "expected_sha256": "447d942f5768d7a1d609a6850c40b0a09a31c031eb724b33974335bda65efbda",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "9903ded6b34f33670e529597868d3f8bf5a6206f6506751da865f0c18907991c",
+      "before_newlines": {
+        "bytes": 24542,
+        "LF_bytes": 405,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "9903ded6b34f33670e529597868d3f8bf5a6206f6506751da865f0c18907991c",
+        "CRLF": "447d942f5768d7a1d609a6850c40b0a09a31c031eb724b33974335bda65efbda"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/CHAT_HANDOFF.md",
+      "backup_sha256": "9903ded6b34f33670e529597868d3f8bf5a6206f6506751da865f0c18907991c",
+      "planned_sha256": "447d942f5768d7a1d609a6850c40b0a09a31c031eb724b33974335bda65efbda",
+      "planned_newlines": {
+        "bytes": 24947,
+        "LF_bytes": 405,
+        "CRLF_pairs": 405,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/CLEANUP_STATE.md",
+      "expected_sha256": "cf9c44011258ae4f7bcc1c17cfda909e7be4730d81be70ecaf5d0da23658af9e",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "bda688a1e7c2290d8366c3d87bf351922c890d5042b4292fd8f81c9b93775a6d",
+      "before_newlines": {
+        "bytes": 3758,
+        "LF_bytes": 60,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "bda688a1e7c2290d8366c3d87bf351922c890d5042b4292fd8f81c9b93775a6d",
+        "CRLF": "cf9c44011258ae4f7bcc1c17cfda909e7be4730d81be70ecaf5d0da23658af9e"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/CLEANUP_STATE.md",
+      "backup_sha256": "bda688a1e7c2290d8366c3d87bf351922c890d5042b4292fd8f81c9b93775a6d",
+      "planned_sha256": "cf9c44011258ae4f7bcc1c17cfda909e7be4730d81be70ecaf5d0da23658af9e",
+      "planned_newlines": {
+        "bytes": 3818,
+        "LF_bytes": 60,
+        "CRLF_pairs": 60,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/COMMAND_RULES.md",
+      "expected_sha256": "7915b81e031b75dd90bde5b1b679010815e623a51a0b8b0ca4e296305f367d2d",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "3e784dc0ca14328e68f9218cef989a61658ad14c38c249505f503770585d7aec",
+      "before_newlines": {
+        "bytes": 2634,
+        "LF_bytes": 43,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "3e784dc0ca14328e68f9218cef989a61658ad14c38c249505f503770585d7aec",
+        "CRLF": "7915b81e031b75dd90bde5b1b679010815e623a51a0b8b0ca4e296305f367d2d"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/COMMAND_RULES.md",
+      "backup_sha256": "3e784dc0ca14328e68f9218cef989a61658ad14c38c249505f503770585d7aec",
+      "planned_sha256": "7915b81e031b75dd90bde5b1b679010815e623a51a0b8b0ca4e296305f367d2d",
+      "planned_newlines": {
+        "bytes": 2677,
+        "LF_bytes": 43,
+        "CRLF_pairs": 43,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/COMMUNICATION_ACCOUNTING.md",
+      "expected_sha256": "c3fbf1c516e4533c02a90d100ad95112d2f8d64f5086dede2eec2a360eb2861d",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "b68e002d8b19f1e96add38cc12c54238f3a0bc9d7b26b0700691a12c2e858267",
+      "before_newlines": {
+        "bytes": 2844,
+        "LF_bytes": 59,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "b68e002d8b19f1e96add38cc12c54238f3a0bc9d7b26b0700691a12c2e858267",
+        "CRLF": "c3fbf1c516e4533c02a90d100ad95112d2f8d64f5086dede2eec2a360eb2861d"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/COMMUNICATION_ACCOUNTING.md",
+      "backup_sha256": "b68e002d8b19f1e96add38cc12c54238f3a0bc9d7b26b0700691a12c2e858267",
+      "planned_sha256": "c3fbf1c516e4533c02a90d100ad95112d2f8d64f5086dede2eec2a360eb2861d",
+      "planned_newlines": {
+        "bytes": 2903,
+        "LF_bytes": 59,
+        "CRLF_pairs": 59,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/DATA_AND_GIT.md",
+      "expected_sha256": "cf3cbfe1237458805dfcca9afbd527d6c08140ece1e49e1116ee57429122aeda",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "3007440e095f5511fd8b33947a1776e4778f07483394b414fe8299ba9632ef3c",
+      "before_newlines": {
+        "bytes": 1930,
+        "LF_bytes": 29,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "3007440e095f5511fd8b33947a1776e4778f07483394b414fe8299ba9632ef3c",
+        "CRLF": "cf3cbfe1237458805dfcca9afbd527d6c08140ece1e49e1116ee57429122aeda"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/DATA_AND_GIT.md",
+      "backup_sha256": "3007440e095f5511fd8b33947a1776e4778f07483394b414fe8299ba9632ef3c",
+      "planned_sha256": "cf3cbfe1237458805dfcca9afbd527d6c08140ece1e49e1116ee57429122aeda",
+      "planned_newlines": {
+        "bytes": 1959,
+        "LF_bytes": 29,
+        "CRLF_pairs": 29,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/DECISIONS_AND_NEXT_WORK.md",
+      "expected_sha256": "0de60c176181dbe556cd1510095d827fdd7433de2500d5cde1ca13643e7affbd",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "d88f7c41646f5540346dbbb147b9bcecb6b1fdcd33d8843ce62d03dbc9bbc986",
+      "before_newlines": {
+        "bytes": 1778,
+        "LF_bytes": 26,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "d88f7c41646f5540346dbbb147b9bcecb6b1fdcd33d8843ce62d03dbc9bbc986",
+        "CRLF": "0de60c176181dbe556cd1510095d827fdd7433de2500d5cde1ca13643e7affbd"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/DECISIONS_AND_NEXT_WORK.md",
+      "backup_sha256": "d88f7c41646f5540346dbbb147b9bcecb6b1fdcd33d8843ce62d03dbc9bbc986",
+      "planned_sha256": "0de60c176181dbe556cd1510095d827fdd7433de2500d5cde1ca13643e7affbd",
+      "planned_newlines": {
+        "bytes": 1804,
+        "LF_bytes": 26,
+        "CRLF_pairs": 26,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md",
+      "expected_sha256": "3ecf9ba6c65c5c3700a03134165a05c0f09fd2b52d5b7f3d66bce35524a70048",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "c93b9ac8555a62d10bd3b37e69c799a7b440c78ddb94761bfe860f0f8470fd99",
+      "before_newlines": {
+        "bytes": 2867,
+        "LF_bytes": 38,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "c93b9ac8555a62d10bd3b37e69c799a7b440c78ddb94761bfe860f0f8470fd99",
+        "CRLF": "ca25ffef39bda7cb6741742bdf5c7cd89f4cfcbb66bf107794c4e5511dc2c536"
+      },
+      "matching_candidates": [],
+      "decision": "unresolved_no_unique_hash_match_leave_unchanged"
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/DOC_CHANGELOG.md",
+      "expected_sha256": "f91f0723c7e55f6149fb11a49732c22c16b1a3798e6e97165c9cda53f85e894f",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "6d95cde1fc74cdc968d3b98935c030226d0c9e85df5165222063f6ea7207188c",
+      "before_newlines": {
+        "bytes": 1215,
+        "LF_bytes": 22,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "6d95cde1fc74cdc968d3b98935c030226d0c9e85df5165222063f6ea7207188c",
+        "CRLF": "f91f0723c7e55f6149fb11a49732c22c16b1a3798e6e97165c9cda53f85e894f"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/DOC_CHANGELOG.md",
+      "backup_sha256": "6d95cde1fc74cdc968d3b98935c030226d0c9e85df5165222063f6ea7207188c",
+      "planned_sha256": "f91f0723c7e55f6149fb11a49732c22c16b1a3798e6e97165c9cda53f85e894f",
+      "planned_newlines": {
+        "bytes": 1237,
+        "LF_bytes": 22,
+        "CRLF_pairs": 22,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/EVIDENCE_AND_GAPS.md",
+      "expected_sha256": "3cec1c263aff4099371c12c6207115aa77a4742236bda84efd89ead1334d92a4",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "fa48fe2547fddec8f3f85a822159cfa6da676c911355020a3aaa37c95dfc9124",
+      "before_newlines": {
+        "bytes": 2831,
+        "LF_bytes": 44,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "fa48fe2547fddec8f3f85a822159cfa6da676c911355020a3aaa37c95dfc9124",
+        "CRLF": "3cec1c263aff4099371c12c6207115aa77a4742236bda84efd89ead1334d92a4"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/EVIDENCE_AND_GAPS.md",
+      "backup_sha256": "fa48fe2547fddec8f3f85a822159cfa6da676c911355020a3aaa37c95dfc9124",
+      "planned_sha256": "3cec1c263aff4099371c12c6207115aa77a4742236bda84efd89ead1334d92a4",
+      "planned_newlines": {
+        "bytes": 2875,
+        "LF_bytes": 44,
+        "CRLF_pairs": 44,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/LOCKED_EXPERIMENTS.md",
+      "expected_sha256": "5f8ef50bfd2ebf2910504d56c30e9d3355b970f2751c631cd1b5a5557121e8fa",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "3b2e90c4206879336e2ea58375164d3370a34c6cb49d4949017e7dbb618c13b5",
+      "before_newlines": {
+        "bytes": 7092,
+        "LF_bytes": 85,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "3b2e90c4206879336e2ea58375164d3370a34c6cb49d4949017e7dbb618c13b5",
+        "CRLF": "5f8ef50bfd2ebf2910504d56c30e9d3355b970f2751c631cd1b5a5557121e8fa"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/LOCKED_EXPERIMENTS.md",
+      "backup_sha256": "3b2e90c4206879336e2ea58375164d3370a34c6cb49d4949017e7dbb618c13b5",
+      "planned_sha256": "5f8ef50bfd2ebf2910504d56c30e9d3355b970f2751c631cd1b5a5557121e8fa",
+      "planned_newlines": {
+        "bytes": 7177,
+        "LF_bytes": 85,
+        "CRLF_pairs": 85,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/PAPER_CIFAR10_PROFILE.md",
+      "expected_sha256": "d351747e2b2b11dd0efc18109dab6aaa9b47b8f50bb98f1e8f13e441886ade7a",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "fc11e2808dfbb2687550e82abb4888a85b5710dd16db7201fe92f663f06ff91b",
+      "before_newlines": {
+        "bytes": 922,
+        "LF_bytes": 15,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "fc11e2808dfbb2687550e82abb4888a85b5710dd16db7201fe92f663f06ff91b",
+        "CRLF": "d351747e2b2b11dd0efc18109dab6aaa9b47b8f50bb98f1e8f13e441886ade7a"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/PAPER_CIFAR10_PROFILE.md",
+      "backup_sha256": "fc11e2808dfbb2687550e82abb4888a85b5710dd16db7201fe92f663f06ff91b",
+      "planned_sha256": "d351747e2b2b11dd0efc18109dab6aaa9b47b8f50bb98f1e8f13e441886ade7a",
+      "planned_newlines": {
+        "bytes": 937,
+        "LF_bytes": 15,
+        "CRLF_pairs": 15,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/README.md",
+      "expected_sha256": "113c035d5ef499323415aaa66284833f69e8eeba69b82f960f900c2e10e17365",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "5fdcf9cd4a4d03bc485d656019b9e63bb59ed8f35af0fc892758bd2fe42238e5",
+      "before_newlines": {
+        "bytes": 1939,
+        "LF_bytes": 26,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "5fdcf9cd4a4d03bc485d656019b9e63bb59ed8f35af0fc892758bd2fe42238e5",
+        "CRLF": "113c035d5ef499323415aaa66284833f69e8eeba69b82f960f900c2e10e17365"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/README.md",
+      "backup_sha256": "5fdcf9cd4a4d03bc485d656019b9e63bb59ed8f35af0fc892758bd2fe42238e5",
+      "planned_sha256": "113c035d5ef499323415aaa66284833f69e8eeba69b82f960f900c2e10e17365",
+      "planned_newlines": {
+        "bytes": 1965,
+        "LF_bytes": 26,
+        "CRLF_pairs": 26,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/REPOSITORY_MAP.md",
+      "expected_sha256": "fff5ca9a2e358a347066180a7510db323ce4b9f952487e6213f70d52cdb5d632",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "a1ebb0c0c7acf97428ea505ae4897ab3de5a7166fe5c2a0f6ad87f624a6481ff",
+      "before_newlines": {
+        "bytes": 2479,
+        "LF_bytes": 33,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "a1ebb0c0c7acf97428ea505ae4897ab3de5a7166fe5c2a0f6ad87f624a6481ff",
+        "CRLF": "fff5ca9a2e358a347066180a7510db323ce4b9f952487e6213f70d52cdb5d632"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/REPOSITORY_MAP.md",
+      "backup_sha256": "a1ebb0c0c7acf97428ea505ae4897ab3de5a7166fe5c2a0f6ad87f624a6481ff",
+      "planned_sha256": "fff5ca9a2e358a347066180a7510db323ce4b9f952487e6213f70d52cdb5d632",
+      "planned_newlines": {
+        "bytes": 2512,
+        "LF_bytes": 33,
+        "CRLF_pairs": 33,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/RESULTS_AND_PLOTTING.md",
+      "expected_sha256": "188d833662d77be9138be02ee15604109767c8048797da2f43f4494b7ab2877a",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "27f2b8151a768d2c5c3bf5815b6219a219618a7c536fa901a4a4a26302a01465",
+      "before_newlines": {
+        "bytes": 2434,
+        "LF_bytes": 48,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "27f2b8151a768d2c5c3bf5815b6219a219618a7c536fa901a4a4a26302a01465",
+        "CRLF": "188d833662d77be9138be02ee15604109767c8048797da2f43f4494b7ab2877a"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/RESULTS_AND_PLOTTING.md",
+      "backup_sha256": "27f2b8151a768d2c5c3bf5815b6219a219618a7c536fa901a4a4a26302a01465",
+      "planned_sha256": "188d833662d77be9138be02ee15604109767c8048797da2f43f4494b7ab2877a",
+      "planned_newlines": {
+        "bytes": 2482,
+        "LF_bytes": 48,
+        "CRLF_pairs": 48,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/RUNBOOK.md",
+      "expected_sha256": "5be784cf746a7af1d359041960e36cf0c158ea6af9cd1c624e04bae0ec396180",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "cda5e83dcc8c64d1366c873cb80955db10f94dd8c9a787911602b675195b47bd",
+      "before_newlines": {
+        "bytes": 1918,
+        "LF_bytes": 42,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "cda5e83dcc8c64d1366c873cb80955db10f94dd8c9a787911602b675195b47bd",
+        "CRLF": "5be784cf746a7af1d359041960e36cf0c158ea6af9cd1c624e04bae0ec396180"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/RUNBOOK.md",
+      "backup_sha256": "cda5e83dcc8c64d1366c873cb80955db10f94dd8c9a787911602b675195b47bd",
+      "planned_sha256": "5be784cf746a7af1d359041960e36cf0c158ea6af9cd1c624e04bae0ec396180",
+      "planned_newlines": {
+        "bytes": 1960,
+        "LF_bytes": 42,
+        "CRLF_pairs": 42,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/RUN_REGISTRY.md",
+      "expected_sha256": "4ff02ba759dd3ee1da5506a0e63122cfef422f7ab4d589f046b2701384e5b0e3",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "36060269302d8401e979680b1e446305a619c2e9ecb54350e99d37e95c3ae8dd",
+      "before_newlines": {
+        "bytes": 26823,
+        "LF_bytes": 370,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "36060269302d8401e979680b1e446305a619c2e9ecb54350e99d37e95c3ae8dd",
+        "CRLF": "4ff02ba759dd3ee1da5506a0e63122cfef422f7ab4d589f046b2701384e5b0e3"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/RUN_REGISTRY.md",
+      "backup_sha256": "36060269302d8401e979680b1e446305a619c2e9ecb54350e99d37e95c3ae8dd",
+      "planned_sha256": "4ff02ba759dd3ee1da5506a0e63122cfef422f7ab4d589f046b2701384e5b0e3",
+      "planned_newlines": {
+        "bytes": 27193,
+        "LF_bytes": 370,
+        "CRLF_pairs": 370,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/SCRIPT_REGISTRY.md",
+      "expected_sha256": "83e86e3cfc05ea7e326d66c97775fc89d09acc51ba4d6cce7934cd4d79a47f64",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "5d91f6509306be16657a010fe9fd574d362d3807f6bdb598f7eb615876ebffe6",
+      "before_newlines": {
+        "bytes": 2140,
+        "LF_bytes": 32,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "5d91f6509306be16657a010fe9fd574d362d3807f6bdb598f7eb615876ebffe6",
+        "CRLF": "83e86e3cfc05ea7e326d66c97775fc89d09acc51ba4d6cce7934cd4d79a47f64"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/SCRIPT_REGISTRY.md",
+      "backup_sha256": "5d91f6509306be16657a010fe9fd574d362d3807f6bdb598f7eb615876ebffe6",
+      "planned_sha256": "83e86e3cfc05ea7e326d66c97775fc89d09acc51ba4d6cce7934cd4d79a47f64",
+      "planned_newlines": {
+        "bytes": 2172,
+        "LF_bytes": 32,
+        "CRLF_pairs": 32,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/SPARSE_IMPLEMENTATION_GUIDELINE.md",
+      "expected_sha256": "fdcb5053a9ec5649144a834001178d9d558b00feceb1f989ec33cc7d1feea145",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "2d40c066dd34417d22a2981688b6e859e61ff8bfa534db4287a3092d035901b3",
+      "before_newlines": {
+        "bytes": 1715,
+        "LF_bytes": 14,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "2d40c066dd34417d22a2981688b6e859e61ff8bfa534db4287a3092d035901b3",
+        "CRLF": "fdcb5053a9ec5649144a834001178d9d558b00feceb1f989ec33cc7d1feea145"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/SPARSE_IMPLEMENTATION_GUIDELINE.md",
+      "backup_sha256": "2d40c066dd34417d22a2981688b6e859e61ff8bfa534db4287a3092d035901b3",
+      "planned_sha256": "fdcb5053a9ec5649144a834001178d9d558b00feceb1f989ec33cc7d1feea145",
+      "planned_newlines": {
+        "bytes": 1729,
+        "LF_bytes": 14,
+        "CRLF_pairs": 14,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/START_HERE.md",
+      "expected_sha256": "462c960b61ae52943db90bd779c92990f35d78679f77ca90d77303e669d7ee54",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "3cc95d6fd3e2821e983e83a4390ad64298e1242de88cf0b307519a2dca7ce61e",
+      "before_newlines": {
+        "bytes": 1644,
+        "LF_bytes": 26,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "3cc95d6fd3e2821e983e83a4390ad64298e1242de88cf0b307519a2dca7ce61e",
+        "CRLF": "462c960b61ae52943db90bd779c92990f35d78679f77ca90d77303e669d7ee54"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/START_HERE.md",
+      "backup_sha256": "3cc95d6fd3e2821e983e83a4390ad64298e1242de88cf0b307519a2dca7ce61e",
+      "planned_sha256": "462c960b61ae52943db90bd779c92990f35d78679f77ca90d77303e669d7ee54",
+      "planned_newlines": {
+        "bytes": 1670,
+        "LF_bytes": 26,
+        "CRLF_pairs": 26,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/CHAT_HANDOFF_PAIRED_R11.md",
+      "expected_sha256": "97819ebb8aee1c127bc5c8f9984c7fa4bee2d73b9a6f28768687ecf0fa42265f",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "62c4d0bbb4dd97a30e39195e864ecd41d8f651c6a9da228f621cc603286ac503",
+      "before_newlines": {
+        "bytes": 3817,
+        "LF_bytes": 39,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "62c4d0bbb4dd97a30e39195e864ecd41d8f651c6a9da228f621cc603286ac503",
+        "CRLF": "97819ebb8aee1c127bc5c8f9984c7fa4bee2d73b9a6f28768687ecf0fa42265f"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/CHAT_HANDOFF_PAIRED_R11.md",
+      "backup_sha256": "62c4d0bbb4dd97a30e39195e864ecd41d8f651c6a9da228f621cc603286ac503",
+      "planned_sha256": "97819ebb8aee1c127bc5c8f9984c7fa4bee2d73b9a6f28768687ecf0fa42265f",
+      "planned_newlines": {
+        "bytes": 3856,
+        "LF_bytes": 39,
+        "CRLF_pairs": 39,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/CIFAR10_STAGED_PLAN.md",
+      "expected_sha256": "03ecd11da75c4dff5f87b238b1c79959010017b8a5fa3f81db85fcf6a193d604",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "8be7ee5e89b31ae346334418427c096a96d51fc049c3b02dc43ba492353b0816",
+      "before_newlines": {
+        "bytes": 17244,
+        "LF_bytes": 306,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "8be7ee5e89b31ae346334418427c096a96d51fc049c3b02dc43ba492353b0816",
+        "CRLF": "03ecd11da75c4dff5f87b238b1c79959010017b8a5fa3f81db85fcf6a193d604"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/CIFAR10_STAGED_PLAN.md",
+      "backup_sha256": "8be7ee5e89b31ae346334418427c096a96d51fc049c3b02dc43ba492353b0816",
+      "planned_sha256": "03ecd11da75c4dff5f87b238b1c79959010017b8a5fa3f81db85fcf6a193d604",
+      "planned_newlines": {
+        "bytes": 17550,
+        "LF_bytes": 306,
+        "CRLF_pairs": 306,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/CIFAR_PAIRED_PRELONG_GATE.md",
+      "expected_sha256": "4f685291052fb2afe7ff8640d8433d974102be06f55da34e905be6d9a6b8c9c6",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "fd7c2ca8f520e710f756afe0ba5e514d2c18600bb731128279c45da2bb70e6dc",
+      "before_newlines": {
+        "bytes": 8009,
+        "LF_bytes": 78,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "fd7c2ca8f520e710f756afe0ba5e514d2c18600bb731128279c45da2bb70e6dc",
+        "CRLF": "4f685291052fb2afe7ff8640d8433d974102be06f55da34e905be6d9a6b8c9c6"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/CIFAR_PAIRED_PRELONG_GATE.md",
+      "backup_sha256": "fd7c2ca8f520e710f756afe0ba5e514d2c18600bb731128279c45da2bb70e6dc",
+      "planned_sha256": "4f685291052fb2afe7ff8640d8433d974102be06f55da34e905be6d9a6b8c9c6",
+      "planned_newlines": {
+        "bytes": 8087,
+        "LF_bytes": 78,
+        "CRLF_pairs": 78,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/CONFIGURATION.md",
+      "expected_sha256": "881ba106377440977d8b779822de28ef1f34012c6e941000d88e1c3a668c1482",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "9f546a9a8f8a0cd10fbf7e30670821ff5ac1b9a5be1af135c64c10844653e1d8",
+      "before_newlines": {
+        "bytes": 4594,
+        "LF_bytes": 81,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "9f546a9a8f8a0cd10fbf7e30670821ff5ac1b9a5be1af135c64c10844653e1d8",
+        "CRLF": "881ba106377440977d8b779822de28ef1f34012c6e941000d88e1c3a668c1482"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/CONFIGURATION.md",
+      "backup_sha256": "9f546a9a8f8a0cd10fbf7e30670821ff5ac1b9a5be1af135c64c10844653e1d8",
+      "planned_sha256": "881ba106377440977d8b779822de28ef1f34012c6e941000d88e1c3a668c1482",
+      "planned_newlines": {
+        "bytes": 4675,
+        "LF_bytes": 81,
+        "CRLF_pairs": 81,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/DECISIONS_AND_OPEN_ITEMS.md",
+      "expected_sha256": "497098abb9ec4866a45dae76c88b14b5b4d20e675480a2fa5e2c640e0b35e1b8",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "8bb9b2af11bea33f54f20958382f474ba028a557cf17a6c155131b91fea0ac45",
+      "before_newlines": {
+        "bytes": 458,
+        "LF_bytes": 7,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "8bb9b2af11bea33f54f20958382f474ba028a557cf17a6c155131b91fea0ac45",
+        "CRLF": "497098abb9ec4866a45dae76c88b14b5b4d20e675480a2fa5e2c640e0b35e1b8"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/DECISIONS_AND_OPEN_ITEMS.md",
+      "backup_sha256": "8bb9b2af11bea33f54f20958382f474ba028a557cf17a6c155131b91fea0ac45",
+      "planned_sha256": "497098abb9ec4866a45dae76c88b14b5b4d20e675480a2fa5e2c640e0b35e1b8",
+      "planned_newlines": {
+        "bytes": 465,
+        "LF_bytes": 7,
+        "CRLF_pairs": 7,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/DESIGN_REVIEW.md",
+      "expected_sha256": "acc2d3433133272ec4cf27674c01a43ebe66e7060fe0d40e8a58fd4ff6795eef",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "ce866901e4ac2d57111cdd1a2219f8efcdb2fbe1ab314710c8e03c4b128421d6",
+      "before_newlines": {
+        "bytes": 425,
+        "LF_bytes": 7,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "ce866901e4ac2d57111cdd1a2219f8efcdb2fbe1ab314710c8e03c4b128421d6",
+        "CRLF": "acc2d3433133272ec4cf27674c01a43ebe66e7060fe0d40e8a58fd4ff6795eef"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/DESIGN_REVIEW.md",
+      "backup_sha256": "ce866901e4ac2d57111cdd1a2219f8efcdb2fbe1ab314710c8e03c4b128421d6",
+      "planned_sha256": "acc2d3433133272ec4cf27674c01a43ebe66e7060fe0d40e8a58fd4ff6795eef",
+      "planned_newlines": {
+        "bytes": 432,
+        "LF_bytes": 7,
+        "CRLF_pairs": 7,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/IMPLEMENTATION.md",
+      "expected_sha256": "07b90352a8d078faa054ce36d616fe376ad2463ab5739ab159c5489bc00df613",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "8d0e2c84f36e4ccfc58fe86687d6407c37c9894aa6e3a3523c81c0a081fa30ba",
+      "before_newlines": {
+        "bytes": 7414,
+        "LF_bytes": 125,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "8d0e2c84f36e4ccfc58fe86687d6407c37c9894aa6e3a3523c81c0a081fa30ba",
+        "CRLF": "07b90352a8d078faa054ce36d616fe376ad2463ab5739ab159c5489bc00df613"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/IMPLEMENTATION.md",
+      "backup_sha256": "8d0e2c84f36e4ccfc58fe86687d6407c37c9894aa6e3a3523c81c0a081fa30ba",
+      "planned_sha256": "07b90352a8d078faa054ce36d616fe376ad2463ab5739ab159c5489bc00df613",
+      "planned_newlines": {
+        "bytes": 7539,
+        "LF_bytes": 125,
+        "CRLF_pairs": 125,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/IMPLEMENTATION_PLAN.md",
+      "expected_sha256": "f528656a9aea6e872e269935b33f0ebbb28972443cfe918e756dbf61aed9dff2",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "ae5dcc7fa0132ce8bdaf24284c6ba6e92b3cff149502d8a653a9902876a7fe4c",
+      "before_newlines": {
+        "bytes": 443,
+        "LF_bytes": 7,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "ae5dcc7fa0132ce8bdaf24284c6ba6e92b3cff149502d8a653a9902876a7fe4c",
+        "CRLF": "f528656a9aea6e872e269935b33f0ebbb28972443cfe918e756dbf61aed9dff2"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/IMPLEMENTATION_PLAN.md",
+      "backup_sha256": "ae5dcc7fa0132ce8bdaf24284c6ba6e92b3cff149502d8a653a9902876a7fe4c",
+      "planned_sha256": "f528656a9aea6e872e269935b33f0ebbb28972443cfe918e756dbf61aed9dff2",
+      "planned_newlines": {
+        "bytes": 450,
+        "LF_bytes": 7,
+        "CRLF_pairs": 7,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_CIFAR10_SENSITIVITY_R150_20261112.md",
+      "expected_sha256": "73f1d092368afb24e8ad1768cfbb128bba085ca98db1a9de86483f71a6d1c647",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "8c5fdd4dad13b19d5c8d9bacf7b375ecc02444c891116675eedff8c3350d5f5a",
+      "before_newlines": {
+        "bytes": 9200,
+        "LF_bytes": 83,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "8c5fdd4dad13b19d5c8d9bacf7b375ecc02444c891116675eedff8c3350d5f5a",
+        "CRLF": "73f1d092368afb24e8ad1768cfbb128bba085ca98db1a9de86483f71a6d1c647"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_CIFAR10_SENSITIVITY_R150_20261112.md",
+      "backup_sha256": "8c5fdd4dad13b19d5c8d9bacf7b375ecc02444c891116675eedff8c3350d5f5a",
+      "planned_sha256": "73f1d092368afb24e8ad1768cfbb128bba085ca98db1a9de86483f71a6d1c647",
+      "planned_newlines": {
+        "bytes": 9283,
+        "LF_bytes": 83,
+        "CRLF_pairs": 83,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_ONLY_SIX_SCENARIO_SENSITIVITY_PLAN_v1.md",
+      "expected_sha256": "2561b713591e0df10f8a78d6c037c7a330bc610f5321b9c7c2cf8d560bd4d414",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "eb489765f1bd2a176e3c2e7374222e231463b057bd4a62341a0f528b7de77e00",
+      "before_newlines": {
+        "bytes": 6018,
+        "LF_bytes": 105,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "eb489765f1bd2a176e3c2e7374222e231463b057bd4a62341a0f528b7de77e00",
+        "CRLF": "2561b713591e0df10f8a78d6c037c7a330bc610f5321b9c7c2cf8d560bd4d414"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_ONLY_SIX_SCENARIO_SENSITIVITY_PLAN_v1.md",
+      "backup_sha256": "eb489765f1bd2a176e3c2e7374222e231463b057bd4a62341a0f528b7de77e00",
+      "planned_sha256": "2561b713591e0df10f8a78d6c037c7a330bc610f5321b9c7c2cf8d560bd4d414",
+      "planned_newlines": {
+        "bytes": 6123,
+        "LF_bytes": 105,
+        "CRLF_pairs": 105,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_R150_AUDIT_RUNBOOK_v1.md",
+      "expected_sha256": "735672a8733affca7213caa784f409f59e13ccbcd7c4685258890de49ed04844",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "6d840a9ec44ed8dc97e78c83cf3c561fbdd4ef289afc353aca305aff7fd50c09",
+      "before_newlines": {
+        "bytes": 2162,
+        "LF_bytes": 22,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "6d840a9ec44ed8dc97e78c83cf3c561fbdd4ef289afc353aca305aff7fd50c09",
+        "CRLF": "735672a8733affca7213caa784f409f59e13ccbcd7c4685258890de49ed04844"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_R150_AUDIT_RUNBOOK_v1.md",
+      "backup_sha256": "6d840a9ec44ed8dc97e78c83cf3c561fbdd4ef289afc353aca305aff7fd50c09",
+      "planned_sha256": "735672a8733affca7213caa784f409f59e13ccbcd7c4685258890de49ed04844",
+      "planned_newlines": {
+        "bytes": 2184,
+        "LF_bytes": 22,
+        "CRLF_pairs": 22,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_SENSITIVITY_PLOTS_RUNBOOK_v1.md",
+      "expected_sha256": "3358acfc69ef2f7d4d0705cec0c84b40ad8bce6ac81ecc1bb8d65bbe326e4c5f",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "1843bb804d3738d119c91c16e5466dade890eab0afc8d99b6a36baadc9b92552",
+      "before_newlines": {
+        "bytes": 3914,
+        "LF_bytes": 59,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "1843bb804d3738d119c91c16e5466dade890eab0afc8d99b6a36baadc9b92552",
+        "CRLF": "3358acfc69ef2f7d4d0705cec0c84b40ad8bce6ac81ecc1bb8d65bbe326e4c5f"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_SENSITIVITY_PLOTS_RUNBOOK_v1.md",
+      "backup_sha256": "1843bb804d3738d119c91c16e5466dade890eab0afc8d99b6a36baadc9b92552",
+      "planned_sha256": "3358acfc69ef2f7d4d0705cec0c84b40ad8bce6ac81ecc1bb8d65bbe326e4c5f",
+      "planned_newlines": {
+        "bytes": 3973,
+        "LF_bytes": 59,
+        "CRLF_pairs": 59,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/OUTPUTS.md",
+      "expected_sha256": "48656904d45292b7adb5811d3f284c24f16807156fa540ea8d06c6c581602ab1",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "92b639f9826bd76183c8ca05272d181f3265afd78435cbb75a8e1a0b787808ae",
+      "before_newlines": {
+        "bytes": 3980,
+        "LF_bytes": 73,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "92b639f9826bd76183c8ca05272d181f3265afd78435cbb75a8e1a0b787808ae",
+        "CRLF": "48656904d45292b7adb5811d3f284c24f16807156fa540ea8d06c6c581602ab1"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/OUTPUTS.md",
+      "backup_sha256": "92b639f9826bd76183c8ca05272d181f3265afd78435cbb75a8e1a0b787808ae",
+      "planned_sha256": "48656904d45292b7adb5811d3f284c24f16807156fa540ea8d06c6c581602ab1",
+      "planned_newlines": {
+        "bytes": 4053,
+        "LF_bytes": 73,
+        "CRLF_pairs": 73,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/README.md",
+      "expected_sha256": "f24a86da72f3e6f2ce0aa2f4fdcf2d725b0384e6ad155f7be94eb2e391ec1ed2",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "995845a277d28586ff15439d2a638a08bd0a1fd21a2565bfa461fdf38d989d88",
+      "before_newlines": {
+        "bytes": 5707,
+        "LF_bytes": 69,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "995845a277d28586ff15439d2a638a08bd0a1fd21a2565bfa461fdf38d989d88",
+        "CRLF": "f24a86da72f3e6f2ce0aa2f4fdcf2d725b0384e6ad155f7be94eb2e391ec1ed2"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/README.md",
+      "backup_sha256": "995845a277d28586ff15439d2a638a08bd0a1fd21a2565bfa461fdf38d989d88",
+      "planned_sha256": "f24a86da72f3e6f2ce0aa2f4fdcf2d725b0384e6ad155f7be94eb2e391ec1ed2",
+      "planned_newlines": {
+        "bytes": 5776,
+        "LF_bytes": 69,
+        "CRLF_pairs": 69,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/RUNBOOK.md",
+      "expected_sha256": "2d6def8bc37d5255e48b50987734187f84f4ec4199a1761f9792340a467d61a6",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "7c4d30877d4f007f7b1952c1890d18ee04ab747be3778800fb312826fa10abae",
+      "before_newlines": {
+        "bytes": 6788,
+        "LF_bytes": 179,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "7c4d30877d4f007f7b1952c1890d18ee04ab747be3778800fb312826fa10abae",
+        "CRLF": "2d6def8bc37d5255e48b50987734187f84f4ec4199a1761f9792340a467d61a6"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/RUNBOOK.md",
+      "backup_sha256": "7c4d30877d4f007f7b1952c1890d18ee04ab747be3778800fb312826fa10abae",
+      "planned_sha256": "2d6def8bc37d5255e48b50987734187f84f4ec4199a1761f9792340a467d61a6",
+      "planned_newlines": {
+        "bytes": 6967,
+        "LF_bytes": 179,
+        "CRLF_pairs": 179,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/SAME_POSTERIOR_PROBE.md",
+      "expected_sha256": "c466fb800d8877e7f71f6fd7c0a5a0fd7b8945830915c5fc0fef261637d4a8d0",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "1ca7d5d56e97914b1ad607b990a5f3ca81b2b67e0f7f29f7067b866eff90cb10",
+      "before_newlines": {
+        "bytes": 8548,
+        "LF_bytes": 83,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "1ca7d5d56e97914b1ad607b990a5f3ca81b2b67e0f7f29f7067b866eff90cb10",
+        "CRLF": "c466fb800d8877e7f71f6fd7c0a5a0fd7b8945830915c5fc0fef261637d4a8d0"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/SAME_POSTERIOR_PROBE.md",
+      "backup_sha256": "1ca7d5d56e97914b1ad607b990a5f3ca81b2b67e0f7f29f7067b866eff90cb10",
+      "planned_sha256": "c466fb800d8877e7f71f6fd7c0a5a0fd7b8945830915c5fc0fef261637d4a8d0",
+      "planned_newlines": {
+        "bytes": 8631,
+        "LF_bytes": 83,
+        "CRLF_pairs": 83,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/SOURCE_AUDIT.md",
+      "expected_sha256": "d6c96d791e65fb7716a7ef3addf89d57f007d7e928bd5b054d8e0daaa94f807b",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "4ac59fb9ea8aaa67716aa2edb60cf6bd35115cb337defe1047bccc39e3c4d51a",
+      "before_newlines": {
+        "bytes": 422,
+        "LF_bytes": 7,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "4ac59fb9ea8aaa67716aa2edb60cf6bd35115cb337defe1047bccc39e3c4d51a",
+        "CRLF": "d6c96d791e65fb7716a7ef3addf89d57f007d7e928bd5b054d8e0daaa94f807b"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/SOURCE_AUDIT.md",
+      "backup_sha256": "4ac59fb9ea8aaa67716aa2edb60cf6bd35115cb337defe1047bccc39e3c4d51a",
+      "planned_sha256": "d6c96d791e65fb7716a7ef3addf89d57f007d7e928bd5b054d8e0daaa94f807b",
+      "planned_newlines": {
+        "bytes": 429,
+        "LF_bytes": 7,
+        "CRLF_pairs": 7,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/STATUS.md",
+      "expected_sha256": "7c5b98b7b7171799db721dcf4fe6d49b5943e37d5c5a0dc1d872498516a029bd",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "e86bc50653594d37ec5fe181fb1d2c31372c85a743251a62cd2dac6252391bf1",
+      "before_newlines": {
+        "bytes": 5150,
+        "LF_bytes": 57,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "e86bc50653594d37ec5fe181fb1d2c31372c85a743251a62cd2dac6252391bf1",
+        "CRLF": "7c5b98b7b7171799db721dcf4fe6d49b5943e37d5c5a0dc1d872498516a029bd"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/STATUS.md",
+      "backup_sha256": "e86bc50653594d37ec5fe181fb1d2c31372c85a743251a62cd2dac6252391bf1",
+      "planned_sha256": "7c5b98b7b7171799db721dcf4fe6d49b5943e37d5c5a0dc1d872498516a029bd",
+      "planned_newlines": {
+        "bytes": 5207,
+        "LF_bytes": 57,
+        "CRLF_pairs": 57,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/VALIDATION.md",
+      "expected_sha256": "c3dad0c05693e42aca1d5d6fa999485dcdb9ec3e86c2397c82ca61f67c33a2b3",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "66df1df7bc97766b2f8f374a65ec6d8c17e0d779a15130a6d27aaecf86bf0997",
+      "before_newlines": {
+        "bytes": 6776,
+        "LF_bytes": 83,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "66df1df7bc97766b2f8f374a65ec6d8c17e0d779a15130a6d27aaecf86bf0997",
+        "CRLF": "c3dad0c05693e42aca1d5d6fa999485dcdb9ec3e86c2397c82ca61f67c33a2b3"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/VALIDATION.md",
+      "backup_sha256": "66df1df7bc97766b2f8f374a65ec6d8c17e0d779a15130a6d27aaecf86bf0997",
+      "planned_sha256": "c3dad0c05693e42aca1d5d6fa999485dcdb9ec3e86c2397c82ca61f67c33a2b3",
+      "planned_newlines": {
+        "bytes": 6859,
+        "LF_bytes": 83,
+        "CRLF_pairs": 83,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/VALIDATION_PLAN.md",
+      "expected_sha256": "4e8ed94d2cedf24d6775546216b66b3118f60920d0be2e750da7502d56f1e794",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "f6192b63e3498be2935bf9ef0905bdd70451edb75cd10d73a510a51b56022028",
+      "before_newlines": {
+        "bytes": 431,
+        "LF_bytes": 7,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "f6192b63e3498be2935bf9ef0905bdd70451edb75cd10d73a510a51b56022028",
+        "CRLF": "4e8ed94d2cedf24d6775546216b66b3118f60920d0be2e750da7502d56f1e794"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/VALIDATION_PLAN.md",
+      "backup_sha256": "f6192b63e3498be2935bf9ef0905bdd70451edb75cd10d73a510a51b56022028",
+      "planned_sha256": "4e8ed94d2cedf24d6775546216b66b3118f60920d0be2e750da7502d56f1e794",
+      "planned_newlines": {
+        "bytes": 438,
+        "LF_bytes": 7,
+        "CRLF_pairs": 7,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/evidence/cifar10_scheduling_pilot_v1/resource_preflight.txt",
+      "expected_sha256": "9f2bcb3d03cf160bb42e661f1a58948df2b5bf1a56de1736c68fd687c39c4cce",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "56b852964a3bd5274bf8ee32aebfda9927f8c6791680361ebac3f2f58dc33b96",
+      "before_newlines": {
+        "bytes": 4381,
+        "LF_bytes": 65,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "56b852964a3bd5274bf8ee32aebfda9927f8c6791680361ebac3f2f58dc33b96",
+        "CRLF": "9f2bcb3d03cf160bb42e661f1a58948df2b5bf1a56de1736c68fd687c39c4cce"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/evidence/cifar10_scheduling_pilot_v1/resource_preflight.txt",
+      "backup_sha256": "56b852964a3bd5274bf8ee32aebfda9927f8c6791680361ebac3f2f58dc33b96",
+      "planned_sha256": "9f2bcb3d03cf160bb42e661f1a58948df2b5bf1a56de1736c68fd687c39c4cce",
+      "planned_newlines": {
+        "bytes": 4446,
+        "LF_bytes": 65,
+        "CRLF_pairs": 65,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/evidence/cifar10_scheduling_pilot_v1/setup_checks.json",
+      "expected_sha256": "f8c5d4a7827dd56d8f2b41d23706166ca1452ea8bfb382b43cfb675413274b9e",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "6237c071d91d3779a2f802c7986a65ecf1bd6025daa8037227f599712152270b",
+      "before_newlines": {
+        "bytes": 1547,
+        "LF_bytes": 56,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "6237c071d91d3779a2f802c7986a65ecf1bd6025daa8037227f599712152270b",
+        "CRLF": "f8c5d4a7827dd56d8f2b41d23706166ca1452ea8bfb382b43cfb675413274b9e"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "json_values_unchanged": true,
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/evidence/cifar10_scheduling_pilot_v1/setup_checks.json",
+      "backup_sha256": "6237c071d91d3779a2f802c7986a65ecf1bd6025daa8037227f599712152270b",
+      "planned_sha256": "f8c5d4a7827dd56d8f2b41d23706166ca1452ea8bfb382b43cfb675413274b9e",
+      "planned_newlines": {
+        "bytes": 1603,
+        "LF_bytes": 56,
+        "CRLF_pairs": 56,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/DECISIONS_AND_OPEN_ITEMS.md",
+      "expected_sha256": "064e95da8749212e062dc27815c6158d35c8230225ba4a4daa4999844f0867db",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "b72dd64a21f2e761f3344f9834b5565ad7ebc85f24da5080282babb31d12842d",
+      "before_newlines": {
+        "bytes": 4086,
+        "LF_bytes": 70,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "b72dd64a21f2e761f3344f9834b5565ad7ebc85f24da5080282babb31d12842d",
+        "CRLF": "064e95da8749212e062dc27815c6158d35c8230225ba4a4daa4999844f0867db"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/DECISIONS_AND_OPEN_ITEMS.md",
+      "backup_sha256": "b72dd64a21f2e761f3344f9834b5565ad7ebc85f24da5080282babb31d12842d",
+      "planned_sha256": "064e95da8749212e062dc27815c6158d35c8230225ba4a4daa4999844f0867db",
+      "planned_newlines": {
+        "bytes": 4156,
+        "LF_bytes": 70,
+        "CRLF_pairs": 70,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/DESIGN_REVIEW.md",
+      "expected_sha256": "7a76903044e99a11c98b5b98d58c3ad27ef8d4b7d60912003c387ab9c429d209",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "6dde981a5c3654e95bbc6d5b07c1132712c1927dd896e94c1051981063c64ba5",
+      "before_newlines": {
+        "bytes": 15425,
+        "LF_bytes": 289,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "6dde981a5c3654e95bbc6d5b07c1132712c1927dd896e94c1051981063c64ba5",
+        "CRLF": "7a76903044e99a11c98b5b98d58c3ad27ef8d4b7d60912003c387ab9c429d209"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/DESIGN_REVIEW.md",
+      "backup_sha256": "6dde981a5c3654e95bbc6d5b07c1132712c1927dd896e94c1051981063c64ba5",
+      "planned_sha256": "7a76903044e99a11c98b5b98d58c3ad27ef8d4b7d60912003c387ab9c429d209",
+      "planned_newlines": {
+        "bytes": 15714,
+        "LF_bytes": 289,
+        "CRLF_pairs": 289,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/IMPLEMENTATION_PLAN.md",
+      "expected_sha256": "89c4e9f7b2e90848f285d78dd12fc7f71170efdacbd9fb2057106ea93644957f",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "34eb594131c9f1a0f5a524a6bff0e47f97e7ceed49711f70c02b6d4e648fb5ef",
+      "before_newlines": {
+        "bytes": 16264,
+        "LF_bytes": 230,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "34eb594131c9f1a0f5a524a6bff0e47f97e7ceed49711f70c02b6d4e648fb5ef",
+        "CRLF": "89c4e9f7b2e90848f285d78dd12fc7f71170efdacbd9fb2057106ea93644957f"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/IMPLEMENTATION_PLAN.md",
+      "backup_sha256": "34eb594131c9f1a0f5a524a6bff0e47f97e7ceed49711f70c02b6d4e648fb5ef",
+      "planned_sha256": "89c4e9f7b2e90848f285d78dd12fc7f71170efdacbd9fb2057106ea93644957f",
+      "planned_newlines": {
+        "bytes": 16494,
+        "LF_bytes": 230,
+        "CRLF_pairs": 230,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/README.md",
+      "expected_sha256": "ce620b3f10680b456c9e0758dcd1e862e669f2ce0ed1506d51b778ab6b54ba59",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "492ab209cc367de57dad7ebff1be5adf4cac65722c492bf14b5ee16739cc2425",
+      "before_newlines": {
+        "bytes": 3665,
+        "LF_bytes": 65,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "492ab209cc367de57dad7ebff1be5adf4cac65722c492bf14b5ee16739cc2425",
+        "CRLF": "ce620b3f10680b456c9e0758dcd1e862e669f2ce0ed1506d51b778ab6b54ba59"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/README.md",
+      "backup_sha256": "492ab209cc367de57dad7ebff1be5adf4cac65722c492bf14b5ee16739cc2425",
+      "planned_sha256": "ce620b3f10680b456c9e0758dcd1e862e669f2ce0ed1506d51b778ab6b54ba59",
+      "planned_newlines": {
+        "bytes": 3730,
+        "LF_bytes": 65,
+        "CRLF_pairs": 65,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/REVIEW_MANIFEST.json",
+      "expected_sha256": "ba4b808b48ee49d339626e8f4f4586de7e47ab206699e9ab3095fed3f310c820",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "4865a13f62377faa4928f1d66cc88a73cd58d71bafef4ffe1932433b4bba2d81",
+      "before_newlines": {
+        "bytes": 2638,
+        "LF_bytes": 77,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "4865a13f62377faa4928f1d66cc88a73cd58d71bafef4ffe1932433b4bba2d81",
+        "CRLF": "ba4b808b48ee49d339626e8f4f4586de7e47ab206699e9ab3095fed3f310c820"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "json_values_unchanged": true,
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/REVIEW_MANIFEST.json",
+      "backup_sha256": "4865a13f62377faa4928f1d66cc88a73cd58d71bafef4ffe1932433b4bba2d81",
+      "planned_sha256": "ba4b808b48ee49d339626e8f4f4586de7e47ab206699e9ab3095fed3f310c820",
+      "planned_newlines": {
+        "bytes": 2715,
+        "LF_bytes": 77,
+        "CRLF_pairs": 77,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/SOURCE_AUDIT.md",
+      "expected_sha256": "6044e91f6a036afecf28a555674c96055759ab4875804dd45fc14d967ea07cc9",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "eaae5c74b911123237a73417ddea915afe5ac2190c1ac4ce2edda48bd9c4dc52",
+      "before_newlines": {
+        "bytes": 5257,
+        "LF_bytes": 78,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "eaae5c74b911123237a73417ddea915afe5ac2190c1ac4ce2edda48bd9c4dc52",
+        "CRLF": "6044e91f6a036afecf28a555674c96055759ab4875804dd45fc14d967ea07cc9"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/SOURCE_AUDIT.md",
+      "backup_sha256": "eaae5c74b911123237a73417ddea915afe5ac2190c1ac4ce2edda48bd9c4dc52",
+      "planned_sha256": "6044e91f6a036afecf28a555674c96055759ab4875804dd45fc14d967ea07cc9",
+      "planned_newlines": {
+        "bytes": 5335,
+        "LF_bytes": 78,
+        "CRLF_pairs": 78,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/VALIDATION_PLAN.md",
+      "expected_sha256": "0048e160e929bc20b9926802e587cec6b212f623e336c1e975b58bfb07883be5",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "1436fbad6a28bfbeb1a20e803e8ebcfca2d97515eb2658d1992db5675e802e11",
+      "before_newlines": {
+        "bytes": 7229,
+        "LF_bytes": 127,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "1436fbad6a28bfbeb1a20e803e8ebcfca2d97515eb2658d1992db5675e802e11",
+        "CRLF": "0048e160e929bc20b9926802e587cec6b212f623e336c1e975b58bfb07883be5"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/VALIDATION_PLAN.md",
+      "backup_sha256": "1436fbad6a28bfbeb1a20e803e8ebcfca2d97515eb2658d1992db5675e802e11",
+      "planned_sha256": "0048e160e929bc20b9926802e587cec6b212f623e336c1e975b58bfb07883be5",
+      "planned_newlines": {
+        "bytes": 7356,
+        "LF_bytes": 127,
+        "CRLF_pairs": 127,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/baseline_primary_endpoints.txt",
+      "expected_sha256": "0c87a2cdc332692d0fcd768178d3ea58d7b501a969b8bd61b874c187a30b926a",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "ab9ba53c81c154ec6d6f388bdc8ddf2d1215d45886f1798b7890bbc3b79271e4",
+      "before_newlines": {
+        "bytes": 2045,
+        "LF_bytes": 29,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "ab9ba53c81c154ec6d6f388bdc8ddf2d1215d45886f1798b7890bbc3b79271e4",
+        "CRLF": "0c87a2cdc332692d0fcd768178d3ea58d7b501a969b8bd61b874c187a30b926a"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/baseline_primary_endpoints.txt",
+      "backup_sha256": "ab9ba53c81c154ec6d6f388bdc8ddf2d1215d45886f1798b7890bbc3b79271e4",
+      "planned_sha256": "0c87a2cdc332692d0fcd768178d3ea58d7b501a969b8bd61b874c187a30b926a",
+      "planned_newlines": {
+        "bytes": 2074,
+        "LF_bytes": 29,
+        "CRLF_pairs": 29,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/baseline_pytest.txt",
+      "expected_sha256": "0b1cc1480e0401627606bb630baba2ae21d166c2ed447903aac8b66a66d2ee57",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "dc544211ce28ed6aad4c83744d274da41f30c7109d49d7c4ca911ba224ed1664",
+      "before_newlines": {
+        "bytes": 845,
+        "LF_bytes": 9,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "dc544211ce28ed6aad4c83744d274da41f30c7109d49d7c4ca911ba224ed1664",
+        "CRLF": "0b1cc1480e0401627606bb630baba2ae21d166c2ed447903aac8b66a66d2ee57"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/baseline_pytest.txt",
+      "backup_sha256": "dc544211ce28ed6aad4c83744d274da41f30c7109d49d7c4ca911ba224ed1664",
+      "planned_sha256": "0b1cc1480e0401627606bb630baba2ae21d166c2ed447903aac8b66a66d2ee57",
+      "planned_newlines": {
+        "bytes": 854,
+        "LF_bytes": 9,
+        "CRLF_pairs": 9,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/baseline_source_excerpts.txt",
+      "expected_sha256": "04be18beac5667787bc74576b80e79f27e6ea07aed9d24fc3d8ed8afdadb0d42",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "28e58d83e510ccd0a6330285bb9e9c8d91a38e70c9a36eecdb5b38306ceecadd",
+      "before_newlines": {
+        "bytes": 45459,
+        "LF_bytes": 799,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "28e58d83e510ccd0a6330285bb9e9c8d91a38e70c9a36eecdb5b38306ceecadd",
+        "CRLF": "04be18beac5667787bc74576b80e79f27e6ea07aed9d24fc3d8ed8afdadb0d42"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/baseline_source_excerpts.txt",
+      "backup_sha256": "28e58d83e510ccd0a6330285bb9e9c8d91a38e70c9a36eecdb5b38306ceecadd",
+      "planned_sha256": "04be18beac5667787bc74576b80e79f27e6ea07aed9d24fc3d8ed8afdadb0d42",
+      "planned_newlines": {
+        "bytes": 46258,
+        "LF_bytes": 799,
+        "CRLF_pairs": 799,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/primary_configuration_audit.json",
+      "expected_sha256": "887b6c840591085644bfe7cd9c43d8c56ac1e60c6cfdbb09ee1e798340074a77",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "296a496287d848b15983aed0f6e539446ecdc6e1d4eacd479d784679f6f199b6",
+      "before_newlines": {
+        "bytes": 108877,
+        "LF_bytes": 3819,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "296a496287d848b15983aed0f6e539446ecdc6e1d4eacd479d784679f6f199b6",
+        "CRLF": "887b6c840591085644bfe7cd9c43d8c56ac1e60c6cfdbb09ee1e798340074a77"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "json_values_unchanged": true,
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/primary_configuration_audit.json",
+      "backup_sha256": "296a496287d848b15983aed0f6e539446ecdc6e1d4eacd479d784679f6f199b6",
+      "planned_sha256": "887b6c840591085644bfe7cd9c43d8c56ac1e60c6cfdbb09ee1e798340074a77",
+      "planned_newlines": {
+        "bytes": 112696,
+        "LF_bytes": 3819,
+        "CRLF_pairs": 3819,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/proposal_sources.txt",
+      "expected_sha256": "051608ac2ed304a2716acfb23e7b5ddeafb2c0e91212d523922f85643036115b",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "d854c91e31dde34cd42c897bb1effcccbb3c950959d95f7ca60c5f1fc24240f0",
+      "before_newlines": {
+        "bytes": 90149,
+        "LF_bytes": 1177,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "d854c91e31dde34cd42c897bb1effcccbb3c950959d95f7ca60c5f1fc24240f0",
+        "CRLF": "051608ac2ed304a2716acfb23e7b5ddeafb2c0e91212d523922f85643036115b"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/proposal_sources.txt",
+      "backup_sha256": "d854c91e31dde34cd42c897bb1effcccbb3c950959d95f7ca60c5f1fc24240f0",
+      "planned_sha256": "051608ac2ed304a2716acfb23e7b5ddeafb2c0e91212d523922f85643036115b",
+      "planned_newlines": {
+        "bytes": 91326,
+        "LF_bytes": 1177,
+        "CRLF_pairs": 1177,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/review_checks.json",
+      "expected_sha256": "7d95ba4b18a858c08a8f50c164f30bff241c3d24646bdbd49d41d515e01eb4b4",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "d4f7f8fedb5a38537eec9374bed61b54d53925b367726701d07dc470c3ce9f71",
+      "before_newlines": {
+        "bytes": 910,
+        "LF_bytes": 34,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "d4f7f8fedb5a38537eec9374bed61b54d53925b367726701d07dc470c3ce9f71",
+        "CRLF": "7d95ba4b18a858c08a8f50c164f30bff241c3d24646bdbd49d41d515e01eb4b4"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "json_values_unchanged": true,
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/review_checks.json",
+      "backup_sha256": "d4f7f8fedb5a38537eec9374bed61b54d53925b367726701d07dc470c3ce9f71",
+      "planned_sha256": "7d95ba4b18a858c08a8f50c164f30bff241c3d24646bdbd49d41d515e01eb4b4",
+      "planned_newlines": {
+        "bytes": 944,
+        "LF_bytes": 34,
+        "CRLF_pairs": 34,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/review_checks.py",
+      "expected_sha256": "305f70fbf89817f0755e344f1ecc99af1237f474987217033687ed984e340268",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "fe1a00cdf5573c858f6cf49200b5606220a813643129602f0de0c4c1d83afb88",
+      "before_newlines": {
+        "bytes": 4847,
+        "LF_bytes": 99,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "fe1a00cdf5573c858f6cf49200b5606220a813643129602f0de0c4c1d83afb88",
+        "CRLF": "305f70fbf89817f0755e344f1ecc99af1237f474987217033687ed984e340268"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/review_checks.py",
+      "backup_sha256": "fe1a00cdf5573c858f6cf49200b5606220a813643129602f0de0c4c1d83afb88",
+      "planned_sha256": "305f70fbf89817f0755e344f1ecc99af1237f474987217033687ed984e340268",
+      "planned_newlines": {
+        "bytes": 4946,
+        "LF_bytes": 99,
+        "CRLF_pairs": 99,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/source_manifest.json",
+      "expected_sha256": "3a2df599dde4d1635ff63c9cc831b1f22e06b6c3db695527b1e30770db37bcc2",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "083236170934172d25176413e72419a32186de9e60361bff2c016451f6994c2f",
+      "before_newlines": {
+        "bytes": 3460,
+        "LF_bytes": 49,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "083236170934172d25176413e72419a32186de9e60361bff2c016451f6994c2f",
+        "CRLF": "3a2df599dde4d1635ff63c9cc831b1f22e06b6c3db695527b1e30770db37bcc2"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "json_values_unchanged": true,
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/source_manifest.json",
+      "backup_sha256": "083236170934172d25176413e72419a32186de9e60361bff2c016451f6994c2f",
+      "planned_sha256": "3a2df599dde4d1635ff63c9cc831b1f22e06b6c3db695527b1e30770db37bcc2",
+      "planned_newlines": {
+        "bytes": 3509,
+        "LF_bytes": 49,
+        "CRLF_pairs": 49,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/proposal/README.md",
+      "expected_sha256": "b988fb9899acbfb4fd72f91678496f09f8d683d462800508246f48e8cc184d0f",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "7c42f44fc68eb83549c6c814407eed306ffb9b1fc3bdde9c7e4c7b774fe48c4a",
+      "before_newlines": {
+        "bytes": 3423,
+        "LF_bytes": 44,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "7c42f44fc68eb83549c6c814407eed306ffb9b1fc3bdde9c7e4c7b774fe48c4a",
+        "CRLF": "b988fb9899acbfb4fd72f91678496f09f8d683d462800508246f48e8cc184d0f"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/proposal/README.md",
+      "backup_sha256": "7c42f44fc68eb83549c6c814407eed306ffb9b1fc3bdde9c7e4c7b774fe48c4a",
+      "planned_sha256": "b988fb9899acbfb4fd72f91678496f09f8d683d462800508246f48e8cc184d0f",
+      "planned_newlines": {
+        "bytes": 3467,
+        "LF_bytes": 44,
+        "CRLF_pairs": 44,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/JOINT_R150_REVIEW.md",
+      "expected_sha256": "3069b96c5e5c2e5312ac2f2c714e5834d31831fba96ed82eb429b0a525605e3f",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "c45722d3c165fd33a4949c3c54f48af8d720f53bea3aa246f318ff5a2bce3e77",
+      "before_newlines": {
+        "bytes": 10266,
+        "LF_bytes": 104,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "c45722d3c165fd33a4949c3c54f48af8d720f53bea3aa246f318ff5a2bce3e77",
+        "CRLF": "3069b96c5e5c2e5312ac2f2c714e5834d31831fba96ed82eb429b0a525605e3f"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/JOINT_R150_REVIEW.md",
+      "backup_sha256": "c45722d3c165fd33a4949c3c54f48af8d720f53bea3aa246f318ff5a2bce3e77",
+      "planned_sha256": "3069b96c5e5c2e5312ac2f2c714e5834d31831fba96ed82eb429b0a525605e3f",
+      "planned_newlines": {
+        "bytes": 10370,
+        "LF_bytes": 104,
+        "CRLF_pairs": 104,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/independent_summary.json",
+      "expected_sha256": "d2d53dc5ad5c5d36194e163748ad24d0ff367e64eaa1199debc966798e5326ab",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "1bacee3b0e4e05e32a33fdc2d521b824bfb53a1a9cb12251e62b89c3133ddbd1",
+      "before_newlines": {
+        "bytes": 1678,
+        "LF_bytes": 46,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "1bacee3b0e4e05e32a33fdc2d521b824bfb53a1a9cb12251e62b89c3133ddbd1",
+        "CRLF": "d2d53dc5ad5c5d36194e163748ad24d0ff367e64eaa1199debc966798e5326ab"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "json_values_unchanged": true,
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/independent_summary.json",
+      "backup_sha256": "1bacee3b0e4e05e32a33fdc2d521b824bfb53a1a9cb12251e62b89c3133ddbd1",
+      "planned_sha256": "d2d53dc5ad5c5d36194e163748ad24d0ff367e64eaa1199debc966798e5326ab",
+      "planned_newlines": {
+        "bytes": 1724,
+        "LF_bytes": 46,
+        "CRLF_pairs": 46,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_accuracy_R150.png",
+      "expected_sha256": "8705b020c29f629fb9ca5f259980e386aea0be48e4b9e718e35077b157acc21d",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "8705b020c29f629fb9ca5f259980e386aea0be48e4b9e718e35077b157acc21d",
+      "before_newlines": {
+        "bytes": 101915,
+        "LF_bytes": 288,
+        "CRLF_pairs": 2,
+        "bare_CR": 448
+      },
+      "git_tracked": true,
+      "decision": "already_verified_leave_unchanged"
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_client_retention_summary.csv",
+      "expected_sha256": "f55fdf9f384ae716d3f3c8fbf48d13b0efad973b34a9b68f126464b099fdf0a8",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "1b635761863affb457b91e4a7a6c7a7b106512e3fd8f24099af65f4540fbe282",
+      "before_newlines": {
+        "bytes": 2111,
+        "LF_bytes": 21,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "1b635761863affb457b91e4a7a6c7a7b106512e3fd8f24099af65f4540fbe282",
+        "CRLF": "f55fdf9f384ae716d3f3c8fbf48d13b0efad973b34a9b68f126464b099fdf0a8"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 21,
+      "csv_records_sha256": "4d0c6ec65e0962d0b93edf8c2c7e3467f86fac8a04f8c98ea67c6272acd5bd0b",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_client_retention_summary.csv",
+      "backup_sha256": "1b635761863affb457b91e4a7a6c7a7b106512e3fd8f24099af65f4540fbe282",
+      "planned_sha256": "f55fdf9f384ae716d3f3c8fbf48d13b0efad973b34a9b68f126464b099fdf0a8",
+      "planned_newlines": {
+        "bytes": 2132,
+        "LF_bytes": 21,
+        "CRLF_pairs": 21,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_clients_true_weighted_KL.csv",
+      "expected_sha256": "20b79bcefa3508722ec96a972d1a3c7f83bd61a5f960386457cb4ad520964131",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "414605b604029fe1469f6794ea8ae0e5f9bb9c17670258e9b24aceb685eda0c8",
+      "before_newlines": {
+        "bytes": 546922,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "414605b604029fe1469f6794ea8ae0e5f9bb9c17670258e9b24aceb685eda0c8",
+        "CRLF": "20b79bcefa3508722ec96a972d1a3c7f83bd61a5f960386457cb4ad520964131"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 3001,
+      "csv_records_sha256": "ca25ae704d75e883fb028011e500facd8baf06ef8e436f201f49ca0e89403e79",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_clients_true_weighted_KL.csv",
+      "backup_sha256": "414605b604029fe1469f6794ea8ae0e5f9bb9c17670258e9b24aceb685eda0c8",
+      "planned_sha256": "20b79bcefa3508722ec96a972d1a3c7f83bd61a5f960386457cb4ad520964131",
+      "planned_newlines": {
+        "bytes": 549923,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 3001,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_control_event_breakdown.csv",
+      "expected_sha256": "46aec07e747a98b7a928db05dcde3973728a7d99b909e3645542d2489b1f4617",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "c3b064c437c98dc63bb4256c947ac3520361206491f41d933340918b45401d93",
+      "before_newlines": {
+        "bytes": 581,
+        "LF_bytes": 15,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "c3b064c437c98dc63bb4256c947ac3520361206491f41d933340918b45401d93",
+        "CRLF": "46aec07e747a98b7a928db05dcde3973728a7d99b909e3645542d2489b1f4617"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 15,
+      "csv_records_sha256": "dbfa0c5df81a3e00b16ae1d15618bf66d642714a010fc01f7b9d30127f8773d4",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_control_event_breakdown.csv",
+      "backup_sha256": "c3b064c437c98dc63bb4256c947ac3520361206491f41d933340918b45401d93",
+      "planned_sha256": "46aec07e747a98b7a928db05dcde3973728a7d99b909e3645542d2489b1f4617",
+      "planned_newlines": {
+        "bytes": 596,
+        "LF_bytes": 15,
+        "CRLF_pairs": 15,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_discarded_KL_R2_R150.png",
+      "expected_sha256": "cfba3b4101966a42deb1c8a5f9bb02153eb1d8421b621fd24e2494ba3f7c681b",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "cfba3b4101966a42deb1c8a5f9bb02153eb1d8421b621fd24e2494ba3f7c681b",
+      "before_newlines": {
+        "bytes": 78716,
+        "LF_bytes": 198,
+        "CRLF_pairs": 1,
+        "bare_CR": 407
+      },
+      "git_tracked": true,
+      "decision": "already_verified_leave_unchanged"
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_nll_R150.png",
+      "expected_sha256": "42fb5fba43c55815896708abab941e99fb5c1e67f77a5816057ac4e2c62885a5",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "42fb5fba43c55815896708abab941e99fb5c1e67f77a5816057ac4e2c62885a5",
+      "before_newlines": {
+        "bytes": 90722,
+        "LF_bytes": 236,
+        "CRLF_pairs": 2,
+        "bare_CR": 407
+      },
+      "git_tracked": true,
+      "decision": "already_verified_leave_unchanged"
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_retention_R150.png",
+      "expected_sha256": "6b06d0897ea0439593abc22f7163b1f75b300c80596c602d009efdc3cd0b81fb",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "6b06d0897ea0439593abc22f7163b1f75b300c80596c602d009efdc3cd0b81fb",
+      "before_newlines": {
+        "bytes": 110788,
+        "LF_bytes": 400,
+        "CRLF_pairs": 3,
+        "bare_CR": 563
+      },
+      "git_tracked": true,
+      "decision": "already_verified_leave_unchanged"
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/config.py.before_matched_init",
+      "expected_sha256": "ccdd5376793e683e00e9643c5c0a6e4f713997fb0a26f7f916df67c84691f48f",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "6849d66fcb36831ea23d0deaecce8cdf0ddcca5407dec142d59ff0a2f1f21e84",
+      "before_newlines": {
+        "bytes": 7350,
+        "LF_bytes": 218,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "6849d66fcb36831ea23d0deaecce8cdf0ddcca5407dec142d59ff0a2f1f21e84",
+        "CRLF": "ccdd5376793e683e00e9643c5c0a6e4f713997fb0a26f7f916df67c84691f48f"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/config.py.before_matched_init",
+      "backup_sha256": "6849d66fcb36831ea23d0deaecce8cdf0ddcca5407dec142d59ff0a2f1f21e84",
+      "planned_sha256": "ccdd5376793e683e00e9643c5c0a6e4f713997fb0a26f7f916df67c84691f48f",
+      "planned_newlines": {
+        "bytes": 7568,
+        "LF_bytes": 218,
+        "CRLF_pairs": 218,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/config.py.before_paper00_strict",
+      "expected_sha256": "994a8f34bfbac9dcc84e7f3cc26356f76cf445552be0fae12aa04e81005e1c95",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "20b4997cc249ca16c86a0a72378ae491d0bedd33fcca6fe1b20289daebd212f7",
+      "before_newlines": {
+        "bytes": 17076,
+        "LF_bytes": 403,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "20b4997cc249ca16c86a0a72378ae491d0bedd33fcca6fe1b20289daebd212f7",
+        "CRLF": "994a8f34bfbac9dcc84e7f3cc26356f76cf445552be0fae12aa04e81005e1c95"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/config.py.before_paper00_strict",
+      "backup_sha256": "20b4997cc249ca16c86a0a72378ae491d0bedd33fcca6fe1b20289daebd212f7",
+      "planned_sha256": "994a8f34bfbac9dcc84e7f3cc26356f76cf445552be0fae12aa04e81005e1c95",
+      "planned_newlines": {
+        "bytes": 17479,
+        "LF_bytes": 403,
+        "CRLF_pairs": 403,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/experiment_state.py.before_paper00_strict",
+      "expected_sha256": "6e497033ae66357d1902686ba8e0b4edb5e231f0f5664872087f7a92ce096a56",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "ddb77ec62a889a2e17a0af03f2f90dc4e5bcdb94fe2f1886e6980ecc28246d0c",
+      "before_newlines": {
+        "bytes": 23721,
+        "LF_bytes": 398,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "ddb77ec62a889a2e17a0af03f2f90dc4e5bcdb94fe2f1886e6980ecc28246d0c",
+        "CRLF": "6e497033ae66357d1902686ba8e0b4edb5e231f0f5664872087f7a92ce096a56"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/experiment_state.py.before_paper00_strict",
+      "backup_sha256": "ddb77ec62a889a2e17a0af03f2f90dc4e5bcdb94fe2f1886e6980ecc28246d0c",
+      "planned_sha256": "6e497033ae66357d1902686ba8e0b4edb5e231f0f5664872087f7a92ce096a56",
+      "planned_newlines": {
+        "bytes": 24119,
+        "LF_bytes": 398,
+        "CRLF_pairs": 398,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/models/factory.py.before_matched_init",
+      "expected_sha256": "e3b204157c990c1053adfd6cb39a4ec815b4ee1870c129a49721142ff24e0a64",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "e680fbf996866978f6e9a893f179e9db3d8fb6ad38ce4314786c50a4b631da58",
+      "before_newlines": {
+        "bytes": 1353,
+        "LF_bytes": 41,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "e680fbf996866978f6e9a893f179e9db3d8fb6ad38ce4314786c50a4b631da58",
+        "CRLF": "e3b204157c990c1053adfd6cb39a4ec815b4ee1870c129a49721142ff24e0a64"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/models/factory.py.before_matched_init",
+      "backup_sha256": "e680fbf996866978f6e9a893f179e9db3d8fb6ad38ce4314786c50a4b631da58",
+      "planned_sha256": "e3b204157c990c1053adfd6cb39a4ec815b4ee1870c129a49721142ff24e0a64",
+      "planned_newlines": {
+        "bytes": 1394,
+        "LF_bytes": 41,
+        "CRLF_pairs": 41,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/server.py.before_matched_init",
+      "expected_sha256": "5fc030a865afbb8747b158dde0d79264349b608f0fc8c203b41a991a094958a7",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "1e2b24c6881bcbf093867e1adc093f774c2ee9632df5575e72bb3365fbdb7651",
+      "before_newlines": {
+        "bytes": 3594,
+        "LF_bytes": 106,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "1e2b24c6881bcbf093867e1adc093f774c2ee9632df5575e72bb3365fbdb7651",
+        "CRLF": "5fc030a865afbb8747b158dde0d79264349b608f0fc8c203b41a991a094958a7"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/server.py.before_matched_init",
+      "backup_sha256": "1e2b24c6881bcbf093867e1adc093f774c2ee9632df5575e72bb3365fbdb7651",
+      "planned_sha256": "5fc030a865afbb8747b158dde0d79264349b608f0fc8c203b41a991a094958a7",
+      "planned_newlines": {
+        "bytes": 3700,
+        "LF_bytes": 106,
+        "CRLF_pairs": 106,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "archived_document",
+      "path": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/training/deterministic.py.before_paper00_strict",
+      "expected_sha256": "8d441862ca9f8166b4cab9076b68dd137bf3d09d6b6a3bf6c964671cf4899f7a",
+      "authority": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+      "before_sha256": "704a1dbe9063fbcdf4bf9f5281bb13d8855ac81fc19d78ac2ac9f99d3cb1c5a6",
+      "before_newlines": {
+        "bytes": 1625,
+        "LF_bytes": 55,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "704a1dbe9063fbcdf4bf9f5281bb13d8855ac81fc19d78ac2ac9f99d3cb1c5a6",
+        "CRLF": "8d441862ca9f8166b4cab9076b68dd137bf3d09d6b6a3bf6c964671cf4899f7a"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/training/deterministic.py.before_paper00_strict",
+      "backup_sha256": "704a1dbe9063fbcdf4bf9f5281bb13d8855ac81fc19d78ac2ac9f99d3cb1c5a6",
+      "planned_sha256": "8d441862ca9f8166b4cab9076b68dd137bf3d09d6b6a3bf6c964671cf4899f7a",
+      "planned_newlines": {
+        "bytes": 1680,
+        "LF_bytes": 55,
+        "CRLF_pairs": 55,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "Reference",
+      "path": "outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/metrics/global_metrics.csv",
+      "expected_sha256": "4c241809b1e9ca5f8cb2f325f132396b5a4cc066197fe969f71de87d57d72037",
+      "authority": "outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/wireless_resume/round_000150.json",
+      "authority_state_sha256": "c85e222a2179949d4b5bbdc1033678b082330af29791e81e2e317d53bcd50a6e",
+      "before_sha256": "47174cbf1ef2afe5dd800067e1db6e7e27d69a4aa9165480197c97c70d1dfe96",
+      "before_newlines": {
+        "bytes": 124786,
+        "LF_bytes": 152,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "47174cbf1ef2afe5dd800067e1db6e7e27d69a4aa9165480197c97c70d1dfe96",
+        "CRLF": "4c241809b1e9ca5f8cb2f325f132396b5a4cc066197fe969f71de87d57d72037"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 152,
+      "csv_records_sha256": "e36c146777fce6df78418d1d1c25b828bb107fc5029c5167a8f7580cd684e63e",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/metrics/global_metrics.csv",
+      "backup_sha256": "47174cbf1ef2afe5dd800067e1db6e7e27d69a4aa9165480197c97c70d1dfe96",
+      "planned_sha256": "4c241809b1e9ca5f8cb2f325f132396b5a4cc066197fe969f71de87d57d72037",
+      "planned_newlines": {
+        "bytes": 124938,
+        "LF_bytes": 152,
+        "CRLF_pairs": 152,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "Reference",
+      "path": "outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/metrics/wireless_clients.csv",
+      "expected_sha256": "8edaf960d4ce2473b29ac99012c30afb9b7ae328fda308093f0dc068a32152c9",
+      "authority": "outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/wireless_resume/round_000150.json",
+      "authority_state_sha256": "c85e222a2179949d4b5bbdc1033678b082330af29791e81e2e317d53bcd50a6e",
+      "before_sha256": "b904b4505227b86130121c560a1373415a991846cd627dac1a9b3b33cf366130",
+      "before_newlines": {
+        "bytes": 1031452,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "b904b4505227b86130121c560a1373415a991846cd627dac1a9b3b33cf366130",
+        "CRLF": "8edaf960d4ce2473b29ac99012c30afb9b7ae328fda308093f0dc068a32152c9"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 3001,
+      "csv_records_sha256": "1b3970eb76cd8a1890a2a588e5d3bb37b94d1f2212127313bdaadc5b5f7d859c",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/metrics/wireless_clients.csv",
+      "backup_sha256": "b904b4505227b86130121c560a1373415a991846cd627dac1a9b3b33cf366130",
+      "planned_sha256": "8edaf960d4ce2473b29ac99012c30afb9b7ae328fda308093f0dc068a32152c9",
+      "planned_newlines": {
+        "bytes": 1034453,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 3001,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "Reference",
+      "path": "outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/metrics/wireless_rounds.csv",
+      "expected_sha256": "7e413e227ed9159956a5535f7d01c7e05a79951fa7fc02a660c959b4979df76d",
+      "authority": "outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/wireless_resume/round_000150.json",
+      "authority_state_sha256": "c85e222a2179949d4b5bbdc1033678b082330af29791e81e2e317d53bcd50a6e",
+      "before_sha256": "7cafa198d09079d7ea02042f7089fb5abee3ae01dbf11553dc1055e9958161aa",
+      "before_newlines": {
+        "bytes": 76449,
+        "LF_bytes": 151,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "7cafa198d09079d7ea02042f7089fb5abee3ae01dbf11553dc1055e9958161aa",
+        "CRLF": "7e413e227ed9159956a5535f7d01c7e05a79951fa7fc02a660c959b4979df76d"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 151,
+      "csv_records_sha256": "90e4432b5f14edd457c76a7e168ff826e5e6da18071ca08a8e5424ca57e6147f",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/metrics/wireless_rounds.csv",
+      "backup_sha256": "7cafa198d09079d7ea02042f7089fb5abee3ae01dbf11553dc1055e9958161aa",
+      "planned_sha256": "7e413e227ed9159956a5535f7d01c7e05a79951fa7fc02a660c959b4979df76d",
+      "planned_newlines": {
+        "bytes": 76600,
+        "LF_bytes": 151,
+        "CRLF_pairs": 151,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "U170",
+      "path": "outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923/metrics/global_metrics.csv",
+      "expected_sha256": "7c7510e0e4dc9a61eda106d889ce327211347734598b31e484cde496a1873ad3",
+      "authority": "outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923/wireless_resume/round_000150.json",
+      "authority_state_sha256": "1047cb8e5fae28eac4b57551a50c67cf5b0a450a0634a78dda6359b030b83351",
+      "before_sha256": "699e868977fec1440f8f25188bf5864d59935f178a6472af5a612b2a23985a2a",
+      "before_newlines": {
+        "bytes": 124437,
+        "LF_bytes": 152,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "699e868977fec1440f8f25188bf5864d59935f178a6472af5a612b2a23985a2a",
+        "CRLF": "7c7510e0e4dc9a61eda106d889ce327211347734598b31e484cde496a1873ad3"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 152,
+      "csv_records_sha256": "5b57a884322968e837aad740723f007de3889a3ddf137106316d8675b5bf2420",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923/metrics/global_metrics.csv",
+      "backup_sha256": "699e868977fec1440f8f25188bf5864d59935f178a6472af5a612b2a23985a2a",
+      "planned_sha256": "7c7510e0e4dc9a61eda106d889ce327211347734598b31e484cde496a1873ad3",
+      "planned_newlines": {
+        "bytes": 124589,
+        "LF_bytes": 152,
+        "CRLF_pairs": 152,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "U170",
+      "path": "outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923/metrics/wireless_clients.csv",
+      "expected_sha256": "cda1fc9eaf26630249bc528f83358c954ee53c5db2052fb3e28956f5f697e94b",
+      "authority": "outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923/wireless_resume/round_000150.json",
+      "authority_state_sha256": "1047cb8e5fae28eac4b57551a50c67cf5b0a450a0634a78dda6359b030b83351",
+      "before_sha256": "61893ba5d4cf0ea7bc90259d917560725bd9676cbb497d00ac131ac10a8029a0",
+      "before_newlines": {
+        "bytes": 1022124,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "61893ba5d4cf0ea7bc90259d917560725bd9676cbb497d00ac131ac10a8029a0",
+        "CRLF": "cda1fc9eaf26630249bc528f83358c954ee53c5db2052fb3e28956f5f697e94b"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 3001,
+      "csv_records_sha256": "91a4fc65e054d46f8f3e830e6d16aa6d81dd38dea56f2537deac472d86bc48ac",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923/metrics/wireless_clients.csv",
+      "backup_sha256": "61893ba5d4cf0ea7bc90259d917560725bd9676cbb497d00ac131ac10a8029a0",
+      "planned_sha256": "cda1fc9eaf26630249bc528f83358c954ee53c5db2052fb3e28956f5f697e94b",
+      "planned_newlines": {
+        "bytes": 1025125,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 3001,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "U170",
+      "path": "outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923/metrics/wireless_rounds.csv",
+      "expected_sha256": "57f5b0716113722bd7b46b32c1801f9857a2b1d23b755ebb1dbe89519694b804",
+      "authority": "outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923/wireless_resume/round_000150.json",
+      "authority_state_sha256": "1047cb8e5fae28eac4b57551a50c67cf5b0a450a0634a78dda6359b030b83351",
+      "before_sha256": "7a481f0a8ce31d25ae47ff4b6c7dce6246ecd4f44a64dd46a918bc5162efe1ee",
+      "before_newlines": {
+        "bytes": 76068,
+        "LF_bytes": 151,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "7a481f0a8ce31d25ae47ff4b6c7dce6246ecd4f44a64dd46a918bc5162efe1ee",
+        "CRLF": "57f5b0716113722bd7b46b32c1801f9857a2b1d23b755ebb1dbe89519694b804"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 151,
+      "csv_records_sha256": "431f1e1bb7a6c102552e07c808e599700e193d141adbb77dea33d8adc4b7b74a",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923/metrics/wireless_rounds.csv",
+      "backup_sha256": "7a481f0a8ce31d25ae47ff4b6c7dce6246ecd4f44a64dd46a918bc5162efe1ee",
+      "planned_sha256": "57f5b0716113722bd7b46b32c1801f9857a2b1d23b755ebb1dbe89519694b804",
+      "planned_newlines": {
+        "bytes": 76219,
+        "LF_bytes": 151,
+        "CRLF_pairs": 151,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "U160",
+      "path": "outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008/metrics/global_metrics.csv",
+      "expected_sha256": "e4db32e43501b40c0d4b052a0de6345b00cebc03ea12e030d7b1b001fd3216a6",
+      "authority": "outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008/wireless_resume/round_000150.json",
+      "authority_state_sha256": "c91008f42a3d5cc92563d9caf66703371ab1aad1e8c3e81e37cbfeab251923fa",
+      "before_sha256": "cfe28cec57a99109684ddfe7a9393063bbc92c38595e9726235ce81d78612ecc",
+      "before_newlines": {
+        "bytes": 124105,
+        "LF_bytes": 152,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "cfe28cec57a99109684ddfe7a9393063bbc92c38595e9726235ce81d78612ecc",
+        "CRLF": "e4db32e43501b40c0d4b052a0de6345b00cebc03ea12e030d7b1b001fd3216a6"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 152,
+      "csv_records_sha256": "13f45494c4b3db0a33389d31763de9bc1fa273d1b832d2b3b0fcc7b5341cb747",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008/metrics/global_metrics.csv",
+      "backup_sha256": "cfe28cec57a99109684ddfe7a9393063bbc92c38595e9726235ce81d78612ecc",
+      "planned_sha256": "e4db32e43501b40c0d4b052a0de6345b00cebc03ea12e030d7b1b001fd3216a6",
+      "planned_newlines": {
+        "bytes": 124257,
+        "LF_bytes": 152,
+        "CRLF_pairs": 152,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "U160",
+      "path": "outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008/metrics/wireless_clients.csv",
+      "expected_sha256": "3b9cdba1d39e9d44a648054c9f1c44f87fcc9932301588f6ef991979b714e004",
+      "authority": "outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008/wireless_resume/round_000150.json",
+      "authority_state_sha256": "c91008f42a3d5cc92563d9caf66703371ab1aad1e8c3e81e37cbfeab251923fa",
+      "before_sha256": "a2f004009e5073ff6ea38dd03caf29de5a1d2da78c3ecf503ee0df61aa766210",
+      "before_newlines": {
+        "bytes": 1021070,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "a2f004009e5073ff6ea38dd03caf29de5a1d2da78c3ecf503ee0df61aa766210",
+        "CRLF": "3b9cdba1d39e9d44a648054c9f1c44f87fcc9932301588f6ef991979b714e004"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 3001,
+      "csv_records_sha256": "f753389a91e6edad788475ebb70ce2d393223f59fe4f902b08ae43833d15c3a1",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008/metrics/wireless_clients.csv",
+      "backup_sha256": "a2f004009e5073ff6ea38dd03caf29de5a1d2da78c3ecf503ee0df61aa766210",
+      "planned_sha256": "3b9cdba1d39e9d44a648054c9f1c44f87fcc9932301588f6ef991979b714e004",
+      "planned_newlines": {
+        "bytes": 1024071,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 3001,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "U160",
+      "path": "outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008/metrics/wireless_rounds.csv",
+      "expected_sha256": "37b78fc1205603fbca143c1bb60b61f4ea91c44dd2f864d34a4bb975e3d4d528",
+      "authority": "outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008/wireless_resume/round_000150.json",
+      "authority_state_sha256": "c91008f42a3d5cc92563d9caf66703371ab1aad1e8c3e81e37cbfeab251923fa",
+      "before_sha256": "8be2089868f6a0f0c93de2c546b2191648d87660aacb4bd3d66194396b3aa6b6",
+      "before_newlines": {
+        "bytes": 75766,
+        "LF_bytes": 151,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "8be2089868f6a0f0c93de2c546b2191648d87660aacb4bd3d66194396b3aa6b6",
+        "CRLF": "37b78fc1205603fbca143c1bb60b61f4ea91c44dd2f864d34a4bb975e3d4d528"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 151,
+      "csv_records_sha256": "74f9b7f2191b1607491cd04523bf13d30cb23e4d27d4680c35abe416fabd6d56",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008/metrics/wireless_rounds.csv",
+      "backup_sha256": "8be2089868f6a0f0c93de2c546b2191648d87660aacb4bd3d66194396b3aa6b6",
+      "planned_sha256": "37b78fc1205603fbca143c1bb60b61f4ea91c44dd2f864d34a4bb975e3d4d528",
+      "planned_newlines": {
+        "bytes": 75917,
+        "LF_bytes": 151,
+        "CRLF_pairs": 151,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "U150",
+      "path": "outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432/metrics/global_metrics.csv",
+      "expected_sha256": "765304638f1ef976eedf1e16c53aa2f9cf2b3cc65c96e73f3605b5d6e8e9382a",
+      "authority": "outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432/wireless_resume/round_000150.json",
+      "authority_state_sha256": "1f2d67f2f1fd313dd66c1e0688f5e645077f605d589cdaa983bf4cc14b968185",
+      "before_sha256": "f46a45e89db4bf165f57386fbb7952ddb65664f689397c0af3c82190820a0317",
+      "before_newlines": {
+        "bytes": 123859,
+        "LF_bytes": 152,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "f46a45e89db4bf165f57386fbb7952ddb65664f689397c0af3c82190820a0317",
+        "CRLF": "765304638f1ef976eedf1e16c53aa2f9cf2b3cc65c96e73f3605b5d6e8e9382a"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 152,
+      "csv_records_sha256": "eb9d794fb5a940d9dd8a4bb7956360d05c983f8dbdb84b7ed5cbb6bc988b27e1",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432/metrics/global_metrics.csv",
+      "backup_sha256": "f46a45e89db4bf165f57386fbb7952ddb65664f689397c0af3c82190820a0317",
+      "planned_sha256": "765304638f1ef976eedf1e16c53aa2f9cf2b3cc65c96e73f3605b5d6e8e9382a",
+      "planned_newlines": {
+        "bytes": 124011,
+        "LF_bytes": 152,
+        "CRLF_pairs": 152,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "U150",
+      "path": "outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432/metrics/wireless_clients.csv",
+      "expected_sha256": "31829f610f956e0f1d39dbc1b9f73820862a73564ed88e488c4ce9a740f799dd",
+      "authority": "outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432/wireless_resume/round_000150.json",
+      "authority_state_sha256": "1f2d67f2f1fd313dd66c1e0688f5e645077f605d589cdaa983bf4cc14b968185",
+      "before_sha256": "c782c677e93b3da4f0108be56792f3a6db4cc9ad306d1da67861233a7b3dcc67",
+      "before_newlines": {
+        "bytes": 1024274,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "c782c677e93b3da4f0108be56792f3a6db4cc9ad306d1da67861233a7b3dcc67",
+        "CRLF": "31829f610f956e0f1d39dbc1b9f73820862a73564ed88e488c4ce9a740f799dd"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 3001,
+      "csv_records_sha256": "0cd6d3fb19196505fd491173fdeaf7a91a25ab0f4b8318466e41d65657f4ea97",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432/metrics/wireless_clients.csv",
+      "backup_sha256": "c782c677e93b3da4f0108be56792f3a6db4cc9ad306d1da67861233a7b3dcc67",
+      "planned_sha256": "31829f610f956e0f1d39dbc1b9f73820862a73564ed88e488c4ce9a740f799dd",
+      "planned_newlines": {
+        "bytes": 1027275,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 3001,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "U150",
+      "path": "outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432/metrics/wireless_rounds.csv",
+      "expected_sha256": "ba217345123d17e1eba271935d40c84e72b53ec5b408d499fe8248bcd08c119e",
+      "authority": "outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432/wireless_resume/round_000150.json",
+      "authority_state_sha256": "1f2d67f2f1fd313dd66c1e0688f5e645077f605d589cdaa983bf4cc14b968185",
+      "before_sha256": "9a12897aae8cfda8a4a0310737dcadca6fe4af8d15459cfffb4dbc7c9492eacf",
+      "before_newlines": {
+        "bytes": 75665,
+        "LF_bytes": 151,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "9a12897aae8cfda8a4a0310737dcadca6fe4af8d15459cfffb4dbc7c9492eacf",
+        "CRLF": "ba217345123d17e1eba271935d40c84e72b53ec5b408d499fe8248bcd08c119e"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 151,
+      "csv_records_sha256": "aa4d6c36964035cbb4b561c897906019e9326dabd049eb607f32473f38574704",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432/metrics/wireless_rounds.csv",
+      "backup_sha256": "9a12897aae8cfda8a4a0310737dcadca6fe4af8d15459cfffb4dbc7c9492eacf",
+      "planned_sha256": "ba217345123d17e1eba271935d40c84e72b53ec5b408d499fe8248bcd08c119e",
+      "planned_newlines": {
+        "bytes": 75816,
+        "LF_bytes": 151,
+        "CRLF_pairs": 151,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "B0550",
+      "path": "outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526/metrics/global_metrics.csv",
+      "expected_sha256": "5007119366adeab70264681186becdbb7589d995c6e21d05fc231df1d4130100",
+      "authority": "outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526/wireless_resume/round_000150.json",
+      "authority_state_sha256": "70e39bcceddd662cda7c89eb3b7d114e5a58177c1fdeadbe17e09570059b079c",
+      "before_sha256": "1afd8ac111a8e2d2e34f781b7f87cbd40b121ae5f2b9081f70933ac72484ac1f",
+      "before_newlines": {
+        "bytes": 123732,
+        "LF_bytes": 152,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "1afd8ac111a8e2d2e34f781b7f87cbd40b121ae5f2b9081f70933ac72484ac1f",
+        "CRLF": "5007119366adeab70264681186becdbb7589d995c6e21d05fc231df1d4130100"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 152,
+      "csv_records_sha256": "e1062efb1ddf241975e592bd3a1f837887865ef11d9c748943ace6414a6171f3",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526/metrics/global_metrics.csv",
+      "backup_sha256": "1afd8ac111a8e2d2e34f781b7f87cbd40b121ae5f2b9081f70933ac72484ac1f",
+      "planned_sha256": "5007119366adeab70264681186becdbb7589d995c6e21d05fc231df1d4130100",
+      "planned_newlines": {
+        "bytes": 123884,
+        "LF_bytes": 152,
+        "CRLF_pairs": 152,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "B0550",
+      "path": "outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526/metrics/wireless_clients.csv",
+      "expected_sha256": "0963676dcbc4231ffdae32ce3d4e65ed2175d73da23c91cb17825b8e02e5c72c",
+      "authority": "outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526/wireless_resume/round_000150.json",
+      "authority_state_sha256": "70e39bcceddd662cda7c89eb3b7d114e5a58177c1fdeadbe17e09570059b079c",
+      "before_sha256": "0cb74ac8d73e0d8d3e0b22888cb967efe35cfc17ff8311351b70759b2eadb5b4",
+      "before_newlines": {
+        "bytes": 916136,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "0cb74ac8d73e0d8d3e0b22888cb967efe35cfc17ff8311351b70759b2eadb5b4",
+        "CRLF": "0963676dcbc4231ffdae32ce3d4e65ed2175d73da23c91cb17825b8e02e5c72c"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 3001,
+      "csv_records_sha256": "ba4f4936c3f72d2c495c429de280e31357836b66874a986669559c2acc0cc415",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526/metrics/wireless_clients.csv",
+      "backup_sha256": "0cb74ac8d73e0d8d3e0b22888cb967efe35cfc17ff8311351b70759b2eadb5b4",
+      "planned_sha256": "0963676dcbc4231ffdae32ce3d4e65ed2175d73da23c91cb17825b8e02e5c72c",
+      "planned_newlines": {
+        "bytes": 919137,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 3001,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "B0550",
+      "path": "outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526/metrics/wireless_rounds.csv",
+      "expected_sha256": "c0bf0763fd85c64862ae74c5f5d9c804e787532bd8c7401908db85249851ad9e",
+      "authority": "outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526/wireless_resume/round_000150.json",
+      "authority_state_sha256": "70e39bcceddd662cda7c89eb3b7d114e5a58177c1fdeadbe17e09570059b079c",
+      "before_sha256": "76abd0503d4b9972e5f5c3ea6d0dcd893bb75a49c0215ca896716fb82095a06f",
+      "before_newlines": {
+        "bytes": 75486,
+        "LF_bytes": 151,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "76abd0503d4b9972e5f5c3ea6d0dcd893bb75a49c0215ca896716fb82095a06f",
+        "CRLF": "c0bf0763fd85c64862ae74c5f5d9c804e787532bd8c7401908db85249851ad9e"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 151,
+      "csv_records_sha256": "9b458a6b68371378425dc4a78e3b45a9e5186833af5720f41d35771ebf47f0cc",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526/metrics/wireless_rounds.csv",
+      "backup_sha256": "76abd0503d4b9972e5f5c3ea6d0dcd893bb75a49c0215ca896716fb82095a06f",
+      "planned_sha256": "c0bf0763fd85c64862ae74c5f5d9c804e787532bd8c7401908db85249851ad9e",
+      "planned_newlines": {
+        "bytes": 75637,
+        "LF_bytes": 151,
+        "CRLF_pairs": 151,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "B0750",
+      "path": "outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448/metrics/global_metrics.csv",
+      "expected_sha256": "f066cee0a379afd2d5749ea63c4311eeceda6763ae1d0124a9c5323ae8219743",
+      "authority": "outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448/wireless_resume/round_000150.json",
+      "authority_state_sha256": "75516eeeb743e92187af720f5d362e6d99098957afb043dd365c914195044c61",
+      "before_sha256": "b9e1668090b7d98ee097ad45740084c53d9ecd846c7d476f1dc78134a7c30e9f",
+      "before_newlines": {
+        "bytes": 124274,
+        "LF_bytes": 152,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "b9e1668090b7d98ee097ad45740084c53d9ecd846c7d476f1dc78134a7c30e9f",
+        "CRLF": "f066cee0a379afd2d5749ea63c4311eeceda6763ae1d0124a9c5323ae8219743"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 152,
+      "csv_records_sha256": "506bb920bdd4c6be48bfe2c36306fd070320d0a5ef4a7c8a2f1907aac84006c5",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448/metrics/global_metrics.csv",
+      "backup_sha256": "b9e1668090b7d98ee097ad45740084c53d9ecd846c7d476f1dc78134a7c30e9f",
+      "planned_sha256": "f066cee0a379afd2d5749ea63c4311eeceda6763ae1d0124a9c5323ae8219743",
+      "planned_newlines": {
+        "bytes": 124426,
+        "LF_bytes": 152,
+        "CRLF_pairs": 152,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "B0750",
+      "path": "outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448/metrics/wireless_clients.csv",
+      "expected_sha256": "7bcd2ecea78966bc126ac7035ad73d5fefefb9f5708698b7fb9b1bf6d44d39f8",
+      "authority": "outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448/wireless_resume/round_000150.json",
+      "authority_state_sha256": "75516eeeb743e92187af720f5d362e6d99098957afb043dd365c914195044c61",
+      "before_sha256": "b526263b8d5b18b3506ce3a9d3f8fafeeafe2cd3e26798a3da9b0c53658472bb",
+      "before_newlines": {
+        "bytes": 1024113,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "b526263b8d5b18b3506ce3a9d3f8fafeeafe2cd3e26798a3da9b0c53658472bb",
+        "CRLF": "7bcd2ecea78966bc126ac7035ad73d5fefefb9f5708698b7fb9b1bf6d44d39f8"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 3001,
+      "csv_records_sha256": "48c116660c82dee891d5e855996a5a77333fcd809e130d1c49ee395b29f80f56",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448/metrics/wireless_clients.csv",
+      "backup_sha256": "b526263b8d5b18b3506ce3a9d3f8fafeeafe2cd3e26798a3da9b0c53658472bb",
+      "planned_sha256": "7bcd2ecea78966bc126ac7035ad73d5fefefb9f5708698b7fb9b1bf6d44d39f8",
+      "planned_newlines": {
+        "bytes": 1027114,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 3001,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "B0750",
+      "path": "outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448/metrics/wireless_rounds.csv",
+      "expected_sha256": "1c622b961f6ba6566e8b8f7d8b2e063e4cc9b1892ab1f3f68c2d13f9e19cea4c",
+      "authority": "outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448/wireless_resume/round_000150.json",
+      "authority_state_sha256": "75516eeeb743e92187af720f5d362e6d99098957afb043dd365c914195044c61",
+      "before_sha256": "b549bbce47595d282fc0463b6a21a9dd0a745a12ba69dace946a2603f15a3e05",
+      "before_newlines": {
+        "bytes": 75906,
+        "LF_bytes": 151,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "b549bbce47595d282fc0463b6a21a9dd0a745a12ba69dace946a2603f15a3e05",
+        "CRLF": "1c622b961f6ba6566e8b8f7d8b2e063e4cc9b1892ab1f3f68c2d13f9e19cea4c"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 151,
+      "csv_records_sha256": "1724e576a21f11c77ffd8f58719a2f1e757eb87f2957db92f70300d8c1e599e9",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448/metrics/wireless_rounds.csv",
+      "backup_sha256": "b549bbce47595d282fc0463b6a21a9dd0a745a12ba69dace946a2603f15a3e05",
+      "planned_sha256": "1c622b961f6ba6566e8b8f7d8b2e063e4cc9b1892ab1f3f68c2d13f9e19cea4c",
+      "planned_newlines": {
+        "bytes": 76057,
+        "LF_bytes": 151,
+        "CRLF_pairs": 151,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "B0950",
+      "path": "outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033/metrics/global_metrics.csv",
+      "expected_sha256": "73399b36d0286cc57d02dafeddaec4f95bbf609581a06ff668c358ea648b609c",
+      "authority": "outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033/wireless_resume/round_000150.json",
+      "authority_state_sha256": "ac98ed118003df887e483b4319007a0e91737b014fd18cf917546fbcd539b4ee",
+      "before_sha256": "6e2cb0ea88f91b7bd63cad1225a9a61534fc1d0521b7f54f0e82ce785c20f207",
+      "before_newlines": {
+        "bytes": 124697,
+        "LF_bytes": 152,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "6e2cb0ea88f91b7bd63cad1225a9a61534fc1d0521b7f54f0e82ce785c20f207",
+        "CRLF": "73399b36d0286cc57d02dafeddaec4f95bbf609581a06ff668c358ea648b609c"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 152,
+      "csv_records_sha256": "d175645ee31be90a8953c2f6e324a7cbab19587770c27ec688679a6b0ce35017",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033/metrics/global_metrics.csv",
+      "backup_sha256": "6e2cb0ea88f91b7bd63cad1225a9a61534fc1d0521b7f54f0e82ce785c20f207",
+      "planned_sha256": "73399b36d0286cc57d02dafeddaec4f95bbf609581a06ff668c358ea648b609c",
+      "planned_newlines": {
+        "bytes": 124849,
+        "LF_bytes": 152,
+        "CRLF_pairs": 152,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "B0950",
+      "path": "outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033/metrics/wireless_clients.csv",
+      "expected_sha256": "772574ddd130680392561c0757b42b62a4f8e3a24ef555c939ea70a8144a14c6",
+      "authority": "outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033/wireless_resume/round_000150.json",
+      "authority_state_sha256": "ac98ed118003df887e483b4319007a0e91737b014fd18cf917546fbcd539b4ee",
+      "before_sha256": "a766c274caae4a9583742febf9c19f2fbc0e7a1aa000d6436c3acc2fb394043e",
+      "before_newlines": {
+        "bytes": 1026123,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "a766c274caae4a9583742febf9c19f2fbc0e7a1aa000d6436c3acc2fb394043e",
+        "CRLF": "772574ddd130680392561c0757b42b62a4f8e3a24ef555c939ea70a8144a14c6"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 3001,
+      "csv_records_sha256": "7512110bca47e5faf2122932dd7e18ca0c93348a16a954a336b06ad907e6e976",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033/metrics/wireless_clients.csv",
+      "backup_sha256": "a766c274caae4a9583742febf9c19f2fbc0e7a1aa000d6436c3acc2fb394043e",
+      "planned_sha256": "772574ddd130680392561c0757b42b62a4f8e3a24ef555c939ea70a8144a14c6",
+      "planned_newlines": {
+        "bytes": 1029124,
+        "LF_bytes": 3001,
+        "CRLF_pairs": 3001,
+        "bare_CR": 0
+      }
+    },
+    {
+      "kind": "wireless_metric",
+      "run_label": "B0950",
+      "path": "outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033/metrics/wireless_rounds.csv",
+      "expected_sha256": "c09831fda7474c2dbe32920151b9f0e8dd4f25965d58dbe414c73ed45d26f624",
+      "authority": "outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033/wireless_resume/round_000150.json",
+      "authority_state_sha256": "ac98ed118003df887e483b4319007a0e91737b014fd18cf917546fbcd539b4ee",
+      "before_sha256": "3af0ab7849a7cf03d05d6291849b484158b9cd9ce4eaef9d6cb806628120ae82",
+      "before_newlines": {
+        "bytes": 76365,
+        "LF_bytes": 151,
+        "CRLF_pairs": 0,
+        "bare_CR": 0
+      },
+      "git_tracked": true,
+      "confirmed_utf8_text": true,
+      "candidate_sha256": {
+        "LF": "3af0ab7849a7cf03d05d6291849b484158b9cd9ce4eaef9d6cb806628120ae82",
+        "CRLF": "c09831fda7474c2dbe32920151b9f0e8dd4f25965d58dbe414c73ed45d26f624"
+      },
+      "matching_candidates": [
+        "CRLF"
+      ],
+      "csv_fields_headers_order_unchanged": true,
+      "csv_rows_including_header": 151,
+      "csv_records_sha256": "a9cc610a3b8d8da64fcd4825ee221a725d7b0df5890c217588a4342dba702656",
+      "decision": "restore_unique_hash_match",
+      "selected_candidate": "CRLF",
+      "backup_path": "/tmp/fedkls_historical_integrity_backup__pishz6i/outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033/metrics/wireless_rounds.csv",
+      "backup_sha256": "3af0ab7849a7cf03d05d6291849b484158b9cd9ce4eaef9d6cb806628120ae82",
+      "planned_sha256": "c09831fda7474c2dbe32920151b9f0e8dd4f25965d58dbe414c73ed45d26f624",
+      "planned_newlines": {
+        "bytes": 76516,
+        "LF_bytes": 151,
+        "CRLF_pairs": 151,
+        "bare_CR": 0
+      }
+    }
+  ],
+  "documents": 91,
+  "wireless_metrics": 21,
+  "already_matching": 4,
+  "proposed_restorations": 107,
+  "unresolved": [
+    "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md"
+  ]
+}

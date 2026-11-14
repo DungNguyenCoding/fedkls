@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python",
+    "/tmp/fedkls_historical_report.py"
+  ],
+  "started_utc": "2026-11-14T08:01:37.959561+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 0.04027374507859349,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null,
+  "pytest_addopts": null,
+  "stdout_utf8": "/home/micl/DungNDH/fedkls/reports/repository_onboarding/HISTORICAL_INTEGRITY_RECOVERY.md\nWords: 1958 Lines: 252\n",
+  "encoding_note": "JSON string preserves exact emitted UTF-8 bytes, including whitespace and CR/LF; no transcript trimming."
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python",
+    "/tmp/fedkls_historical_audit.py"
+  ],
+  "started_utc": "2026-11-14T07:58:25.233130+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 1.5891361439134926,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null,
+  "pytest_addopts": null,
+  "stdout_utf8": "{\n  \"timestamp_seoul\": \"2026-11-14T16:58:26.808635+09:00\",\n  \"base_commit\": \"4946bdc23bd0060105cc708897cd31306d279cba\",\n  \"branch\": \"fix/historical-evidence-newlines\",\n  \"protected_non_target_files_checked\": 1504,\n  \"protected_non_target_changes\": [],\n  \"source_files_checked\": 55,\n  \"configuration_files_checked\": 936,\n  \"prior_report_files_checked\": 150,\n  \"prior_report_changes\": [],\n  \"gitignore_unchanged\": true,\n  \"gitattributes_unchanged\": true,\n  \"unselected_output_files_before\": 26020,\n  \"unselected_output_files_after\": 26020,\n  \"unselected_output_bytes_before\": 401579303,\n  \"unselected_output_bytes_after\": 401579303,\n  \"unselected_output_tree_sha256_before\": \"80b670b1e59b890053f4f5eb2c4c6fb9259e2c7e1cc10cd411979fd43d3c041e\",\n  \"unselected_output_tree_sha256_after\": \"80b670b1e59b890053f4f5eb2c4c6fb9259e2c7e1cc10cd411979fd43d3c041e\",\n  \"unselected_outputs_unchanged\": true,\n  \"raw_backups_verified\": 107,\n  \"all_backups_verified\": true,\n  \"unrestored_targets_unchanged\": true,\n  \"only_verified_restorations_modified_tracked_files\": true,\n  \"unexpected_tracked_paths\": [],\n  \"tree_fingerprint_method\": \"SHA256 of sorted relative_path + NUL + lowercase raw-file SHA256 hex + LF records\"\n}\n",
+  "encoding_note": "JSON string preserves exact emitted UTF-8 bytes, including whitespace and CR/LF; no transcript trimming."
+}

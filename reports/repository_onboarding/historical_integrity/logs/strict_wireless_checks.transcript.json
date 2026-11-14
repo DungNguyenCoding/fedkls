@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python",
+    "/tmp/fedkls_historical_strict.py"
+  ],
+  "started_utc": "2026-11-14T07:55:20.967913+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 4.5079808831214905,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null,
+  "pytest_addopts": null,
+  "stdout_utf8": "Reference strict_export= 0 metrics= True resume_restore= True eligible= True\nU170 strict_export= 0 metrics= True resume_restore= True eligible= True\nU160 strict_export= 0 metrics= True resume_restore= True eligible= True\nU150 strict_export= 0 metrics= True resume_restore= True eligible= True\nB0550 strict_export= 0 metrics= True resume_restore= True eligible= True\nB0750 strict_export= 0 metrics= True resume_restore= True eligible= True\nB0950 strict_export= 0 metrics= True resume_restore= True eligible= True\nNo records-only fallback, run_experiment, evaluation, training, finalize, or checkpoint-save invoked.\n",
+  "encoding_note": "JSON string preserves exact emitted UTF-8 bytes, including whitespace and CR/LF; no transcript trimming."
+}
