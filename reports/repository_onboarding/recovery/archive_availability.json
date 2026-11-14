@@ -1,0 +1,48 @@
+{
+  "exact_archive_name": "FedKLS_clean_refactor_full_with_results_v2.zip",
+  "searched": [
+    {
+      "path": "/home/micl/DungNDH",
+      "exists": true,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "/home/micl/.codex/attachments",
+      "exists": true,
+      "exit_code": 1,
+      "errors": ""
+    },
+    {
+      "path": "/home/micl/Downloads",
+      "exists": false
+    },
+    {
+      "path": "/home/micl/Desktop",
+      "exists": false
+    },
+    {
+      "path": "/home/micl",
+      "scope": "top-level exact filename",
+      "exists": true
+    },
+    {
+      "path": "/tmp",
+      "scope": "top-level exact filename",
+      "exists": true
+    }
+  ],
+  "matches": [],
+  "other_zip_candidates_not_used": [
+    "/home/micl/DungNDH/micl/FedKLS_CIFAR10_Wireless_Pilot_Setup_v1.zip",
+    "/home/micl/DungNDH/micl/FedKLS_Joint_CIFAR10_Sensitivity_R150_Plots_Docs_v1.zip",
+    "/home/micl/DungNDH/micl/FedKLS_Wireless_EOL_Installer_Fix.zip",
+    "/home/micl/DungNDH/micl/FedKLS_CIFAR10_Joint_Sensitivity_SixScenarios_v1.zip",
+    "/home/micl/DungNDH/micl/FedKLS_CIFAR10_SamePosterior_Probe_v1.zip",
+    "/home/micl/DungNDH/micl/FedKLS_Joint_R150_Audit_v1.zip",
+    "/home/micl/DungNDH/micl/FedKLS_CIFAR10_Paired_R11_PreLong_Gate_v1.zip",
+    "/home/micl/DungNDH/micl/FedKLS_Joint_R150_Documentation_Update_v1.zip",
+    "/home/micl/DungNDH/micl/FedKLS_Wireless_Update_v1.zip"
+  ],
+  "status": "unavailable_in_checked_locations_restoration_pending"
+}

@@ -1,0 +1,122 @@
+command: python /tmp/fedkls_recovery_environment.py
+started_utc: 2026-11-14T07:23:35.543563+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+Matplotlib created a temporary cache directory at /tmp/matplotlib-bczgxzj4 because the default path (/home/micl/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/torch/cuda/__init__.py:1061: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+{
+  "cwd": "/home/micl/DungNDH/fedkls",
+  "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+  "executable": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "prefix": "/home/micl/anaconda3/envs/dungndh",
+  "conda_default_env": "dungndh",
+  "conda_prefix": "/home/micl/anaconda3/envs/dungndh",
+  "platform": "Linux-6.8.0-40-generic-x86_64-with-glibc2.35",
+  "requirements": [
+    {
+      "requirement": "PyYAML>=6.0,<7",
+      "installed_version": "6.0.3",
+      "satisfied": true
+    },
+    {
+      "requirement": "bayesian-torch==0.5.0",
+      "installed_version": "0.5.0",
+      "satisfied": true
+    },
+    {
+      "requirement": "flwr[simulation]==1.29.0",
+      "installed_version": "1.29.0",
+      "satisfied": true
+    },
+    {
+      "requirement": "matplotlib>=3.8,<4",
+      "installed_version": "3.8.4",
+      "satisfied": true
+    },
+    {
+      "requirement": "numpy>=1.26,<3",
+      "installed_version": "1.26.4",
+      "satisfied": true
+    },
+    {
+      "requirement": "pytest>=8,<9",
+      "installed_version": "8.4.2",
+      "satisfied": true
+    }
+  ],
+  "imports": {
+    "torch": {
+      "ok": true,
+      "file": "/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/torch/__init__.py"
+    },
+    "torchvision": {
+      "ok": true,
+      "file": "/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/torchvision/__init__.py"
+    },
+    "flwr": {
+      "ok": true,
+      "file": "/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/flwr/__init__.py"
+    },
+    "ray": {
+      "ok": true,
+      "file": "/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/ray/__init__.py"
+    },
+    "bayesian_torch": {
+      "ok": true,
+      "file": "/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/bayesian_torch/__init__.py"
+    },
+    "yaml": {
+      "ok": true,
+      "file": "/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/yaml/__init__.py"
+    },
+    "numpy": {
+      "ok": true,
+      "file": "/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/numpy/__init__.py"
+    },
+    "matplotlib": {
+      "ok": true,
+      "file": "/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/__init__.py"
+    },
+    "pytest": {
+      "ok": true,
+      "file": "/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/pytest/__init__.py"
+    }
+  },
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "flwr": "1.29.0",
+    "ray": "2.51.1",
+    "bayesian-torch": "0.5.0",
+    "PyYAML": "6.0.3",
+    "numpy": "1.26.4",
+    "matplotlib": "3.8.4",
+    "pytest": "8.4.2",
+    "bayesfl-base": "0.1.0"
+  },
+  "torch": {
+    "version": "2.11.0+cu128",
+    "compiled_cuda": "12.8",
+    "cuda_available": false,
+    "cuda_device_count": 0,
+    "cudnn_version": 91900,
+    "devices": []
+  },
+  "nvidia_smi": {
+    "returncode": 9,
+    "stdout": "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.\n\n",
+    "stderr": ""
+  },
+  "pip_check": {
+    "returncode": 1,
+    "stdout": "flwr-baselines 1.0.0 has requirement pandas<2.0.0,>=1.5.3, but you have pandas 2.2.2.\nflwr-baselines 1.0.0 has requirement pillow==10.2.0, but you have pillow 12.1.1.\nflwr-baselines 1.0.0 has requirement torch==2.4.1, but you have torch 2.11.0+cu128.\nflwr-baselines 1.0.0 has requirement torchvision==0.19.1, but you have torchvision 0.26.0+cu128.\n",
+    "stderr": "WARNING: The directory '/home/micl/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.\n"
+  }
+}
+
+exit_code=0
+measured_wall_seconds=4.062126426026225

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python",
+    "-c",
+    "import importlib.metadata as md,os,sys,bayesfl,bayesfl.data.datasets,bayesfl.data.partition,bayesfl.data.transforms; print(\"cwd=\"+os.getcwd()); print(\"python=\"+sys.executable); print(\"python_version=\"+sys.version); print(\"bayesfl=\"+str(bayesfl.__file__)); print(\"editable=\"+str(md.distribution(\"bayesfl-base\").read_text(\"direct_url.json\"))); print(\"data_modules=imported\"); assert str(bayesfl.__file__).startswith(\"/home/micl/DungNDH/fedkls/src/\")"
+  ],
+  "started_utc": "2026-11-14T07:23:07.113954+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 2.092706070980057,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null
+}

@@ -1,0 +1,18 @@
+command: python /tmp/fedkls_recovery_records.py
+started_utc: 2026-11-14T07:23:35.545470+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+Reference strict_exit= 1 records_exit= 0 raw_integrity= False
+U170 strict_exit= 1 records_exit= 0 raw_integrity= False
+U160 strict_exit= 1 records_exit= 0 raw_integrity= False
+U150 strict_exit= 1 records_exit= 0 raw_integrity= False
+B0550 strict_exit= 1 records_exit= 0 raw_integrity= False
+B0750 strict_exit= 1 records_exit= 0 raw_integrity= False
+B0950 strict_exit= 1 records_exit= 0 raw_integrity= False
+No training, checkpoint deserialization, source writes, hash normalization, or evidence rewrites.
+
+exit_code=0
+measured_wall_seconds=3.5377461060415953

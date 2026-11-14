@@ -1,0 +1,16 @@
+command: python -c 'import importlib.metadata as md,os,sys,bayesfl,bayesfl.data.datasets,bayesfl.data.partition,bayesfl.data.transforms; print("cwd="+os.getcwd()); print("python="+sys.executable); print("python_version="+sys.version); print("bayesfl="+str(bayesfl.__file__)); print("editable="+str(md.distribution("bayesfl-base").read_text("direct_url.json"))); print("data_modules=imported"); assert str(bayesfl.__file__).startswith("/home/micl/DungNDH/fedkls/src/")'
+started_utc: 2026-11-14T07:23:07.113954+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+cwd=/home/micl/DungNDH/fedkls
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+python_version=3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]
+bayesfl=/home/micl/DungNDH/fedkls/src/bayesfl/__init__.py
+editable={"dir_info": {"editable": true}, "url": "file:///home/micl/DungNDH/fedkls"}
+data_modules=imported
+
+exit_code=0
+measured_wall_seconds=2.092706070980057

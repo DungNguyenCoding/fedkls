@@ -1,0 +1,383 @@
+{
+  "datasets": [
+    {
+      "dataset": "MNIST",
+      "split": "train",
+      "download": false,
+      "accessible": true,
+      "samples": 60000,
+      "first_image_size": [
+        28,
+        28
+      ],
+      "first_target": 5
+    },
+    {
+      "dataset": "MNIST",
+      "split": "test",
+      "download": false,
+      "accessible": true,
+      "samples": 10000,
+      "first_image_size": [
+        28,
+        28
+      ],
+      "first_target": 7
+    },
+    {
+      "dataset": "CIFAR10",
+      "split": "train",
+      "download": false,
+      "accessible": true,
+      "samples": 50000,
+      "first_image_size": [
+        32,
+        32
+      ],
+      "first_target": 6
+    },
+    {
+      "dataset": "CIFAR10",
+      "split": "test",
+      "download": false,
+      "accessible": true,
+      "samples": 10000,
+      "first_image_size": [
+        32,
+        32
+      ],
+      "first_target": 3
+    }
+  ],
+  "partitions": [
+    {
+      "path": "outputs/partitions/mnist_fixed_labels_s10_c1_n20_seed0.npz",
+      "raw_sha256": "1328f839feef1d00ff7c853a1ed88bf841712d2e78c567f632f91edfa6af5938",
+      "metadata_path": "outputs/partitions/mnist_fixed_labels_s10_c1_n20_seed0.json",
+      "metadata_sha256": "ab7df8f48fd7dea7f10f204b38d672eb217d35a8f59f96134dbc715b89366d64",
+      "metadata": {
+        "class_client_counts": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 2,
+          "6": 2,
+          "7": 2,
+          "8": 2,
+          "9": 2
+        },
+        "class_draws_exhausted": 0,
+        "empty_client_backfills": 0,
+        "labels_per_client_config": 1,
+        "max_classes_per_client": 1,
+        "max_size": 10,
+        "mean_classes_per_client": 1.0,
+        "mean_size": 10.0,
+        "median_size": 10.0,
+        "min_classes_per_client": 1,
+        "min_size": 10,
+        "num_classes": 10,
+        "num_clients": 20,
+        "num_empty_clients_after_backfill": 0,
+        "samples_per_client_config": 10,
+        "seed": 0,
+        "sha256": "f083a94a732554c495b304d604222b3c68efc46237b56970f1c00f61f64f015a",
+        "total_samples_used": 200,
+        "type": "fixed_labels"
+      },
+      "canonical_partition_content_checksum_recomputed": true,
+      "arrays": {
+        "client_0000": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0001": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0002": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0003": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0004": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0005": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0006": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0007": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0008": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0009": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0010": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0011": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0012": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0013": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0014": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0015": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0016": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0017": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0018": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        },
+        "client_0019": {
+          "shape": [
+            10
+          ],
+          "dtype": "int64"
+        }
+      },
+      "npz_readable": true,
+      "expected_content_sha256": "f083a94a732554c495b304d604222b3c68efc46237b56970f1c00f61f64f015a",
+      "actual_content_sha256": "f083a94a732554c495b304d604222b3c68efc46237b56970f1c00f61f64f015a",
+      "content_checksum_matches": true
+    },
+    {
+      "path": "outputs/partitions/cifar10_paper_dirichlet_a0.01_n20_seed0.npz",
+      "raw_sha256": "3b3d38235408fe3436a5b19060cc807b6604c8c67db9fc26d11b09ac8fb5d788",
+      "metadata_path": "outputs/partitions/cifar10_paper_dirichlet_a0.01_n20_seed0.json",
+      "metadata_sha256": "0f35c0357aa731c0595cf8aea2d88879a9b940b200c54dc4c79590c8024f6ecb",
+      "metadata": {
+        "class_draws_exhausted": 0,
+        "dirichlet_alpha": 0.01,
+        "empty_client_backfills": 2,
+        "max_size": 8706,
+        "mean_classes_per_client": 1.35,
+        "mean_size": 2499.4,
+        "min_size": 1,
+        "num_classes": 10,
+        "num_clients": 20,
+        "num_empty_clients_after_backfill": 0,
+        "reference": "OnlineLaplaceApproximationBayesianFL released CIFAR partition",
+        "seed": 0,
+        "sha256": "914fe035f7b504b0059ca85b5a6a194bd41027fb2cfe2765ee777142d68280f2",
+        "total_samples_used": 49988,
+        "total_unassigned_samples": 14,
+        "total_unique_samples_used": 49986,
+        "type": "paper_dirichlet",
+        "unassigned_per_class": [
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          2
+        ]
+      },
+      "canonical_partition_content_checksum_recomputed": true,
+      "arrays": {
+        "client_0000": {
+          "shape": [
+            4993
+          ],
+          "dtype": "int64"
+        },
+        "client_0001": {
+          "shape": [
+            8499
+          ],
+          "dtype": "int64"
+        },
+        "client_0002": {
+          "shape": [
+            28
+          ],
+          "dtype": "int64"
+        },
+        "client_0003": {
+          "shape": [
+            1
+          ],
+          "dtype": "int64"
+        },
+        "client_0004": {
+          "shape": [
+            863
+          ],
+          "dtype": "int64"
+        },
+        "client_0005": {
+          "shape": [
+            323
+          ],
+          "dtype": "int64"
+        },
+        "client_0006": {
+          "shape": [
+            1
+          ],
+          "dtype": "int64"
+        },
+        "client_0007": {
+          "shape": [
+            2252
+          ],
+          "dtype": "int64"
+        },
+        "client_0008": {
+          "shape": [
+            6
+          ],
+          "dtype": "int64"
+        },
+        "client_0009": {
+          "shape": [
+            4976
+          ],
+          "dtype": "int64"
+        },
+        "client_0010": {
+          "shape": [
+            8706
+          ],
+          "dtype": "int64"
+        },
+        "client_0011": {
+          "shape": [
+            65
+          ],
+          "dtype": "int64"
+        },
+        "client_0012": {
+          "shape": [
+            4999
+          ],
+          "dtype": "int64"
+        },
+        "client_0013": {
+          "shape": [
+            4083
+          ],
+          "dtype": "int64"
+        },
+        "client_0014": {
+          "shape": [
+            2461
+          ],
+          "dtype": "int64"
+        },
+        "client_0015": {
+          "shape": [
+            2538
+          ],
+          "dtype": "int64"
+        },
+        "client_0016": {
+          "shape": [
+            94
+          ],
+          "dtype": "int64"
+        },
+        "client_0017": {
+          "shape": [
+            2407
+          ],
+          "dtype": "int64"
+        },
+        "client_0018": {
+          "shape": [
+            2586
+          ],
+          "dtype": "int64"
+        },
+        "client_0019": {
+          "shape": [
+            107
+          ],
+          "dtype": "int64"
+        }
+      },
+      "npz_readable": true,
+      "expected_content_sha256": "914fe035f7b504b0059ca85b5a6a194bd41027fb2cfe2765ee777142d68280f2",
+      "actual_content_sha256": "914fe035f7b504b0059ca85b5a6a194bd41027fb2cfe2765ee777142d68280f2",
+      "content_checksum_matches": true
+    }
+  ]
+}

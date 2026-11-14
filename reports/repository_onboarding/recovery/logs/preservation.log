@@ -1,0 +1,37 @@
+command: python /tmp/fedkls_recovery_final_audit.py
+started_utc: 2026-11-14T07:28:58.356376+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+{
+  "timestamp_seoul": "2026-11-14T16:28:59.549320+09:00",
+  "base_commit": "61c60a027fe75404fc6275d0eaf85f7c116d7837",
+  "branch": "fix/repository-integrity",
+  "protected_files_checked": 1449,
+  "source_files_checked": 55,
+  "experiment_config_files_checked": 936,
+  "protected_byte_changes": [],
+  "prior_report_files_checked": 75,
+  "prior_report_changes": [],
+  "gitignore_unchanged": true,
+  "restored_data_files_tracked": true,
+  "restored_data_files_unchanged": true,
+  "output_files_before": 26041,
+  "output_files_after": 26041,
+  "output_bytes_before": 410046190,
+  "output_bytes_after": 410046190,
+  "output_tree_sha256_before": "22d7abc459f060e0020ec7ddcbf2866ff6b58ed7410b9a92c3e58abfc5ad26bf",
+  "output_tree_sha256_after": "22d7abc459f060e0020ec7ddcbf2866ff6b58ed7410b9a92c3e58abfc5ad26bf",
+  "output_raw_byte_tree_unchanged": true,
+  "tracked_worktree_unchanged_before_staging": true,
+  "index_clean_before_staging": true,
+  "git_diff_check_exit": 0,
+  "unexpected_git_paths": [],
+  "restored_historical_files": [],
+  "archive_restoration": "pending_reference_zip_unavailable"
+}
+
+exit_code=0
+measured_wall_seconds=1.3000370399095118

@@ -1,0 +1,1058 @@
+[
+  {
+    "label": "Reference",
+    "run_dir": "outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207",
+    "strict_exit_code": 1,
+    "records_exit_code": 0,
+    "record_analysis": {
+      "schema": "fedkls-wireless-research-v1",
+      "run": "run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207",
+      "validation_scope": "records_only_unverified_checkpoint",
+      "checkpoint_integrity": {
+        "status": "inconsistent",
+        "verified": [
+          "state_json",
+          "checkpoint_round",
+          "checkpoint_arrays_bytes",
+          "event_ledger_bytes"
+        ],
+        "issues": [
+          "Tracked metric raw SHA-256 mismatch: metrics/global_metrics.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_clients.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_rounds.csv"
+        ]
+      },
+      "method": "fola",
+      "policy": "joint",
+      "selector": "kl_global_local",
+      "clients": 20,
+      "parameters": 878538,
+      "completed_rounds": 150,
+      "final_accuracy_percent": 52.629999999999995,
+      "best_accuracy_percent": 52.76,
+      "best_accuracy_round": 148,
+      "final_nll": 1.4044857145008125,
+      "final_mean_keep_ratio": 0.47546617220882875,
+      "cumulative_array_bytes": 11438601248,
+      "cumulative_control_bytes": 111770677,
+      "cumulative_modeled_time_seconds": 27000.0,
+      "allocation_status_counts": {
+        "numerical_gap_target": 150
+      },
+      "largest_single_round_accuracy_drops": [
+        {
+          "round": 78,
+          "accuracy_drop_pp": 1.2000000000000028,
+          "before_percent": 48.17,
+          "after_percent": 46.97
+        },
+        {
+          "round": 45,
+          "accuracy_drop_pp": 0.9699999999999989,
+          "before_percent": 43.64,
+          "after_percent": 42.67
+        },
+        {
+          "round": 13,
+          "accuracy_drop_pp": 0.9299999999999926,
+          "before_percent": 35.199999999999996,
+          "after_percent": 34.27
+        },
+        {
+          "round": 136,
+          "accuracy_drop_pp": 0.9000000000000057,
+          "before_percent": 52.42,
+          "after_percent": 51.519999999999996
+        },
+        {
+          "round": 15,
+          "accuracy_drop_pp": 0.8599999999999994,
+          "before_percent": 36.02,
+          "after_percent": 35.160000000000004
+        }
+      ],
+      "input_hashes": {
+        "metrics/global_metrics.csv": "47174cbf1ef2afe5dd800067e1db6e7e27d69a4aa9165480197c97c70d1dfe96",
+        "metrics/wireless_rounds.csv": "7cafa198d09079d7ea02042f7089fb5abee3ae01dbf11553dc1055e9958161aa",
+        "metrics/wireless_clients.csv": "b904b4505227b86130121c560a1373415a991846cd627dac1a9b3b33cf366130",
+        "resolved_config.yaml": "2bab084e93d2c6465d67eb6d328b572cb824e888dd791eb857ed61c62351a424",
+        "wireless/protocol.json": "fdce10d1d0228ddf5d136ef71b7d5569a1e93f80b2f65d8b74857cd149944e76",
+        "wireless/layout_manifest.json": "8f42194ba3f3660f66ac364aba9ceb95a3c2f0bb5af74ff1f9f7a7118297975d",
+        "run_summary.json": "be58eb6e8b637934603bb3508edf0ccf4e0a4b8f93cc105dfea6f8377748c925"
+      },
+      "interpretation_limits": [
+        "Measurements are recorded simulation metrics, not independently rerun training.",
+        "Wireless time and transmit energy are modeled, not measured wall time or RF measurements.",
+        "Discarded KL is an omission proxy, not accuracy loss or proven cause of oscillation.",
+        "The solver's objective gap is numerical; global integer optimality is not certified.",
+        "Do not compare scenario endpoints as equal modeled time unless times actually match.",
+        "A result bundle contains no checkpoint tensors or full event ledger and cannot resume training."
+      ]
+    },
+    "raw_checkpoint_checks": {
+      "checkpoint_round": 150,
+      "checks": [
+        {
+          "path": "wireless_resume/round_000150.json",
+          "exists": true,
+          "expected_sha256": "c85e222a2179949d4b5bbdc1033678b082330af29791e81e2e317d53bcd50a6e",
+          "actual_sha256": "c85e222a2179949d4b5bbdc1033678b082330af29791e81e2e317d53bcd50a6e",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 72
+        },
+        {
+          "path": "wireless_resume/round_000150.npz",
+          "exists": true,
+          "expected_sha256": "e46dd8c7aabd2f39f621fcf33bd180560f23bb85bb569821d59f55322e27c3c2",
+          "actual_sha256": "e46dd8c7aabd2f39f621fcf33bd180560f23bb85bb569821d59f55322e27c3c2",
+          "matches": true
+        },
+        {
+          "path": "wireless/events.jsonl",
+          "exists": true,
+          "expected_sha256": "4b91078ff961e085526834b84db24740ada20ca1179d57da979b3a277602c37a",
+          "actual_sha256": "4b91078ff961e085526834b84db24740ada20ca1179d57da979b3a277602c37a",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 133509
+        },
+        {
+          "path": "metrics/global_metrics.csv",
+          "exists": true,
+          "expected_sha256": "4c241809b1e9ca5f8cb2f325f132396b5a4cc066197fe969f71de87d57d72037",
+          "actual_sha256": "47174cbf1ef2afe5dd800067e1db6e7e27d69a4aa9165480197c97c70d1dfe96",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 152
+        },
+        {
+          "path": "metrics/wireless_clients.csv",
+          "exists": true,
+          "expected_sha256": "8edaf960d4ce2473b29ac99012c30afb9b7ae328fda308093f0dc068a32152c9",
+          "actual_sha256": "b904b4505227b86130121c560a1373415a991846cd627dac1a9b3b33cf366130",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 3001
+        },
+        {
+          "path": "metrics/wireless_rounds.csv",
+          "exists": true,
+          "expected_sha256": "7e413e227ed9159956a5535f7d01c7e05a79951fa7fc02a660c959b4979df76d",
+          "actual_sha256": "7cafa198d09079d7ea02042f7089fb5abee3ae01dbf11553dc1055e9958161aa",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 151
+        }
+      ],
+      "all_byte_digests_match": false,
+      "latest_json_sha256": "49a925e3c337d1ec7d39162cef21ae3231079c676f4304e561af1c29b0dbedd7"
+    }
+  },
+  {
+    "label": "U170",
+    "run_dir": "outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923",
+    "strict_exit_code": 1,
+    "records_exit_code": 0,
+    "record_analysis": {
+      "schema": "fedkls-wireless-research-v1",
+      "run": "run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923",
+      "validation_scope": "records_only_unverified_checkpoint",
+      "checkpoint_integrity": {
+        "status": "inconsistent",
+        "verified": [
+          "state_json",
+          "checkpoint_round",
+          "checkpoint_arrays_bytes",
+          "event_ledger_bytes"
+        ],
+        "issues": [
+          "Tracked metric raw SHA-256 mismatch: metrics/global_metrics.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_clients.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_rounds.csv"
+        ]
+      },
+      "method": "fola",
+      "policy": "joint",
+      "selector": "kl_global_local",
+      "clients": 20,
+      "parameters": 878538,
+      "completed_rounds": 150,
+      "final_accuracy_percent": 50.24999999999999,
+      "best_accuracy_percent": 52.04,
+      "best_accuracy_round": 144,
+      "final_nll": 1.5104567406049427,
+      "final_mean_keep_ratio": 0.39139900607600353,
+      "cumulative_array_bytes": 9707082416,
+      "cumulative_control_bytes": 114194602,
+      "cumulative_modeled_time_seconds": 25500.0,
+      "allocation_status_counts": {
+        "numerical_gap_target": 148,
+        "price_tolerance": 2
+      },
+      "largest_single_round_accuracy_drops": [
+        {
+          "round": 124,
+          "accuracy_drop_pp": 1.8700000000000045,
+          "before_percent": 51.28,
+          "after_percent": 49.41
+        },
+        {
+          "round": 145,
+          "accuracy_drop_pp": 1.6499999999999986,
+          "before_percent": 52.04,
+          "after_percent": 50.39
+        },
+        {
+          "round": 49,
+          "accuracy_drop_pp": 1.5300000000000011,
+          "before_percent": 44.96,
+          "after_percent": 43.43
+        },
+        {
+          "round": 100,
+          "accuracy_drop_pp": 1.4199999999999946,
+          "before_percent": 49.559999999999995,
+          "after_percent": 48.14
+        },
+        {
+          "round": 23,
+          "accuracy_drop_pp": 1.3799999999999955,
+          "before_percent": 40.589999999999996,
+          "after_percent": 39.21
+        }
+      ],
+      "input_hashes": {
+        "metrics/global_metrics.csv": "699e868977fec1440f8f25188bf5864d59935f178a6472af5a612b2a23985a2a",
+        "metrics/wireless_rounds.csv": "7a481f0a8ce31d25ae47ff4b6c7dce6246ecd4f44a64dd46a918bc5162efe1ee",
+        "metrics/wireless_clients.csv": "61893ba5d4cf0ea7bc90259d917560725bd9676cbb497d00ac131ac10a8029a0",
+        "resolved_config.yaml": "bdf2fa8c52c88bb3a819febf803b4d0fc376007262dbb72c02c117210dd9e959",
+        "wireless/protocol.json": "ec88bb6f691fda816121815336245f0700e41914204f2dd9ed14ce2da1ff9ed7",
+        "wireless/layout_manifest.json": "8f42194ba3f3660f66ac364aba9ceb95a3c2f0bb5af74ff1f9f7a7118297975d",
+        "run_summary.json": "2206aa6882d67342516049488ea03c37fb9aea76f21c21f33e0ded8fa5339475"
+      },
+      "interpretation_limits": [
+        "Measurements are recorded simulation metrics, not independently rerun training.",
+        "Wireless time and transmit energy are modeled, not measured wall time or RF measurements.",
+        "Discarded KL is an omission proxy, not accuracy loss or proven cause of oscillation.",
+        "The solver's objective gap is numerical; global integer optimality is not certified.",
+        "Do not compare scenario endpoints as equal modeled time unless times actually match.",
+        "A result bundle contains no checkpoint tensors or full event ledger and cannot resume training."
+      ]
+    },
+    "raw_checkpoint_checks": {
+      "checkpoint_round": 150,
+      "checks": [
+        {
+          "path": "wireless_resume/round_000150.json",
+          "exists": true,
+          "expected_sha256": "1047cb8e5fae28eac4b57551a50c67cf5b0a450a0634a78dda6359b030b83351",
+          "actual_sha256": "1047cb8e5fae28eac4b57551a50c67cf5b0a450a0634a78dda6359b030b83351",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 72
+        },
+        {
+          "path": "wireless_resume/round_000150.npz",
+          "exists": true,
+          "expected_sha256": "50f38272be19c089d51ba916c158eb32454023e307a377dead2686e22e4fc84d",
+          "actual_sha256": "50f38272be19c089d51ba916c158eb32454023e307a377dead2686e22e4fc84d",
+          "matches": true
+        },
+        {
+          "path": "wireless/events.jsonl",
+          "exists": true,
+          "expected_sha256": "2dbfeaffb618575eb5c8027d0d4a62c7cff2c644c0f0f1d479ac04e0016bef22",
+          "actual_sha256": "2dbfeaffb618575eb5c8027d0d4a62c7cff2c644c0f0f1d479ac04e0016bef22",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 136449
+        },
+        {
+          "path": "metrics/global_metrics.csv",
+          "exists": true,
+          "expected_sha256": "7c7510e0e4dc9a61eda106d889ce327211347734598b31e484cde496a1873ad3",
+          "actual_sha256": "699e868977fec1440f8f25188bf5864d59935f178a6472af5a612b2a23985a2a",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 152
+        },
+        {
+          "path": "metrics/wireless_clients.csv",
+          "exists": true,
+          "expected_sha256": "cda1fc9eaf26630249bc528f83358c954ee53c5db2052fb3e28956f5f697e94b",
+          "actual_sha256": "61893ba5d4cf0ea7bc90259d917560725bd9676cbb497d00ac131ac10a8029a0",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 3001
+        },
+        {
+          "path": "metrics/wireless_rounds.csv",
+          "exists": true,
+          "expected_sha256": "57f5b0716113722bd7b46b32c1801f9857a2b1d23b755ebb1dbe89519694b804",
+          "actual_sha256": "7a481f0a8ce31d25ae47ff4b6c7dce6246ecd4f44a64dd46a918bc5162efe1ee",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 151
+        }
+      ],
+      "all_byte_digests_match": false,
+      "latest_json_sha256": "09a330e283205df6ddf9b0a310079aa58c4ac450c4a02ee9ba6d0eb822083c4e"
+    }
+  },
+  {
+    "label": "U160",
+    "run_dir": "outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008",
+    "strict_exit_code": 1,
+    "records_exit_code": 0,
+    "record_analysis": {
+      "schema": "fedkls-wireless-research-v1",
+      "run": "run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008",
+      "validation_scope": "records_only_unverified_checkpoint",
+      "checkpoint_integrity": {
+        "status": "inconsistent",
+        "verified": [
+          "state_json",
+          "checkpoint_round",
+          "checkpoint_arrays_bytes",
+          "event_ledger_bytes"
+        ],
+        "issues": [
+          "Tracked metric raw SHA-256 mismatch: metrics/global_metrics.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_clients.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_rounds.csv"
+        ]
+      },
+      "method": "fola",
+      "policy": "joint",
+      "selector": "kl_global_local",
+      "clients": 20,
+      "parameters": 878538,
+      "completed_rounds": 150,
+      "final_accuracy_percent": 52.470000000000006,
+      "best_accuracy_percent": 53.239999999999995,
+      "best_accuracy_round": 138,
+      "final_nll": 1.5051691155450413,
+      "final_mean_keep_ratio": 0.3103081483100333,
+      "cumulative_array_bytes": 7997869896,
+      "cumulative_control_bytes": 115403660,
+      "cumulative_modeled_time_seconds": 24000.0,
+      "allocation_status_counts": {
+        "numerical_gap_target": 147,
+        "price_tolerance": 3
+      },
+      "largest_single_round_accuracy_drops": [
+        {
+          "round": 62,
+          "accuracy_drop_pp": 3.3900000000000006,
+          "before_percent": 48.14,
+          "after_percent": 44.75
+        },
+        {
+          "round": 104,
+          "accuracy_drop_pp": 2.920000000000009,
+          "before_percent": 51.580000000000005,
+          "after_percent": 48.66
+        },
+        {
+          "round": 49,
+          "accuracy_drop_pp": 2.269999999999996,
+          "before_percent": 45.83,
+          "after_percent": 43.56
+        },
+        {
+          "round": 77,
+          "accuracy_drop_pp": 2.210000000000001,
+          "before_percent": 49.49,
+          "after_percent": 47.28
+        },
+        {
+          "round": 146,
+          "accuracy_drop_pp": 2.029999999999994,
+          "before_percent": 52.739999999999995,
+          "after_percent": 50.71
+        }
+      ],
+      "input_hashes": {
+        "metrics/global_metrics.csv": "cfe28cec57a99109684ddfe7a9393063bbc92c38595e9726235ce81d78612ecc",
+        "metrics/wireless_rounds.csv": "8be2089868f6a0f0c93de2c546b2191648d87660aacb4bd3d66194396b3aa6b6",
+        "metrics/wireless_clients.csv": "a2f004009e5073ff6ea38dd03caf29de5a1d2da78c3ecf503ee0df61aa766210",
+        "resolved_config.yaml": "734fa31dc7db099d7c6297655e0f173bc9cd66c19da63dd707c0d378c6779e67",
+        "wireless/protocol.json": "254613c88fff7e42358b762de84a8dafe0de95e332b1ab73d44ffc08de417d91",
+        "wireless/layout_manifest.json": "8f42194ba3f3660f66ac364aba9ceb95a3c2f0bb5af74ff1f9f7a7118297975d",
+        "run_summary.json": "f59bee53c280df028b8cf8a7ca277e8876419f9e8942522717ffc21dcecdb6cc"
+      },
+      "interpretation_limits": [
+        "Measurements are recorded simulation metrics, not independently rerun training.",
+        "Wireless time and transmit energy are modeled, not measured wall time or RF measurements.",
+        "Discarded KL is an omission proxy, not accuracy loss or proven cause of oscillation.",
+        "The solver's objective gap is numerical; global integer optimality is not certified.",
+        "Do not compare scenario endpoints as equal modeled time unless times actually match.",
+        "A result bundle contains no checkpoint tensors or full event ledger and cannot resume training."
+      ]
+    },
+    "raw_checkpoint_checks": {
+      "checkpoint_round": 150,
+      "checks": [
+        {
+          "path": "wireless_resume/round_000150.json",
+          "exists": true,
+          "expected_sha256": "c91008f42a3d5cc92563d9caf66703371ab1aad1e8c3e81e37cbfeab251923fa",
+          "actual_sha256": "c91008f42a3d5cc92563d9caf66703371ab1aad1e8c3e81e37cbfeab251923fa",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 72
+        },
+        {
+          "path": "wireless_resume/round_000150.npz",
+          "exists": true,
+          "expected_sha256": "d827d06f2d8226dae1b23d9b06ae193c943fea943923b8d9e0b02e01d4778e50",
+          "actual_sha256": "d827d06f2d8226dae1b23d9b06ae193c943fea943923b8d9e0b02e01d4778e50",
+          "matches": true
+        },
+        {
+          "path": "wireless/events.jsonl",
+          "exists": true,
+          "expected_sha256": "592d968647f73a23b99414396b62ea8e51097b467eff378521290cab9c7eeff9",
+          "actual_sha256": "592d968647f73a23b99414396b62ea8e51097b467eff378521290cab9c7eeff9",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 137919
+        },
+        {
+          "path": "metrics/global_metrics.csv",
+          "exists": true,
+          "expected_sha256": "e4db32e43501b40c0d4b052a0de6345b00cebc03ea12e030d7b1b001fd3216a6",
+          "actual_sha256": "cfe28cec57a99109684ddfe7a9393063bbc92c38595e9726235ce81d78612ecc",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 152
+        },
+        {
+          "path": "metrics/wireless_clients.csv",
+          "exists": true,
+          "expected_sha256": "3b9cdba1d39e9d44a648054c9f1c44f87fcc9932301588f6ef991979b714e004",
+          "actual_sha256": "a2f004009e5073ff6ea38dd03caf29de5a1d2da78c3ecf503ee0df61aa766210",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 3001
+        },
+        {
+          "path": "metrics/wireless_rounds.csv",
+          "exists": true,
+          "expected_sha256": "37b78fc1205603fbca143c1bb60b61f4ea91c44dd2f864d34a4bb975e3d4d528",
+          "actual_sha256": "8be2089868f6a0f0c93de2c546b2191648d87660aacb4bd3d66194396b3aa6b6",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 151
+        }
+      ],
+      "all_byte_digests_match": false,
+      "latest_json_sha256": "0fb89d43e39f338e574adb347976131473c0e768733a3fa28e9525d42d1526ec"
+    }
+  },
+  {
+    "label": "U150",
+    "run_dir": "outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432",
+    "strict_exit_code": 1,
+    "records_exit_code": 0,
+    "record_analysis": {
+      "schema": "fedkls-wireless-research-v1",
+      "run": "run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432",
+      "validation_scope": "records_only_unverified_checkpoint",
+      "checkpoint_integrity": {
+        "status": "inconsistent",
+        "verified": [
+          "state_json",
+          "checkpoint_round",
+          "checkpoint_arrays_bytes",
+          "event_ledger_bytes"
+        ],
+        "issues": [
+          "Tracked metric raw SHA-256 mismatch: metrics/global_metrics.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_clients.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_rounds.csv"
+        ]
+      },
+      "method": "fola",
+      "policy": "joint",
+      "selector": "kl_global_local",
+      "clients": 20,
+      "parameters": 878538,
+      "completed_rounds": 150,
+      "final_accuracy_percent": 43.43,
+      "best_accuracy_percent": 47.61,
+      "best_accuracy_round": 139,
+      "final_nll": 2.1130073459186756,
+      "final_mean_keep_ratio": 0.23023261372871748,
+      "cumulative_array_bytes": 6254901736,
+      "cumulative_control_bytes": 117648145,
+      "cumulative_modeled_time_seconds": 22500.0,
+      "allocation_status_counts": {
+        "numerical_gap_target": 129,
+        "price_tolerance": 21
+      },
+      "largest_single_round_accuracy_drops": [
+        {
+          "round": 126,
+          "accuracy_drop_pp": 10.86,
+          "before_percent": 46.42,
+          "after_percent": 35.56
+        },
+        {
+          "round": 136,
+          "accuracy_drop_pp": 9.700000000000003,
+          "before_percent": 46.71,
+          "after_percent": 37.01
+        },
+        {
+          "round": 114,
+          "accuracy_drop_pp": 9.660000000000004,
+          "before_percent": 46.06,
+          "after_percent": 36.4
+        },
+        {
+          "round": 116,
+          "accuracy_drop_pp": 9.620000000000005,
+          "before_percent": 45.45,
+          "after_percent": 35.83
+        },
+        {
+          "round": 124,
+          "accuracy_drop_pp": 9.310000000000002,
+          "before_percent": 46.53,
+          "after_percent": 37.22
+        }
+      ],
+      "input_hashes": {
+        "metrics/global_metrics.csv": "f46a45e89db4bf165f57386fbb7952ddb65664f689397c0af3c82190820a0317",
+        "metrics/wireless_rounds.csv": "9a12897aae8cfda8a4a0310737dcadca6fe4af8d15459cfffb4dbc7c9492eacf",
+        "metrics/wireless_clients.csv": "c782c677e93b3da4f0108be56792f3a6db4cc9ad306d1da67861233a7b3dcc67",
+        "resolved_config.yaml": "d450afe2dff9e837155e1a504306dfd490969aad92b54a06c02b1e5f04d38036",
+        "wireless/protocol.json": "338073c9d12baa5e2c129a45921f3a5da80743855ca561f045e2cb3d52783495",
+        "wireless/layout_manifest.json": "8f42194ba3f3660f66ac364aba9ceb95a3c2f0bb5af74ff1f9f7a7118297975d",
+        "run_summary.json": "b1b827ee755f55c555f61171b93f742a5964c50dbbfb6947f74a0d0d6d686c5c"
+      },
+      "interpretation_limits": [
+        "Measurements are recorded simulation metrics, not independently rerun training.",
+        "Wireless time and transmit energy are modeled, not measured wall time or RF measurements.",
+        "Discarded KL is an omission proxy, not accuracy loss or proven cause of oscillation.",
+        "The solver's objective gap is numerical; global integer optimality is not certified.",
+        "Do not compare scenario endpoints as equal modeled time unless times actually match.",
+        "A result bundle contains no checkpoint tensors or full event ledger and cannot resume training."
+      ]
+    },
+    "raw_checkpoint_checks": {
+      "checkpoint_round": 150,
+      "checks": [
+        {
+          "path": "wireless_resume/round_000150.json",
+          "exists": true,
+          "expected_sha256": "1f2d67f2f1fd313dd66c1e0688f5e645077f605d589cdaa983bf4cc14b968185",
+          "actual_sha256": "1f2d67f2f1fd313dd66c1e0688f5e645077f605d589cdaa983bf4cc14b968185",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 72
+        },
+        {
+          "path": "wireless_resume/round_000150.npz",
+          "exists": true,
+          "expected_sha256": "95c27e6f9ce3914553912d67c0b45d5038a1e38788fc5290f140736d585e59fe",
+          "actual_sha256": "95c27e6f9ce3914553912d67c0b45d5038a1e38788fc5290f140736d585e59fe",
+          "matches": true
+        },
+        {
+          "path": "wireless/events.jsonl",
+          "exists": true,
+          "expected_sha256": "1a7063edce9cc2f61fc678709cd3bc08bc522320f21cec24a91b704f814b6c25",
+          "actual_sha256": "1a7063edce9cc2f61fc678709cd3bc08bc522320f21cec24a91b704f814b6c25",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 140481
+        },
+        {
+          "path": "metrics/global_metrics.csv",
+          "exists": true,
+          "expected_sha256": "765304638f1ef976eedf1e16c53aa2f9cf2b3cc65c96e73f3605b5d6e8e9382a",
+          "actual_sha256": "f46a45e89db4bf165f57386fbb7952ddb65664f689397c0af3c82190820a0317",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 152
+        },
+        {
+          "path": "metrics/wireless_clients.csv",
+          "exists": true,
+          "expected_sha256": "31829f610f956e0f1d39dbc1b9f73820862a73564ed88e488c4ce9a740f799dd",
+          "actual_sha256": "c782c677e93b3da4f0108be56792f3a6db4cc9ad306d1da67861233a7b3dcc67",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 3001
+        },
+        {
+          "path": "metrics/wireless_rounds.csv",
+          "exists": true,
+          "expected_sha256": "ba217345123d17e1eba271935d40c84e72b53ec5b408d499fe8248bcd08c119e",
+          "actual_sha256": "9a12897aae8cfda8a4a0310737dcadca6fe4af8d15459cfffb4dbc7c9492eacf",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 151
+        }
+      ],
+      "all_byte_digests_match": false,
+      "latest_json_sha256": "7cb94f408e02b5de75a8ce643b91523bfa87e200772e89b2a2fd89e55e6768a1"
+    }
+  },
+  {
+    "label": "B0550",
+    "run_dir": "outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526",
+    "strict_exit_code": 1,
+    "records_exit_code": 0,
+    "record_analysis": {
+      "schema": "fedkls-wireless-research-v1",
+      "run": "run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526",
+      "validation_scope": "records_only_unverified_checkpoint",
+      "checkpoint_integrity": {
+        "status": "inconsistent",
+        "verified": [
+          "state_json",
+          "checkpoint_round",
+          "checkpoint_arrays_bytes",
+          "event_ledger_bytes"
+        ],
+        "issues": [
+          "Tracked metric raw SHA-256 mismatch: metrics/global_metrics.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_clients.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_rounds.csv"
+        ]
+      },
+      "method": "fola",
+      "policy": "joint",
+      "selector": "kl_global_local",
+      "clients": 20,
+      "parameters": 878538,
+      "completed_rounds": 150,
+      "final_accuracy_percent": 47.29,
+      "best_accuracy_percent": 49.480000000000004,
+      "best_accuracy_round": 149,
+      "final_nll": 1.920676400697937,
+      "final_mean_keep_ratio": 0.2569518905272168,
+      "cumulative_array_bytes": 6861029616,
+      "cumulative_control_bytes": 119191975,
+      "cumulative_modeled_time_seconds": 27000.0,
+      "allocation_status_counts": {
+        "numerical_gap_target": 123,
+        "price_tolerance": 27
+      },
+      "largest_single_round_accuracy_drops": [
+        {
+          "round": 126,
+          "accuracy_drop_pp": 7.090000000000003,
+          "before_percent": 47.96,
+          "after_percent": 40.87
+        },
+        {
+          "round": 114,
+          "accuracy_drop_pp": 6.939999999999998,
+          "before_percent": 47.93,
+          "after_percent": 40.99
+        },
+        {
+          "round": 136,
+          "accuracy_drop_pp": 6.799999999999997,
+          "before_percent": 48.66,
+          "after_percent": 41.86
+        },
+        {
+          "round": 102,
+          "accuracy_drop_pp": 6.460000000000008,
+          "before_percent": 46.2,
+          "after_percent": 39.739999999999995
+        },
+        {
+          "round": 110,
+          "accuracy_drop_pp": 6.369999999999997,
+          "before_percent": 46.47,
+          "after_percent": 40.1
+        }
+      ],
+      "input_hashes": {
+        "metrics/global_metrics.csv": "1afd8ac111a8e2d2e34f781b7f87cbd40b121ae5f2b9081f70933ac72484ac1f",
+        "metrics/wireless_rounds.csv": "76abd0503d4b9972e5f5c3ea6d0dcd893bb75a49c0215ca896716fb82095a06f",
+        "metrics/wireless_clients.csv": "0cb74ac8d73e0d8d3e0b22888cb967efe35cfc17ff8311351b70759b2eadb5b4",
+        "resolved_config.yaml": "376d26032d85c33bade95f89d5fe1dcfeba982be0bc069105703dcae850271ce",
+        "wireless/protocol.json": "fdce10d1d0228ddf5d136ef71b7d5569a1e93f80b2f65d8b74857cd149944e76",
+        "wireless/layout_manifest.json": "8f42194ba3f3660f66ac364aba9ceb95a3c2f0bb5af74ff1f9f7a7118297975d",
+        "run_summary.json": "1b8865ea3f998f01aae909cb1c854a91ff2b48ef28547e4fe9fe7aeaca0140ef"
+      },
+      "interpretation_limits": [
+        "Measurements are recorded simulation metrics, not independently rerun training.",
+        "Wireless time and transmit energy are modeled, not measured wall time or RF measurements.",
+        "Discarded KL is an omission proxy, not accuracy loss or proven cause of oscillation.",
+        "The solver's objective gap is numerical; global integer optimality is not certified.",
+        "Do not compare scenario endpoints as equal modeled time unless times actually match.",
+        "A result bundle contains no checkpoint tensors or full event ledger and cannot resume training."
+      ]
+    },
+    "raw_checkpoint_checks": {
+      "checkpoint_round": 150,
+      "checks": [
+        {
+          "path": "wireless_resume/round_000150.json",
+          "exists": true,
+          "expected_sha256": "70e39bcceddd662cda7c89eb3b7d114e5a58177c1fdeadbe17e09570059b079c",
+          "actual_sha256": "70e39bcceddd662cda7c89eb3b7d114e5a58177c1fdeadbe17e09570059b079c",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 72
+        },
+        {
+          "path": "wireless_resume/round_000150.npz",
+          "exists": true,
+          "expected_sha256": "1572cc49e05c412b4911ec932ac9188e65be488e1a03435846b16b183dace010",
+          "actual_sha256": "1572cc49e05c412b4911ec932ac9188e65be488e1a03435846b16b183dace010",
+          "matches": true
+        },
+        {
+          "path": "wireless/events.jsonl",
+          "exists": true,
+          "expected_sha256": "de4d297954531cd8c33d8d78f0e42c18a71873dbd926c167497a19b394cbade9",
+          "actual_sha256": "de4d297954531cd8c33d8d78f0e42c18a71873dbd926c167497a19b394cbade9",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 142707
+        },
+        {
+          "path": "metrics/global_metrics.csv",
+          "exists": true,
+          "expected_sha256": "5007119366adeab70264681186becdbb7589d995c6e21d05fc231df1d4130100",
+          "actual_sha256": "1afd8ac111a8e2d2e34f781b7f87cbd40b121ae5f2b9081f70933ac72484ac1f",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 152
+        },
+        {
+          "path": "metrics/wireless_clients.csv",
+          "exists": true,
+          "expected_sha256": "0963676dcbc4231ffdae32ce3d4e65ed2175d73da23c91cb17825b8e02e5c72c",
+          "actual_sha256": "0cb74ac8d73e0d8d3e0b22888cb967efe35cfc17ff8311351b70759b2eadb5b4",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 3001
+        },
+        {
+          "path": "metrics/wireless_rounds.csv",
+          "exists": true,
+          "expected_sha256": "c0bf0763fd85c64862ae74c5f5d9c804e787532bd8c7401908db85249851ad9e",
+          "actual_sha256": "76abd0503d4b9972e5f5c3ea6d0dcd893bb75a49c0215ca896716fb82095a06f",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 151
+        }
+      ],
+      "all_byte_digests_match": false,
+      "latest_json_sha256": "e41d2398663312bf0d8febe738be2bdc1714fcfcffedb63253d04a9b2b5e5633"
+    }
+  },
+  {
+    "label": "B0750",
+    "run_dir": "outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448",
+    "strict_exit_code": 1,
+    "records_exit_code": 0,
+    "record_analysis": {
+      "schema": "fedkls-wireless-research-v1",
+      "run": "run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448",
+      "validation_scope": "records_only_unverified_checkpoint",
+      "checkpoint_integrity": {
+        "status": "inconsistent",
+        "verified": [
+          "state_json",
+          "checkpoint_round",
+          "checkpoint_arrays_bytes",
+          "event_ledger_bytes"
+        ],
+        "issues": [
+          "Tracked metric raw SHA-256 mismatch: metrics/global_metrics.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_clients.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_rounds.csv"
+        ]
+      },
+      "method": "fola",
+      "policy": "joint",
+      "selector": "kl_global_local",
+      "clients": 20,
+      "parameters": 878538,
+      "completed_rounds": 150,
+      "final_accuracy_percent": 52.53,
+      "best_accuracy_percent": 53.28000000000001,
+      "best_accuracy_round": 144,
+      "final_nll": 1.4623429788966564,
+      "final_mean_keep_ratio": 0.35302872499539006,
+      "cumulative_array_bytes": 8901418240,
+      "cumulative_control_bytes": 113770826,
+      "cumulative_modeled_time_seconds": 27000.0,
+      "allocation_status_counts": {
+        "numerical_gap_target": 146,
+        "price_tolerance": 4
+      },
+      "largest_single_round_accuracy_drops": [
+        {
+          "round": 82,
+          "accuracy_drop_pp": 2.280000000000001,
+          "before_percent": 48.04,
+          "after_percent": 45.76
+        },
+        {
+          "round": 145,
+          "accuracy_drop_pp": 1.740000000000009,
+          "before_percent": 53.28000000000001,
+          "after_percent": 51.54
+        },
+        {
+          "round": 47,
+          "accuracy_drop_pp": 1.6099999999999994,
+          "before_percent": 44.879999999999995,
+          "after_percent": 43.269999999999996
+        },
+        {
+          "round": 35,
+          "accuracy_drop_pp": 1.5799999999999983,
+          "before_percent": 42.89,
+          "after_percent": 41.31
+        },
+        {
+          "round": 143,
+          "accuracy_drop_pp": 1.480000000000004,
+          "before_percent": 52.81,
+          "after_percent": 51.33
+        }
+      ],
+      "input_hashes": {
+        "metrics/global_metrics.csv": "b9e1668090b7d98ee097ad45740084c53d9ecd846c7d476f1dc78134a7c30e9f",
+        "metrics/wireless_rounds.csv": "b549bbce47595d282fc0463b6a21a9dd0a745a12ba69dace946a2603f15a3e05",
+        "metrics/wireless_clients.csv": "b526263b8d5b18b3506ce3a9d3f8fafeeafe2cd3e26798a3da9b0c53658472bb",
+        "resolved_config.yaml": "b310fc1363b22695e7cd2ba26e52e4b40f1d265ff9c246b92df406b288c0f7ee",
+        "wireless/protocol.json": "fdce10d1d0228ddf5d136ef71b7d5569a1e93f80b2f65d8b74857cd149944e76",
+        "wireless/layout_manifest.json": "8f42194ba3f3660f66ac364aba9ceb95a3c2f0bb5af74ff1f9f7a7118297975d",
+        "run_summary.json": "e42ac8ccc9f03a02dfeb30ab8c977de66ede147345ef719657211eff132352c2"
+      },
+      "interpretation_limits": [
+        "Measurements are recorded simulation metrics, not independently rerun training.",
+        "Wireless time and transmit energy are modeled, not measured wall time or RF measurements.",
+        "Discarded KL is an omission proxy, not accuracy loss or proven cause of oscillation.",
+        "The solver's objective gap is numerical; global integer optimality is not certified.",
+        "Do not compare scenario endpoints as equal modeled time unless times actually match.",
+        "A result bundle contains no checkpoint tensors or full event ledger and cannot resume training."
+      ]
+    },
+    "raw_checkpoint_checks": {
+      "checkpoint_round": 150,
+      "checks": [
+        {
+          "path": "wireless_resume/round_000150.json",
+          "exists": true,
+          "expected_sha256": "75516eeeb743e92187af720f5d362e6d99098957afb043dd365c914195044c61",
+          "actual_sha256": "75516eeeb743e92187af720f5d362e6d99098957afb043dd365c914195044c61",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 72
+        },
+        {
+          "path": "wireless_resume/round_000150.npz",
+          "exists": true,
+          "expected_sha256": "9f55db3eec34ed20cdf34788bf4517894187990072f260aeb2ce94660650d379",
+          "actual_sha256": "9f55db3eec34ed20cdf34788bf4517894187990072f260aeb2ce94660650d379",
+          "matches": true
+        },
+        {
+          "path": "wireless/events.jsonl",
+          "exists": true,
+          "expected_sha256": "5206187eb2e23080461ca659f3deee8e9f305774167b48f69f3072fdfa9e0d98",
+          "actual_sha256": "5206187eb2e23080461ca659f3deee8e9f305774167b48f69f3072fdfa9e0d98",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 135945
+        },
+        {
+          "path": "metrics/global_metrics.csv",
+          "exists": true,
+          "expected_sha256": "f066cee0a379afd2d5749ea63c4311eeceda6763ae1d0124a9c5323ae8219743",
+          "actual_sha256": "b9e1668090b7d98ee097ad45740084c53d9ecd846c7d476f1dc78134a7c30e9f",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 152
+        },
+        {
+          "path": "metrics/wireless_clients.csv",
+          "exists": true,
+          "expected_sha256": "7bcd2ecea78966bc126ac7035ad73d5fefefb9f5708698b7fb9b1bf6d44d39f8",
+          "actual_sha256": "b526263b8d5b18b3506ce3a9d3f8fafeeafe2cd3e26798a3da9b0c53658472bb",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 3001
+        },
+        {
+          "path": "metrics/wireless_rounds.csv",
+          "exists": true,
+          "expected_sha256": "1c622b961f6ba6566e8b8f7d8b2e063e4cc9b1892ab1f3f68c2d13f9e19cea4c",
+          "actual_sha256": "b549bbce47595d282fc0463b6a21a9dd0a745a12ba69dace946a2603f15a3e05",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 151
+        }
+      ],
+      "all_byte_digests_match": false,
+      "latest_json_sha256": "106cd7fae6d7d6909a2f6e89e3f52fde2cdcc6748b83d18cafd6227a43bd00f6"
+    }
+  },
+  {
+    "label": "B0950",
+    "run_dir": "outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033",
+    "strict_exit_code": 1,
+    "records_exit_code": 0,
+    "record_analysis": {
+      "schema": "fedkls-wireless-research-v1",
+      "run": "run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033",
+      "validation_scope": "records_only_unverified_checkpoint",
+      "checkpoint_integrity": {
+        "status": "inconsistent",
+        "verified": [
+          "state_json",
+          "checkpoint_round",
+          "checkpoint_arrays_bytes",
+          "event_ledger_bytes"
+        ],
+        "issues": [
+          "Tracked metric raw SHA-256 mismatch: metrics/global_metrics.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_clients.csv",
+          "Tracked metric raw SHA-256 mismatch: metrics/wireless_rounds.csv"
+        ]
+      },
+      "method": "fola",
+      "policy": "joint",
+      "selector": "kl_global_local",
+      "clients": 20,
+      "parameters": 878538,
+      "completed_rounds": 150,
+      "final_accuracy_percent": 54.010000000000005,
+      "best_accuracy_percent": 54.15,
+      "best_accuracy_round": 149,
+      "final_nll": 1.3948317100203316,
+      "final_mean_keep_ratio": 0.45118002863848805,
+      "cumulative_array_bytes": 10942542760,
+      "cumulative_control_bytes": 112725210,
+      "cumulative_modeled_time_seconds": 27000.0,
+      "allocation_status_counts": {
+        "numerical_gap_target": 148,
+        "price_tolerance": 2
+      },
+      "largest_single_round_accuracy_drops": [
+        {
+          "round": 75,
+          "accuracy_drop_pp": 1.6999999999999957,
+          "before_percent": 48.66,
+          "after_percent": 46.96
+        },
+        {
+          "round": 45,
+          "accuracy_drop_pp": 1.4699999999999989,
+          "before_percent": 44.36,
+          "after_percent": 42.89
+        },
+        {
+          "round": 71,
+          "accuracy_drop_pp": 1.4399999999999977,
+          "before_percent": 46.86,
+          "after_percent": 45.42
+        },
+        {
+          "round": 77,
+          "accuracy_drop_pp": 1.3200000000000003,
+          "before_percent": 48.24,
+          "after_percent": 46.92
+        },
+        {
+          "round": 65,
+          "accuracy_drop_pp": 1.2800000000000011,
+          "before_percent": 47.4,
+          "after_percent": 46.12
+        }
+      ],
+      "input_hashes": {
+        "metrics/global_metrics.csv": "6e2cb0ea88f91b7bd63cad1225a9a61534fc1d0521b7f54f0e82ce785c20f207",
+        "metrics/wireless_rounds.csv": "3af0ab7849a7cf03d05d6291849b484158b9cd9ce4eaef9d6cb806628120ae82",
+        "metrics/wireless_clients.csv": "a766c274caae4a9583742febf9c19f2fbc0e7a1aa000d6436c3acc2fb394043e",
+        "resolved_config.yaml": "2b420469110c3998b69a27e3e4e9030e8d3b425d1e7f86dc32d0ceddf4baf9e4",
+        "wireless/protocol.json": "fdce10d1d0228ddf5d136ef71b7d5569a1e93f80b2f65d8b74857cd149944e76",
+        "wireless/layout_manifest.json": "8f42194ba3f3660f66ac364aba9ceb95a3c2f0bb5af74ff1f9f7a7118297975d",
+        "run_summary.json": "2e117dfaa20b50e7c79615c73b16a9144abf97541d02bd21d84c362930dc0dcc"
+      },
+      "interpretation_limits": [
+        "Measurements are recorded simulation metrics, not independently rerun training.",
+        "Wireless time and transmit energy are modeled, not measured wall time or RF measurements.",
+        "Discarded KL is an omission proxy, not accuracy loss or proven cause of oscillation.",
+        "The solver's objective gap is numerical; global integer optimality is not certified.",
+        "Do not compare scenario endpoints as equal modeled time unless times actually match.",
+        "A result bundle contains no checkpoint tensors or full event ledger and cannot resume training."
+      ]
+    },
+    "raw_checkpoint_checks": {
+      "checkpoint_round": 150,
+      "checks": [
+        {
+          "path": "wireless_resume/round_000150.json",
+          "exists": true,
+          "expected_sha256": "ac98ed118003df887e483b4319007a0e91737b014fd18cf917546fbcd539b4ee",
+          "actual_sha256": "ac98ed118003df887e483b4319007a0e91737b014fd18cf917546fbcd539b4ee",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 72
+        },
+        {
+          "path": "wireless_resume/round_000150.npz",
+          "exists": true,
+          "expected_sha256": "479d42c64e8b50ba2e37b2dbbd3c968f3ae02c565cfbdcc251458e6ce4430d1e",
+          "actual_sha256": "479d42c64e8b50ba2e37b2dbbd3c968f3ae02c565cfbdcc251458e6ce4430d1e",
+          "matches": true
+        },
+        {
+          "path": "wireless/events.jsonl",
+          "exists": true,
+          "expected_sha256": "14b458672bc44d167b211ad5cbf299f0d200c075a6567d40f297deb19eee4f1a",
+          "actual_sha256": "14b458672bc44d167b211ad5cbf299f0d200c075a6567d40f297deb19eee4f1a",
+          "matches": true,
+          "crlf_count": 0,
+          "lf_count": 134664
+        },
+        {
+          "path": "metrics/global_metrics.csv",
+          "exists": true,
+          "expected_sha256": "73399b36d0286cc57d02dafeddaec4f95bbf609581a06ff668c358ea648b609c",
+          "actual_sha256": "6e2cb0ea88f91b7bd63cad1225a9a61534fc1d0521b7f54f0e82ce785c20f207",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 152
+        },
+        {
+          "path": "metrics/wireless_clients.csv",
+          "exists": true,
+          "expected_sha256": "772574ddd130680392561c0757b42b62a4f8e3a24ef555c939ea70a8144a14c6",
+          "actual_sha256": "a766c274caae4a9583742febf9c19f2fbc0e7a1aa000d6436c3acc2fb394043e",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 3001
+        },
+        {
+          "path": "metrics/wireless_rounds.csv",
+          "exists": true,
+          "expected_sha256": "c09831fda7474c2dbe32920151b9f0e8dd4f25965d58dbe414c73ed45d26f624",
+          "actual_sha256": "3af0ab7849a7cf03d05d6291849b484158b9cd9ce4eaef9d6cb806628120ae82",
+          "matches": false,
+          "crlf_count": 0,
+          "lf_count": 151
+        }
+      ],
+      "all_byte_digests_match": false,
+      "latest_json_sha256": "bb1a139dc04116f5c2c273c893514e964c4e43110011aed56122eb81ed09b17b"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "bayesfl.main",
+    "--help"
+  ],
+  "started_utc": "2026-11-14T07:25:53.428947+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 2.2908383081667125,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null
+}

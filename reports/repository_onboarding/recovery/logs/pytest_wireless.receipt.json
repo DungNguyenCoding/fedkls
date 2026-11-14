@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/wireless"
+  ],
+  "started_utc": "2026-11-14T07:24:13.272340+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 25.987852415069938,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null
+}

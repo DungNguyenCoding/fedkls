@@ -1,0 +1,11 @@
+command: python scripts/export_research_report.py --run-dir outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432 --records-only
+started_utc: 2026-11-14T07:23:37.218723+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432: R150, accuracy=43.430%, keep=23.02%, modeled_time=22500.000s; checkpoint=inconsistent scope=records_only_unverified_checkpoint
+
+exit_code=0
+measured_wall_seconds=0.16741051198914647

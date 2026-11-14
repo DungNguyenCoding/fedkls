@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python",
+    "scripts/export_research_report.py",
+    "--run-dir",
+    "outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008",
+    "--records-only"
+  ],
+  "started_utc": "2026-11-14T07:23:36.756891+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 0.11332776490598917,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null
+}

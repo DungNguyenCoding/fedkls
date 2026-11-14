@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python",
+    "/tmp/fedkls_recovery_data_configs.py"
+  ],
+  "started_utc": "2026-11-14T07:24:03.225891+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 3.2807620679959655,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null
+}

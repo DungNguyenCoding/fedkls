@@ -1,0 +1,382 @@
+{
+  "schema": "fedkls-recovery-verification-v1",
+  "generated_seoul": "2026-11-14T16:32:36.971959+09:00",
+  "scope": "Git attributes and new recovery verification artifacts; historical bytes not restored; no resume authorization",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 522,
+      "sha256": "a91c60f9197111a97dc8a0a9414086602d8040154f489da9858ad7ea487b7ad9"
+    },
+    {
+      "file": "reports/repository_onboarding/RECOVERY_VERIFICATION.md",
+      "bytes": 20187,
+      "sha256": "2704d20a155199aa9c6080f7bcdaee0084ab8b81e5a7b57943bd8ab4502977a4"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/archive_availability.json",
+      "bytes": 1470,
+      "sha256": "126617862955d527f915a8f54a0b9560550bb852ae9add0f5b6c87b76779c4d5"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/archive_integrity.json",
+      "bytes": 33019,
+      "sha256": "58781cc8f4da9bcd7368f429ba140731bb55b0fbf1fb137d3b5dcaaa3d5eec79"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/baseline.json",
+      "bytes": 245353,
+      "sha256": "19ae5e4301e825c716e4ddc1b6638cd236cfec48d3607b62e81c34b75a5773be"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/data_access.json",
+      "bytes": 8639,
+      "sha256": "b17a7e1d81548dfdd0c6c07ce74510a5607c7d57d15b857538034fa0109c3306"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/environment.json",
+      "bytes": 3786,
+      "sha256": "8a4123d323391681afa5a9180ae44b9c8e67a0ac159e9dddc30870076d8674a8"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/final_preservation_checks.json",
+      "bytes": 1215,
+      "sha256": "05f45ee215bae9324d67b97e5b92369bbd21c7fde78ff41dd480e740a4f8ffa0"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/flower_simulation_dependencies.json",
+      "bytes": 2371,
+      "sha256": "6215fc27eddc695efb2b3d08508532061e816c6480585d72aa85d838ead922dc"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/gpu_host.json",
+      "bytes": 319,
+      "sha256": "0b9b92f8457d44528cda644c5e2b04be5c65f7bc75c6a94e440d03c9f4e6b48d"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/legacy_endpoints.json",
+      "bytes": 15113,
+      "sha256": "38035bdc4d7d2e313f2f822dca362ca3bec915aa623383361dc38be925208044"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/attributes.log",
+      "bytes": 1619,
+      "sha256": "01e18ced18fb2b03f6dedacf3158a97eddc95d95f3d4e57af1040d0e7bb7fbdc"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/attributes.receipt.json",
+      "bytes": 718,
+      "sha256": "dce16c1e427f88508b4aa70b05d56935958e8f0fce2ccb9b1ef09da001c9d1da"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/cli_help.log",
+      "bytes": 1846,
+      "sha256": "4eb419675c419bbcb3453c4850971b06743ee583c2feedf55c0af9db97a650df"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/cli_help.receipt.json",
+      "bytes": 302,
+      "sha256": "7339002645a1959d3de847e1406bdac167b4a773ce838e6a3b0735da716bd678"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/data_configs.log",
+      "bytes": 1120,
+      "sha256": "2169925e0587b2e41ef2da280d48148fa83a8060122e07a2805aeac85e82918b"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/data_configs.receipt.json",
+      "bytes": 302,
+      "sha256": "4dd9d7479cf1fc1fdc3f387fda3fba7d2d1f798d95d63174ef240437fc61dbe7"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/editable_install.log",
+      "bytes": 1453,
+      "sha256": "da23f57b39ef9a92f8e3dd9e0d8a2fc0c8128c3b4e5037455e050bc74766c24b"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/editable_install.receipt.json",
+      "bytes": 376,
+      "sha256": "6dcff67834d803c01cdca7f0a421f07ddd99237b5cd98b960c6452e7be59a967"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/environment.log",
+      "bytes": 4614,
+      "sha256": "3220b7d5cc33dfc0c94470aded67ce83410476d629a1f23a0153c9fca61759fa"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/environment.receipt.json",
+      "bytes": 300,
+      "sha256": "e8624358c180d03d638f55e8e4d1a01201ceb3ca614f3551049d2914f7de79c7"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/gpu_host.log",
+      "bytes": 1233,
+      "sha256": "c451b65337cfe96efa138e56b4e2f1902d1ae2e3a8e226245096a3b25e5d8269"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/gpu_host.receipt.json",
+      "bytes": 928,
+      "sha256": "fe28d71f5a7c5250d7e5e9baeec00e246c6f8bc2c2df5976379b48570f87f244"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/import_after_install.log",
+      "bytes": 1076,
+      "sha256": "95dcc32ea70f4ea8abac4a7e443ceca6e2c04ad4e730dbcb2f9913d0219644cf"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/import_after_install.receipt.json",
+      "bytes": 740,
+      "sha256": "5bd34d6d7dd1a76df5212c25f8feda14fd2a3fc45fda239bea53631c83034558"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/legacy_endpoints.log",
+      "bytes": 2365,
+      "sha256": "2b75f72ba1d5b62b0b1556f0a2f4ea3bce1adf991e51f4a151d2db36eb604529"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/legacy_endpoints.receipt.json",
+      "bytes": 309,
+      "sha256": "ee2b9f65da1618ccac55cfddfc32253b9af51d18d223f672a9a399d73c4c2ea3"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/module_partitions.log",
+      "bytes": 2004,
+      "sha256": "172ae3b54f345bb3e0916bedf054280e95409f7ae30769faa48e27b2aa57008c"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/module_partitions.receipt.json",
+      "bytes": 297,
+      "sha256": "9634fd47d470830225115414f367101d81c12af18f91b268b220c2e05d1affa0"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/preservation.log",
+      "bytes": 1415,
+      "sha256": "0b25c5e116d4a386dc6ad14f038622df3e1bf1a0eadbb9092da6414957f8a00f"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/preservation.receipt.json",
+      "bytes": 301,
+      "sha256": "b8af0f701f3903a016f351aed13d382730dacb67e9ac82b66121bdc0caae0613"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/pytest_full.log",
+      "bytes": 3778,
+      "sha256": "2dd90a1788d4f0f18aefb115777902ab38f5dd2df7fb9fee6e03b182e83e568e"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/pytest_full.receipt.json",
+      "bytes": 290,
+      "sha256": "4b348a6a1e4e32237458bf6a0981c479364c444038ba8a4122a129ebf8700b8a"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/pytest_wireless.log",
+      "bytes": 526,
+      "sha256": "94c3b9a9eac7e2b740ded62f139f794f6a327f63e55f015e267d100e2f720d71"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/pytest_wireless.receipt.json",
+      "bytes": 314,
+      "sha256": "53821eda74ce525590ebd2265779d4949c357e1412671511d626ca47b05d9110"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/report_generation.log",
+      "bytes": 418,
+      "sha256": "300690645fae3aeb939a3ccf98ee26204992855a5e6687e4f667274bfae8dfa9"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/report_generation.receipt.json",
+      "bytes": 296,
+      "sha256": "e441728791cbd52a34f4a4def09d843a649c7c7e3dc263abde715e19eb651819"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/report_validation.log",
+      "bytes": 1307,
+      "sha256": "695f7c76c7e5c73ea41821b7ac13ff80a0950c3ec574978dea137392d6363573"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/report_validation.receipt.json",
+      "bytes": 1135,
+      "sha256": "9b675065515cb93f1b28cd59e53212fa23693f9326455b71c38a69decd9d7ec7"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_b0550_records.log",
+      "bytes": 646,
+      "sha256": "4b0e07ee3b5f1282435592573244f5326f0ec8d67bb066b48caf75a7885676be"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_b0550_records.receipt.json",
+      "bytes": 437,
+      "sha256": "273ea227394450c7ee66891582830911ae77952032883b3654ea7f503f4bdf2a"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_b0550_strict.log",
+      "bytes": 480,
+      "sha256": "967c78ed52c0ec111e8b7311b3aab92a614f65abdabdac588e5b87ef005a8b6c"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_b0550_strict.receipt.json",
+      "bytes": 416,
+      "sha256": "934f045a1e4399fd91fba7144ad0e1eae486c71666fecb3d3c4f958a0bcb5fd2"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_b0750_records.log",
+      "bytes": 646,
+      "sha256": "d3e767fe639dd430e7ccb6b94e2d06f293c0380001d7be4656e6a660c6d45737"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_b0750_records.receipt.json",
+      "bytes": 437,
+      "sha256": "fa3793ddf5af1e589e00be07c864ab577286b4e421bfd48548801c09d41ad966"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_b0750_strict.log",
+      "bytes": 480,
+      "sha256": "8d79371db044fd2e6a150dce46800fb44f57413e84000f8867b569d8224f21c3"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_b0750_strict.receipt.json",
+      "bytes": 416,
+      "sha256": "ad1146bc45db8589c5d754a722039576d1adc55b0ca7ca5823eeba5007dcba36"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_b0950_records.log",
+      "bytes": 647,
+      "sha256": "f8bb920c4c96c7bc0f51cda768dd85b04fa11e4354bd323802292217be2e1ab4"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_b0950_records.receipt.json",
+      "bytes": 438,
+      "sha256": "932962353b281d4b5fdb7742ec9e5c85d6bd094d7ea3c027ea858c410687c773"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_b0950_strict.log",
+      "bytes": 479,
+      "sha256": "828103f82d66324c6f94bdea9a62b8c35b09ae76a5292c0a6453e18ceab250c8"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_b0950_strict.receipt.json",
+      "bytes": 415,
+      "sha256": "7e549fb624e29bbddded0af8d841f88745944d4cf471674adbb2be438c60b713"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_records.log",
+      "bytes": 820,
+      "sha256": "4943a80dbf40b3bff6995baba46662fc4f50372c91145c5496a509ea1e8a6a9d"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_records.receipt.json",
+      "bytes": 297,
+      "sha256": "d209b84c04116eb2159dcbff3389d9b7a4c4755702018ab10681567a3c7af287"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_reference_records.log",
+      "bytes": 651,
+      "sha256": "042f6eb42120912f4fff56d9bb84fc13827c41d8587c792d07fa8719b5d503f8"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_reference_records.receipt.json",
+      "bytes": 440,
+      "sha256": "24baa0b0662cc5645d46f2fb3f84e1dd7e2737b541844a7fffe622dc0d5f1fce"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_reference_strict.log",
+      "bytes": 482,
+      "sha256": "ef5a594d629ff81711ff6aea4c5cdfb4b368aed3bb0853593f21037f38876144"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_reference_strict.receipt.json",
+      "bytes": 418,
+      "sha256": "23f177dcf7f840c12e83b67e3254686adb4caeb1f3bc9a75f2a602bd8a31d153"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_u150_records.log",
+      "bytes": 645,
+      "sha256": "432d0e4760296d4e286ab93ca67041c005c420e2d20198ee0f02f4e427b04754"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_u150_records.receipt.json",
+      "bytes": 437,
+      "sha256": "ae34f316c06a04174d6bd900d49aae3ab2d864003a14407f4f1a08f85637d9c9"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_u150_strict.log",
+      "bytes": 479,
+      "sha256": "72d71bdab9091a4e77b4f90858d20a938c633669a04a95a5d08ac8a2f4c8e3cc"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_u150_strict.receipt.json",
+      "bytes": 415,
+      "sha256": "b95147ffd39e45d77b20aad27614645d695abd81efe58a41de350698f519c35e"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_u160_records.log",
+      "bytes": 645,
+      "sha256": "c74c8bf52d6ed9d3fb087600a26871a83e18d977cf8f4a5af50ba5a4c7379158"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_u160_records.receipt.json",
+      "bytes": 437,
+      "sha256": "3ad158b706dcc0530a0f20352b08d72ca9edd270b7f7e14c0a9340d266e4f84b"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_u160_strict.log",
+      "bytes": 479,
+      "sha256": "56dbbbfaaba9535f95fa8848b851762c2ba3b7c1597118fb112e664f79ca172b"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_u160_strict.receipt.json",
+      "bytes": 415,
+      "sha256": "7e6171e1817f92eb50a55b73e3fbdd69b7e5cc5f991fae52d242203e0cb12147"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_u170_records.log",
+      "bytes": 645,
+      "sha256": "1e616472b1500f7d60396175c28fd9fdb1b1af2b863896842932b3fe97332aeb"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_u170_records.receipt.json",
+      "bytes": 437,
+      "sha256": "7ba0f4973cb92de66570eb8134532f16112b33c0abd96b920b8e7088c95d85ea"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_u170_strict.log",
+      "bytes": 479,
+      "sha256": "0d509701721234bae1304f1917444135c16c0763ab7f34d6b191b0483786721a"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/logs/wireless_u170_strict.receipt.json",
+      "bytes": 415,
+      "sha256": "8007637796d5a430a67505e042c575d6a2babae57afdca2829d6743733f78fb0"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/module_partition_checks.json",
+      "bytes": 9839,
+      "sha256": "eecfecc10425fb3fa627e4959fee5c2074242e9e9fea54c314faad4095227c34"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/saved_profile_checks.json",
+      "bytes": 24648,
+      "sha256": "fb7dbcb0cd1d6bf7b7588dbcc722c2769e2f02e4b5159b4bc2984d73d9dba120"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/staged_diff_checks.json",
+      "bytes": 4304,
+      "sha256": "f6c85f8c6e3527167e189b561699b93feedd5da0bd92fb268ebd167ab8e64d63"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/wireless_endpoints.csv",
+      "bytes": 1820,
+      "sha256": "1faf3336f2f3000b6776f96f3353cc551af6bcc927372403c14261725e24c421"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/wireless_profile_checks.json",
+      "bytes": 41636,
+      "sha256": "0badd5632880cfe40024de93d8eadd24bfc40cbaf7fdb312985d42df0b49bbc4"
+    },
+    {
+      "file": "reports/repository_onboarding/recovery/wireless_record_checks.json",
+      "bytes": 43554,
+      "sha256": "234677fa8662a35a8ea869b05369f50f407e93e41016c2908b3fb7a0f56268ba"
+    }
+  ]
+}

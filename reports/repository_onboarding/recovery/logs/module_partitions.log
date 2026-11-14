@@ -1,0 +1,27 @@
+command: python /tmp/fedkls_recovery_imports.py
+started_utc: 2026-11-14T07:26:31.773545+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+Matplotlib created a temporary cache directory at /tmp/matplotlib-f9zm1g2p because the default path (/home/micl/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+
+Fontconfig error: No writable cache directories
+	/home/micl/anaconda3/envs/dungndh/var/cache/fontconfig
+	/home/micl/.cache/fontconfig
+	/home/micl/.fontconfig
+/home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+  ParserElement.enablePackrat()
+In /home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+In /home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+Source modules: 55 Failed imports: 0
+Canonical partition content checks: [('outputs/partitions/mnist_fixed_labels_s10_c1_n20_seed0.npz', True), ('outputs/partitions/cifar10_paper_dirichlet_a0.01_n20_seed0.npz', True)]
+Restored data sources unchanged: True
+
+exit_code=0
+measured_wall_seconds=3.7200678209774196

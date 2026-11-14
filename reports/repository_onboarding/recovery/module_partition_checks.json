@@ -1,0 +1,319 @@
+{
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "imported_modules": [
+    {
+      "module": "bayesfl",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/__init__.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.budget_server",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/budget_server.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.client",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/client.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.communication",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/communication.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.communication_plots",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/communication_plots.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.config",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/config.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.data",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/data/__init__.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.data.datasets",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/data/datasets.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.data.partition",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/data/partition.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.data.transforms",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/data/transforms.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.evaluation",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/evaluation.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.experiment_state",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/experiment_state.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.logging_utils",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/logging_utils.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.main",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/main.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.metrics",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/metrics.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.models",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/models/__init__.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.models.bayesian_layers",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/models/bayesian_layers.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.models.cifar_resnet",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/models/cifar_resnet.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.models.factory",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/models/factory.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.models.mnist_cnn",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/models/mnist_cnn.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.models.mnist_mlp",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/models/mnist_mlp.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.models.paper_cnn",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/models/paper_cnn.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.offline_smoke",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/offline_smoke.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.posterior",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/posterior/__init__.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.posterior.aggregation",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/posterior/aggregation.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.posterior.diagnostics",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/posterior/diagnostics.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.posterior.gaussian",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/posterior/gaussian.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.posterior.packing",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/posterior/packing.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.posterior.scale_mixture",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/posterior/scale_mixture.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.posterior.sparse",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/posterior/sparse.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.runtime_utils",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/runtime_utils.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.server",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/server.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.strategies",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/strategies/__init__.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.strategies.common",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/strategies/common.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.strategies.research_strategy",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/strategies/research_strategy.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.training",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/training/__init__.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.training.bbb",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/training/bbb.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.training.deterministic",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/training/deterministic.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.training.fola",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/training/fola.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.utils",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/utils.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/__init__.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.allocation",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/allocation.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.channel",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/channel.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.client",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/client.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.config",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/config.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.controller",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/controller.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.oracle",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/oracle.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.payload",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/payload.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.protocol",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/protocol.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.reporting",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/reporting.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.research_report",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/research_report.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.runner",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/runner.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.smoke",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/smoke.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.state",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/state.py",
+      "ok": true
+    },
+    {
+      "module": "bayesfl.wireless.transport",
+      "origin": "/home/micl/DungNDH/fedkls/src/bayesfl/wireless/transport.py",
+      "ok": true
+    }
+  ],
+  "module_count": 55,
+  "failed_imports": [],
+  "partitions": [
+    {
+      "file": "outputs/partitions/mnist_fixed_labels_s10_c1_n20_seed0.npz",
+      "expected_content_sha256": "f083a94a732554c495b304d604222b3c68efc46237b56970f1c00f61f64f015a",
+      "actual_content_sha256": "f083a94a732554c495b304d604222b3c68efc46237b56970f1c00f61f64f015a",
+      "matches": true
+    },
+    {
+      "file": "outputs/partitions/cifar10_paper_dirichlet_a0.01_n20_seed0.npz",
+      "expected_content_sha256": "914fe035f7b504b0059ca85b5a6a194bd41027fb2cfe2765ee777142d68280f2",
+      "actual_content_sha256": "914fe035f7b504b0059ca85b5a6a194bd41027fb2cfe2765ee777142d68280f2",
+      "matches": true
+    }
+  ],
+  "restored_data_files": [
+    {
+      "path": "src/bayesfl/data/__init__.py",
+      "sha256": "f6e47344a32fa93b5175bdb9fa22244fc37525df95b78fed1dc0ca664c920f0a",
+      "unchanged_from_recovery_start": true
+    },
+    {
+      "path": "src/bayesfl/data/datasets.py",
+      "sha256": "8c0356992fc61d931018b4bc490e1c2737c11c810cbb9a429c6995e6fb9010d5",
+      "unchanged_from_recovery_start": true
+    },
+    {
+      "path": "src/bayesfl/data/partition.py",
+      "sha256": "4f041d5901973ca04046e6dbc9023f9d52dcc414fcf9435dde29b2613ecfaa4b",
+      "unchanged_from_recovery_start": true
+    },
+    {
+      "path": "src/bayesfl/data/transforms.py",
+      "sha256": "315971b7b67f4c6eeee52002e66e59b236d92e27fec3500e1551b085b89851a1",
+      "unchanged_from_recovery_start": true
+    }
+  ],
+  "editable_direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/micl/DungNDH/fedkls\"}"
+}

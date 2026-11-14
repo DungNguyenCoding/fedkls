@@ -1,0 +1,22 @@
+{
+  "command": [
+    "git",
+    "check-attr",
+    "text",
+    "eol",
+    "--",
+    "docs/archive/2026-11-12-snapshot/AGENTS.md",
+    "docs/history/pre_refresh_20261026/CHANGE_MANIFEST.json",
+    "docs/evidence/STAGE2_MOVE_AND_VERIFY_TERMINAL.txt",
+    "outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207/metrics/global_metrics.csv",
+    "validation/environment_checks.json",
+    "src/bayesfl/data/datasets.py",
+    "src/bayesfl/training/fola.py"
+  ],
+  "started_utc": "2026-11-14T07:23:08.306385+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 0.00945491692982614,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null
+}

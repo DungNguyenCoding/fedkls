@@ -1,0 +1,13 @@
+command: python /tmp/fedkls_recovery_data_configs.py
+started_utc: 2026-11-14T07:24:03.225891+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+Primary endpoints: 24 Valid saved configs: 24
+Datasets: [{"dataset": "MNIST", "split": "train", "download": false, "accessible": true, "samples": 60000, "first_image_size": [28, 28], "first_target": 5}, {"dataset": "MNIST", "split": "test", "download": false, "accessible": true, "samples": 10000, "first_image_size": [28, 28], "first_target": 7}, {"dataset": "CIFAR10", "split": "train", "download": false, "accessible": true, "samples": 50000, "first_image_size": [32, 32], "first_target": 6}, {"dataset": "CIFAR10", "split": "test", "download": false, "accessible": true, "samples": 10000, "first_image_size": [32, 32], "first_target": 3}]
+Partitions: [('outputs/partitions/mnist_fixed_labels_s10_c1_n20_seed0.npz', True), ('outputs/partitions/cifar10_paper_dirichlet_a0.01_n20_seed0.npz', True)]
+
+exit_code=0
+measured_wall_seconds=3.2807620679959655

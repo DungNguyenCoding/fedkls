@@ -1,0 +1,14 @@
+# Archived research documents are checked against raw-byte relocation hashes.
+docs/archive/** -text
+
+# Historical source/documentation snapshots retain their original provenance bytes.
+docs/history/** -text
+
+# Preserved audit logs and source-inventory evidence have recorded file hashes.
+docs/evidence/** -text
+
+# Raw experiment metrics, ledgers, checkpoints, and partition evidence use byte hashes.
+outputs/** -text
+
+# Historical validation receipts and archive identities must remain byte-preserved.
+validation/** -text

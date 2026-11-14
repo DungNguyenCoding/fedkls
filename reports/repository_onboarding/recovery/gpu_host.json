@@ -1,0 +1,8 @@
+{
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "cuda_available": true,
+  "cuda_device_count": 2,
+  "nvidia_smi_exit": 0,
+  "nvidia_smi_stdout": "0, NVIDIA GeForce RTX 5090, 580.65.06, 32607 MiB, 15 MiB, 0 %\n1, NVIDIA GeForce RTX 5090, 580.65.06, 32607 MiB, 15 MiB, 0 %\n",
+  "nvidia_smi_stderr": ""
+}

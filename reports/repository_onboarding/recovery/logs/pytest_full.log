@@ -1,0 +1,58 @@
+command: python -m pytest -q
+started_utc: 2026-11-14T07:23:33.881246+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+PYTEST_ADDOPTS=-p no:cacheprovider
+..........................................................F............. [ 33%]
+........................................................................ [ 66%]
+........................................................................ [ 99%]
+.                                                                        [100%]
+=================================== FAILURES ===================================
+______________ test_relocated_historical_docs_are_byte_preserved _______________
+
+    def test_relocated_historical_docs_are_byte_preserved():
+        archive = ROOT / "docs/archive/2026-11-12-snapshot"
+        manifest = json.loads((archive / "RELOCATION_MAP.json").read_text())
+        for record in manifest["moved_files"]:
+            path = ROOT / record["to"]
+            assert path.is_file(), record["to"]
+>           assert hashlib.sha256(path.read_bytes()).hexdigest() == record["sha256"]
+E           AssertionError: assert '802d3d08b234...9c056fa00cfa6' == '52ea3797f090...94469155b85ca'
+E             
+E             - 52ea3797f09017db5e67f24106d2e9a44b3b9e4a4b7fbda33af94469155b85ca
+E             + 802d3d08b234524589a9e6f22786104f75c31b12b152e749ef49c056fa00cfa6
+
+tests/test_repository_layout.py:31: AssertionError
+=============================== warnings summary ===============================
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88
+  /home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92
+  /home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+../../anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_mathtext.py:45
+  /home/micl/anaconda3/envs/dungndh/lib/python3.10/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_repository_layout.py::test_relocated_historical_docs_are_byte_preserved
+1 failed, 216 passed, 13 warnings in 26.40s
+
+exit_code=1
+measured_wall_seconds=28.8247516839765

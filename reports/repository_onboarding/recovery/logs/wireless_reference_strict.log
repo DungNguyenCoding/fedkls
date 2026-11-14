@@ -1,0 +1,11 @@
+command: python scripts/export_research_report.py --run-dir outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207
+started_utc: 2026-11-14T07:23:35.623838+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+ERROR: Committed metric changed: metrics/global_metrics.csv
+
+exit_code=1
+measured_wall_seconds=0.09453521016985178

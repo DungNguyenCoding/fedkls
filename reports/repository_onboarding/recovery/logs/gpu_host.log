@@ -1,0 +1,18 @@
+command: python -c 'import json,os,pathlib,subprocess,sys,torch; assert os.environ["CONDA_DEFAULT_ENV"]=="dungndh"; p=subprocess.run(["nvidia-smi","--query-gpu=index,name,driver_version,memory.total,memory.used,utilization.gpu","--format=csv,noheader"],capture_output=True,text=True); result={"python":sys.executable,"cuda_available":torch.cuda.is_available(),"cuda_device_count":torch.cuda.device_count(),"nvidia_smi_exit":p.returncode,"nvidia_smi_stdout":p.stdout,"nvidia_smi_stderr":p.stderr}; print(json.dumps(result,indent=2)); pathlib.Path("reports/repository_onboarding/recovery/gpu_host.json").write_text(json.dumps(result,indent=2)+"\n")'
+started_utc: 2026-11-14T07:25:38.478338+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+{
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "cuda_available": true,
+  "cuda_device_count": 2,
+  "nvidia_smi_exit": 0,
+  "nvidia_smi_stdout": "0, NVIDIA GeForce RTX 5090, 580.65.06, 32607 MiB, 15 MiB, 0 %\n1, NVIDIA GeForce RTX 5090, 580.65.06, 32607 MiB, 15 MiB, 0 %\n",
+  "nvidia_smi_stderr": ""
+}
+
+exit_code=0
+measured_wall_seconds=1.606700001982972

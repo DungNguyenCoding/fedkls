@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "pytest",
+    "-q"
+  ],
+  "started_utc": "2026-11-14T07:23:33.881246+00:00",
+  "exit_code": 1,
+  "measured_wall_seconds": 28.8247516839765,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null
+}

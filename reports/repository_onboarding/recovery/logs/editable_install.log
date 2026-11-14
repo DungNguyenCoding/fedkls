@@ -1,0 +1,27 @@
+command: python -m pip install -e . --no-deps --no-build-isolation --no-index
+started_utc: 2026-11-14T07:22:38.057588+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+Obtaining file:///home/micl/DungNDH/fedkls
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: bayesfl-base
+  Building editable for bayesfl-base (pyproject.toml): started
+  Building editable for bayesfl-base (pyproject.toml): finished with status 'done'
+  Created wheel for bayesfl-base: filename=bayesfl_base-0.1.0-0.editable-py3-none-any.whl size=3182 sha256=bf1224573a8f33291d03b9ce91474483c9e750f511d0843b033a338f39f14b37
+  Stored in directory: /tmp/pip-ephem-wheel-cache-dzh0y9f0/wheels/de/96/ec/e0d29ec12b2386abbaf4346c74aa3b5bef62ddf3d0cbf98681
+Successfully built bayesfl-base
+Installing collected packages: bayesfl-base
+  Attempting uninstall: bayesfl-base
+    Found existing installation: bayesfl-base 0.1.0
+    Uninstalling bayesfl-base-0.1.0:
+      Successfully uninstalled bayesfl-base-0.1.0
+Successfully installed bayesfl-base-0.1.0
+
+exit_code=0
+measured_wall_seconds=2.7551455120556056

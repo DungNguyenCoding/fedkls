@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python",
+    "-c",
+    "import hashlib,json,pathlib,re,subprocess; root=pathlib.Path.cwd(); f=root/\"reports/repository_onboarding/recovery\"; b=json.loads((f/\"baseline.json\").read_text()); assert all((root/n).is_file() and hashlib.sha256((root/n).read_bytes()).hexdigest()==h for n,h in b[\"protected_hashes\"].items()); assert all(hashlib.sha256((root/n).read_bytes()).hexdigest()==h for n,h in b[\"prior_report_hashes\"].items()); report=f.parent/\"RECOVERY_VERIFICATION.md\"; t=report.read_text(); assert all(\"://\" in p or (report.parent/p).exists() for p in re.findall(r\"\\]\\(([^)]+)\\)\",t)); assert subprocess.run([\"git\",\"diff\",\"--check\"]).returncode==0; print(\"PASS: report links, protected-file preservation, previous-report preservation, and git diff --check.\"); print(\"Expected changes: .gitattributes, RECOVERY_VERIFICATION.md, recovery/ evidence only.\")"
+  ],
+  "started_utc": "2026-11-14T07:32:36.386620+00:00",
+  "exit_code": 0,
+  "measured_wall_seconds": 0.11118464707396924,
+  "python": "/home/micl/anaconda3/envs/dungndh/bin/python",
+  "conda": "dungndh",
+  "pythonpath": null
+}

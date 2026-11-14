@@ -1,0 +1,40 @@
+command: python -m bayesfl.main --help
+started_utc: 2026-11-14T07:25:53.428947+00:00
+python=/home/micl/anaconda3/envs/dungndh/bin/python
+CONDA_DEFAULT_ENV=dungndh
+CONDA_PREFIX=/home/micl/anaconda3/envs/dungndh
+PYTHONPATH=None
+PYTHONDONTWRITEBYTECODE=1
+usage: main.py [-h] [--config CONFIG] [--dataset {mnist,cifar10}]
+               [--method {fedavg,bbb,fola,fedavg_dense,fola_dense,fola_sparse,fola_sparse_kl_global_local,fola_sparse_kl_local_global,fola_sparse_random}]
+               [--rounds ROUNDS] [--seed SEED]
+               [--selection-rule {dense,kl_global_local,kl_local_global,random}]
+               [--keep-ratio KEEP_RATIO]
+               [--precision-policy {strict,floor_for_score}]
+               [--max-communication-bytes MAX_COMMUNICATION_BYTES]
+               [--downlink-mode {unicast,multicast}]
+               [--max-modeled-time-seconds MAX_MODELED_TIME_SECONDS]
+               [--resume RESUME]
+
+Bayesian Federated Learning baseline
+
+options:
+  -h, --help            show this help message and exit
+  --config CONFIG       YAML experiment config
+  --dataset {mnist,cifar10}
+  --method {fedavg,bbb,fola,fedavg_dense,fola_dense,fola_sparse,fola_sparse_kl_global_local,fola_sparse_kl_local_global,fola_sparse_random}
+  --rounds ROUNDS
+  --seed SEED
+  --selection-rule {dense,kl_global_local,kl_local_global,random}
+  --keep-ratio KEEP_RATIO
+  --precision-policy {strict,floor_for_score}
+  --max-communication-bytes MAX_COMMUNICATION_BYTES
+  --downlink-mode {unicast,multicast}
+  --max-modeled-time-seconds MAX_MODELED_TIME_SECONDS
+                        Wireless-only total modeled time cap; may extend on
+                        clean resume
+  --resume RESUME       Resume an existing run directory at its latest
+                        completed evaluated round
+
+exit_code=0
+measured_wall_seconds=2.2908383081667125

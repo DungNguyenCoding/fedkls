@@ -1,0 +1,58 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "exit_code": 2,
+  "diagnostics": [
+    {
+      "path": "reports/repository_onboarding/recovery/logs/pytest_full.log",
+      "line": 24,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "reports/repository_onboarding/recovery/wireless_endpoints.csv",
+      "line": 1,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "reports/repository_onboarding/recovery/wireless_endpoints.csv",
+      "line": 2,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "reports/repository_onboarding/recovery/wireless_endpoints.csv",
+      "line": 3,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "reports/repository_onboarding/recovery/wireless_endpoints.csv",
+      "line": 4,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "reports/repository_onboarding/recovery/wireless_endpoints.csv",
+      "line": 5,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "reports/repository_onboarding/recovery/wireless_endpoints.csv",
+      "line": 6,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "reports/repository_onboarding/recovery/wireless_endpoints.csv",
+      "line": 7,
+      "message": "trailing whitespace."
+    },
+    {
+      "path": "reports/repository_onboarding/recovery/wireless_endpoints.csv",
+      "line": 8,
+      "message": "trailing whitespace."
+    }
+  ],
+  "stdout": "reports/repository_onboarding/recovery/logs/pytest_full.log:24: trailing whitespace.\n+E             \nreports/repository_onboarding/recovery/wireless_endpoints.csv:1: trailing whitespace.\n+label,run_dir,rounds,accuracy_percent,nll,final_mean_keep_ratio,array_bytes,control_bytes,modeled_seconds,strict_exit,records_exit,checkpoint_status,validation_scope\nreports/repository_onboarding/recovery/wireless_endpoints.csv:2: trailing whitespace.\n+Reference,outputs/run_wireless_cifar_eqb_joint150_fixed_v1_cifar10_a0p01_f1_joint_seed0_20261109_230207,150,52.629999999999995,1.4044857145008125,0.47546617220882875,11438601248,111770677,27000.0,1,0,inconsistent,records_only_unverified_checkpoint\nreports/repository_onboarding/recovery/wireless_endpoints.csv:3: trailing whitespace.\n+U170,outputs/run_wireless_cifar_joint_u170_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115923,150,50.24999999999999,1.5104567406049427,0.39139900607600353,9707082416,114194602,25500.0,1,0,inconsistent,records_only_unverified_checkpoint\nreports/repository_onboarding/recovery/wireless_endpoints.csv:4: trailing whitespace.\n+U160,outputs/run_wireless_cifar_joint_u160_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_171008,150,52.470000000000006,1.5051691155450413,0.3103081483100333,7997869896,115403660,24000.0,1,0,inconsistent,records_only_unverified_checkpoint\nreports/repository_onboarding/recovery/wireless_endpoints.csv:5: trailing whitespace.\n+U150,outputs/run_wireless_cifar_joint_u150_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221432,150,43.43,2.1130073459186756,0.23023261372871748,6254901736,117648145,22500.0,1,0,inconsistent,records_only_unverified_checkpoint\nreports/repository_onboarding/recovery/wireless_endpoints.csv:6: trailing whitespace.\n+B0550,outputs/run_wireless_cifar_joint_b0550_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_115526,150,47.29,1.920676400697937,0.2569518905272168,6861029616,119191975,27000.0,1,0,inconsistent,records_only_unverified_checkpoint\nreports/repository_onboarding/recovery/wireless_endpoints.csv:7: trailing whitespace.\n+B0750,outputs/run_wireless_cifar_joint_b0750_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_170448,150,52.53,1.4623429788966564,0.35302872499539006,8901418240,113770826,27000.0,1,0,inconsistent,records_only_unverified_checkpoint\nreports/repository_onboarding/recovery/wireless_endpoints.csv:8: trailing whitespace.\n+B0950,outputs/run_wireless_cifar_joint_b0950_r150_v1_cifar10_a0p01_f1_joint_seed0_20261111_221033,150,54.010000000000005,1.3948317100203316,0.45118002863848805,10942542760,112725210,27000.0,1,0,inconsistent,records_only_unverified_checkpoint\n",
+  "assessment": "Whitespace in exact pytest console output and CRLF from the CSV emitter; no source/config/history modifications. Emitted evidence bytes preserved; no whitespace suppression rule added."
+}
