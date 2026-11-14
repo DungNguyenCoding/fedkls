@@ -11,6 +11,12 @@ algorithms, complete round sequences, wireless resource model, experiment locks,
 validation and current results. [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
 explains the purpose of *every top-level folder* and the source modules.
 
+**New Codex conversation:** read [`docs/CODEX_SETUP.md`](docs/CODEX_SETUP.md),
+[`docs/WORKFLOW.md`](docs/WORKFLOW.md), and the dated
+[`docs/PROJECT_STATUS.md`](docs/PROJECT_STATUS.md). Model-selection examples are
+in `docs/codex-profiles/`; `.codex/config.toml` contains project safety defaults,
+not automatic task-based model routing.
+
 ## Choose the correct workflow
 
 - **Legacy first submission:** FedAvg, Bayes by Backprop (BBB), dense FOLA, and

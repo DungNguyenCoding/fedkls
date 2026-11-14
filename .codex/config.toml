@@ -1,0 +1,8 @@
+# FedKLS repository-scoped Codex execution defaults.
+# This file is loaded only for a trusted project. It does NOT select models by task.
+# Do not set model/model_reasoning_effort here: project-level values would override
+# user-selected task profiles. Model choice belongs in the IDE selector or the
+# optional ~/.codex/fedkls-*.config.toml profile files described in docs/CODEX_SETUP.md.
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"

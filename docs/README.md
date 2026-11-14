@@ -7,6 +7,10 @@ superseded or describe unfinished work; do not interpret them as new results.
 
 | Document | Question answered |
 | --- | --- |
+| [WORKFLOW.md](WORKFLOW.md) | Who designs, implements, launches, verifies and reviews? What does each task receive and produce? |
+| [CODEX_SETUP.md](CODEX_SETUP.md) | How does a fresh Codex window recover context, choose models and use TOML profiles? |
+| [PROJECT_STATUS.md](PROJECT_STATUS.md) | What is the last independently reported status, and what is *not* approved yet? |
+| [TASK_TEMPLATE.md](TASK_TEMPLATE.md) | What is the input/output/acceptance contract for an approved task? |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Why does each folder/module exist? What calls what? |
 | [ALGORITHMS.md](ALGORITHMS.md) | What exactly do FedAvg, BBB, dense FOLA, fixed-ratio FedKLS and selectors compute? |
 | [WIRELESS.md](WIRELESS.md) | How is the legacy learner extended? What are the stages, channel/time models, packet formats and allocation constraints? |
@@ -34,3 +38,10 @@ If they disagree, note the discrepancy explicitly; never silently edit results.
 
 This documentation reorganizing does not remove the scientific trail. Old materials
 are *archived*, not presented as current operating instructions.
+
+## Persistent task context
+
+Dated task specifications belong in [`tasks/`](tasks/README.md). Do not
+confuse a **proposed** smoke/experiment with a researcher-approved run. The
+researcher manually launches long jobs, and the completed evidence belongs
+under [`../reports/`](../reports/README.md).

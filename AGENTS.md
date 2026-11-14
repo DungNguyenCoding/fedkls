@@ -47,3 +47,14 @@ A non-scientific refactor must leave the protected learner/packet/allocator sour
 byte-identical and pass existing focused tests. If an empirical result is merely
 recorded rather than rerun, report it as recorded and distinguish simulated
 resources from measured wall time.
+
+## Multi-conversation work and manual experiment policy
+
+At the start of a fresh Codex window, read `docs/WORKFLOW.md`,
+`docs/PROJECT_STATUS.md`, and `docs/CODEX_SETUP.md`; use an approved
+`docs/tasks/TASK-*.md` brief or an explicit equivalent input/output contract.
+The researcher and ChatGPT own the scientific design; implement only the
+approved scope. `PREPARE_RUN` means create and verify **LAUNCH / MONITOR /
+EXTRACT RESULTS** commands, not execute long-running training. The researcher
+launches training manually on the SSH host and returns `reports/` evidence for
+scientific review. Never assume a new window inherited earlier chat context.

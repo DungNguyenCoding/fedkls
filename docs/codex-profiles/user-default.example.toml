@@ -1,0 +1,6 @@
+# Example only. Merge carefully with ~/.codex/config.toml; never overwrite
+# existing account/provider/auth/MCP configuration just to use FedKLS.
+# Requires a Codex account/workspace with access to this model.
+model = "gpt-6.1-sol"
+model_reasoning_effort = "medium"
+# The project `.codex/config.toml` already requests approval on execution.
