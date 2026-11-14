@@ -4,6 +4,7 @@
 
 | Path | Responsibility | Write policy / cautions |
 | --- | --- | --- |
+| `.codex/` | Trusted-repository Codex safety defaults (approval and workspace sandbox only) | No automatic model routing; see `docs/CODEX_SETUP.md` |
 | `src/bayesfl/` | Actual Python implementation of learning, Gaussian math, packet selection, evaluation, state management | Scientific core; change only with explicit experiment intent and regression tests |
 | `src/bayesfl/wireless/` | Opt-in digital wireless extension: channel, integer allocation, multi-phase clients, packets, runtime, accounting | Separate from legacy learner; no implicit AirComp, radio noise or dropout |
 | `scripts/` | Entry scripts for configuring, validating, running, inspecting, plotting and exporting studies | Keep scripts versioned and deterministic; long queues only by explicit decision |
@@ -17,6 +18,7 @@
 | `logs/` | Console/queue log files from execution | Operating diagnostics, not training evidence; keep out of reports except cited excerpts |
 | `validation/` | Historical validation receipts/hashes and gate results | Dated evidence; not a substitute for retesting after a change |
 | `docs/` | **Current** mathematical and engineering definitions | This index is the entry point; keep active pages small and authoritative |
+| `docs/tasks/`, `docs/codex-profiles/` | Approved task briefs and optional user-profile templates | Neither is an active training job or automatically installed user settings |
 | `docs/archive/` | Original superseded documentation and relocation map | Read-only history, not runnable instructions |
 | `docs/history/`, `docs/evidence/` | Earlier stage histories and raw audit materials retained for provenance | Do not overwrite or promote old claims to new experimental evidence |
 | `docs/wireless/proposal/` | Supplied preimplementation wireless mathematical proposal (LaTeX) | Research reference; distinguish designed ideal model from implemented adapters |

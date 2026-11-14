@@ -1,0 +1,4 @@
+# Routine repo inspection, test collection, log triage, report generation.
+# Install by copying to ~/.codex/fedkls-routine.config.toml
+model = "gpt-6.1-sol"
+model_reasoning_effort = "medium"

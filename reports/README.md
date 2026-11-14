@@ -1,5 +1,12 @@
 # `reports/` — the review-facing evidence interface
 
+**Workflow:** [`docs/WORKFLOW.md`](../docs/WORKFLOW.md) defines the
+researcher-controlled LAUNCH / MONITOR / EXTRACT process.
+[`docs/TASK_TEMPLATE.md`](../docs/TASK_TEMPLATE.md) describes what a
+preparation/verification task must return. A new Codex conversation reads
+[`docs/PROJECT_STATUS.md`](../docs/PROJECT_STATUS.md) before interpreting
+reports; this folder is review evidence, not live process state.
+
 **Purpose:** This folder is the single, predictable location for compact,
 reproducible **experiment reports** used for research review and decisions.
 It is intentionally separate from `outputs/`, which holds *raw training

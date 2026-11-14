@@ -1,0 +1,4 @@
+# Complex numerical audits, difficult bugs, high-stakes invariants review.
+# Install by copying to ~/.codex/fedkls-critical-review.config.toml
+model = "gpt-6.1-sol"
+model_reasoning_effort = "xhigh"

@@ -1,0 +1,4 @@
+# Scoped approved code implementations and integration debugging.
+# Install by copying to ~/.codex/fedkls-implementation.config.toml
+model = "gpt-6.1-sol"
+model_reasoning_effort = "high"
