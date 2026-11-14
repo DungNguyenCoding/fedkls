@@ -26,10 +26,7 @@ import zipfile
 DEFAULT_ROOT = Path(__file__).resolve().parents[2]
 TEXT_SUFFIXES = {'.tex', '.py', '.sh', '.yaml', '.yml', '.json', '.md', '.txt', '.toml', '.ini', '.cfg'}
 EXCLUDED_PARTS = {'.git', '__pycache__', '.pytest_cache', '.venv', 'venv', 'node_modules'}
-ROOT_FILES = ('README.md', 'AGENTS.md', 'SPARSE_README.md', 'IMPLEMENTATION_REPORT.md',
-              'VALIDATION.md', 'VALIDATION_SPARSE.md', 'pyproject.toml', 'requirements.txt',
-              'CHANGE_MANIFEST.json', 'PACKAGE_MANIFEST.txt', 'DOCS_UPDATE_MANIFEST.json', '.gitignore',
-              'WIRELESS_CHANGE_MANIFEST.json', 'WIRELESS_IMPLEMENTATION_REPORT.md')
+ROOT_FILES = ('README.md', 'AGENTS.md', 'pyproject.toml', 'requirements.txt', '.gitignore')
 
 
 def fail(message: str) -> None:
@@ -256,7 +253,7 @@ def export(root: Path, registry: dict, results: list[dict], wireless_results: li
         out.writestr('HANDOFF_CAPTURE.json', json.dumps(summary, indent=2)+'\n')
         out.writestr('HANDOFF_FILE_HASHES.json', json.dumps(index, indent=2)+'\n')
         out.writestr('READ_ME_FIRST.txt',
-            'Read bayesfl/docs/CHAT_HANDOFF.md and HANDOFF_CAPTURE.json first.\n'
+            'Read bayesfl/docs/README.md and HANDOFF_CAPTURE.json first.\n'
             'This is a lightweight source/metrics snapshot, not a resume backup.\n'
             'No model weights, raw data, partition NPZs or full resume ledger are included.\n'
             'Review paths, code, configs and metadata before sharing externally.\n')

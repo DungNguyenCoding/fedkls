@@ -100,7 +100,7 @@ def get_valid_output(root, prefix, round_target, expected_bytes):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--root', default='.', help='BayesFL repository root')
-    parser.add_argument('--output', default='reports/cifar_sparse_verified_results_for_paper.txt')
+    parser.add_argument('--output', default='reports/legacy/cifar_sparse_verified_results_for_paper.txt')
     args = parser.parse_args()
     root = Path(args.root).expanduser().resolve()
     assert (root / 'outputs').is_dir(), f'Missing repo outputs/: {root}'

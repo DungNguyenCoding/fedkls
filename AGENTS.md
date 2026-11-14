@@ -1,35 +1,49 @@
-# BayesFL / FedKLS continuation instructions
+# FedKLS repository research invariants
 
-Read `docs/CHAT_HANDOFF.md`, `docs/COMMAND_RULES.md`, `docs/LOCKED_EXPERIMENTS.md`,
-`docs/wireless/README.md` and `docs/wireless/STATUS.md` before changing this project.
-These are workflow preferences; the user's latest explicit request remains decisive.
+Read `docs/README.md`, `docs/ALGORITHMS.md`, `docs/WIRELESS.md`,
+`docs/EXPERIMENTS.md`, and `docs/REPRODUCIBILITY.md` before editing an
+experiment's semantics. Use `reports/README.md` for evidence exports.
 
-The current code includes an **opt-in reliable digital orthogonal wireless extension**,
-not AirComp. Preserve full local trainers, raw precision, original reducer, partitions,
-legacy packet v1 and old byte-budget resume. Wireless v2 has a separate controller,
-integer grants and checkpoints. Do not convert integer counts to ratios and back.
-Do not upload unselected state/scores to the server, retrain during price queries,
-drop clients, redraw infeasible channels, or silently enlarge deadlines.
+## Hard constraints
 
-Keep the selected legacy MNIST s10/N20/seed0 and CIFAR alpha .01/f1/N20/seed0
-experiments unchanged. Their FOLA R150/FedAvg R300 relation is equal **bytes**, not
-wireless time. Wireless numerical scenario settings are not yet paper locks.
+- Do not modify an experiment's learning algorithm, client partition, seed,
+  clipping, schedule, optimizer, or communication budget through a documentation
+  cleanup. Preserve selected first-submission runs and every completed R150
+  wireless sensitivity trajectory. Do not overwrite raw `outputs/run*/` data.
+- FOLA uses a **global Gaussian prior**, trains the *full* local model, and
+  aggregates diagonal **raw precision** and mean with its existing epsilon
+  convention. Do not replace the squared minibatch-mean gradient estimate with
+  per-example Fisher or another estimator without an explicitly separate study.
+- FedKLS's primary score is `KL(global-before || local-after)` at each coordinate;
+  `kl_local_global` is a distinct historical option, not a synonym. Selection
+  removes **messages**, not model weights or local computation. Missing client
+  coordinates are filled from the **same round's broadcast** state.
+- Wireless v2 grants exact integer counts; do not convert them to/from a
+  rounded keep ratio. Do not transmit full unselected local posteriors, re-train
+  for price queries, move score-only floors onto uploaded raw precision, silently
+  drop a client, change the channel upon infeasibility or assume global integer
+  optimum from a floating-point numerical gap.
+- Wireless data, logical control and modeled time/energy accounting are distinct.
+  This is ideal **digital orthogonal** transmission and fixed PSD, not AirComp,
+  observed PHY throughput, or guaranteed convergence.
+- Strict resume requires *raw byte* checkpoint/metric/event hashes. Never
+  normalize line endings, rewrite hashes, or treat a records-only report as
+  resumable evidence. Use new run identities and completed-round commits.
+- `training.local_epochs <= 10` remains the working compute limit; do not silently
+  alter locked profiles. Original paper MNIST s5/B5 and selected repository
+  MNIST s10/B10 are distinct conditions.
 
-Commands use `~/DungNDH/micl/bayesfl`, explicit Python
-`/home/micl/anaconda3/envs/dungndh/bin/python`, and `PYTHONPATH=$PWD/src`.
-E<=10 unless the user explicitly changes it. Clone saved locked learning configs.
-New ordinary/recovery outputs use `run_`; smoke tests use clearly named `smoke_`.
-No overwritten outputs, concurrent writers or automatic long queues. One serial queue
-per GPU; separate wireless runner/grammar from historical byte-budget queues.
+## What goes where
 
-When giving a simulation queue, include generation, configuration validation, shared
-partition preparation, serial-per-GPU nohup launch and terminal-only result summaries.
-Do not create result .txt/CSV/tee unless requested; normal execution logs and requested
-figures are exceptions. Inspect completion, not merely a queue FINISHED message.
+- `src/`: reusable algorithms and wireless protocol; `tests/`: regression checks.
+- `scripts/` and `scripts/configs/`: commands and **explicit** run settings.
+- `outputs/`: original full training outputs and checkpoint state.
+- `reports/`: generated compact summaries, CSV evidence and review bundles;
+  no checkpoints, NPZs, or raw model arrays. Never manufacture a clean-integrity
+  status for a byte-altered archive.
+- `docs/`: current scientific documentation and archived historical notes.
 
-Update source, tests, relevant docs and the new-chat handoff together. Preserve
-historical evidence; never promote synthetic tests to dataset/GPU validation or
-numerical gap diagnostics to certified global optimality. Target Flower/Ray/CUDA
-execution is unverified in this source release. No dependency migration or new Git
-ignore policy is authorized. Existing archive managers/manifests and protected outputs
-remain untouched.
+A non-scientific refactor must leave the protected learner/packet/allocator source
+byte-identical and pass existing focused tests. If an empirical result is merely
+recorded rather than rerun, report it as recorded and distinguish simulated
+resources from measured wall time.

@@ -1,26 +1,36 @@
-# Documentation index
+# Documentation index — one current source of truth
 
-| File | Purpose |
-|---|---|
-| [START_HERE.md](START_HERE.md) | Entry point and evidence boundary |
-| [CHAT_HANDOFF.md](CHAT_HANDOFF.md) | Self-contained continuation, current state and exact legacy paths |
-| [COMMAND_RULES.md](COMMAND_RULES.md) | Execution conventions and safeguards |
-| [RUNBOOK.md](RUNBOOK.md) | Legacy and wireless commands |
-| [LOCKED_EXPERIMENTS.md](LOCKED_EXPERIMENTS.md) | Preserved learning profiles; distinguish unapproved physical settings |
-| [EXPERIMENT_REGISTRY.json](EXPERIMENT_REGISTRY.json) | Exact legacy result records |
-| [RUN_REGISTRY.md](RUN_REGISTRY.md) | Legacy output/source-configuration map |
-| [REPOSITORY_MAP.md](REPOSITORY_MAP.md) | Source and artifact responsibilities |
-| [SCRIPT_REGISTRY.md](SCRIPT_REGISTRY.md) | Tools and queue grammars |
-| [COMMUNICATION_ACCOUNTING.md](COMMUNICATION_ACCOUNTING.md) | Legacy v1 versus wireless v2 costs and clocks |
-| [ALGORITHM_NOTES.md](ALGORITHM_NOTES.md) | Learner preservation and wireless adaptation |
-| [RESULTS_AND_PLOTTING.md](RESULTS_AND_PLOTTING.md) | Actual primary results and separate wireless figures |
-| [DATA_AND_GIT.md](DATA_AND_GIT.md) | Plot, training, resume and portable snapshot requirements |
-| [CLEANUP_STATE.md](CLEANUP_STATE.md) | Historical reorganization; do not repeat cleanup |
-| [DECISIONS_AND_NEXT_WORK.md](DECISIONS_AND_NEXT_WORK.md) | Completed decisions and next validation gate |
-| [EVIDENCE_AND_GAPS.md](EVIDENCE_AND_GAPS.md) | Source-supported claims and unverified boundaries |
-| [wireless/README.md](wireless/README.md) | Wireless implementation entry point |
-| [tools/README.md](tools/README.md) | Live handoff check/export commands |
+**Read these current documents in order.** Only this small group is current;
+previous root, `docs/` and `docs/wireless/` write-ups and historical manifests are preserved *unchanged*
+under [`ARCHIVE_INDEX.md`](ARCHIVE_INDEX.md). Historical instructions may be
+superseded or describe unfinished work; do not interpret them as new results.
 
-Historical release manifests at root describe their original packages, not this release.
-`WIRELESS_CHANGE_MANIFEST.json` describes the wireless overlay. Old docs and preimplementation
-reviews are retained as history, not overwritten research evidence.
+| Document | Question answered |
+| --- | --- |
+| [ARCHITECTURE.md](ARCHITECTURE.md) | Why does each folder/module exist? What calls what? |
+| [ALGORITHMS.md](ALGORITHMS.md) | What exactly do FedAvg, BBB, dense FOLA, fixed-ratio FedKLS and selectors compute? |
+| [WIRELESS.md](WIRELESS.md) | How is the legacy learner extended? What are the stages, channel/time models, packet formats and allocation constraints? |
+| [EXPERIMENTS.md](EXPERIMENTS.md) | Which MNIST/CIFAR settings are locked? Which methods/metrics are fair to compare? |
+| [RESULTS.md](RESULTS.md) | What did the previously completed runs show, with what evidence and open questions? |
+| [REPRODUCIBILITY.md](REPRODUCIBILITY.md) | How are configurations, dataset partitions, training, tests, output integrity and resume handled? |
+| [ARCHIVE_INDEX.md](ARCHIVE_INDEX.md) | Where did older files move, and how can a historical claim be traced? |
+| [../reports/README.md](../reports/README.md) | What should a generated review report contain, and how to produce it? |
+
+**Source of truth hierarchy:** exact saved run configuration + raw recorded metrics,
+then source code/packet tests, then current docs, then dated historical notes.
+If they disagree, note the discrepancy explicitly; never silently edit results.
+
+## Source documents preserved separately
+
+- [`wireless/proposal/`](wireless/proposal/) — original wireless-design LaTeX
+  (`wireless_model.tex`, `joint_problem.tex`, `method1.tex`, etc.). Some implemented
+  choices are explicitly different; see [WIRELESS.md](WIRELESS.md).
+- [`history/`](history/) — earlier versioned documentation and engineering notes.
+- [`evidence/`](evidence/) — historical audit logs and snapshots.
+- [`EXPERIMENT_REGISTRY.json`](EXPERIMENT_REGISTRY.json) — machine-readable
+  first-submission primary-run registry. Its path must remain stable for tools.
+- [`tools/export_handoff.py`](tools/export_handoff.py) — legacy code/metrics snapshot;
+  distinct from the purpose-built analysis reports in `reports/`.
+
+This documentation reorganizing does not remove the scientific trail. Old materials
+are *archived*, not presented as current operating instructions.

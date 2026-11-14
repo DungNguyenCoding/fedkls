@@ -30,7 +30,8 @@ def number(value):
     return value
 
 
-def inspect_run(run_dir: Path, *, time_budget_s: float | None = None) -> dict:
+def inspect_run(run_dir: Path, *, time_budget_s: float | None = None,
+                verify_checkpoint: bool = True) -> dict:
     run_dir=Path(run_dir).resolve()
     protocol=json.loads((run_dir/'wireless/protocol.json').read_text())
     if protocol.get('protocol')!='fedkls_wireless_integer_precision_v2':
@@ -87,7 +88,7 @@ def inspect_run(run_dir: Path, *, time_budget_s: float | None = None) -> dict:
     accuracy=number(chosen['fola_mean_accuracy'] if method=='fola' else chosen['accuracy'])
     if not 0<=accuracy<=1:raise ValueError("Expected stored fractional accuracy")
     latest=run_dir/'wireless_resume/latest.json'
-    if latest.is_file():
+    if verify_checkpoint and latest.is_file():
         p=json.loads(latest.read_text());name=p['state_file']
         if Path(name).name!=name:raise ValueError("Invalid checkpoint metadata path")
         state_path=latest.parent/name

@@ -1,0 +1,123 @@
+{
+  "schema": "fedkls-cleanup-v2",
+  "based_on": "bayesfl.zip",
+  "original_archive_sha256": "5f01b7fd56815f2a11cd103426b60a19d23626f6a45f94df91e7200367f2c2c8",
+  "removed_scratch_entries": [
+    {
+      "path": "backups/three_mnist_models/20261008_094833_711265/src/bayesfl/config.py",
+      "size_bytes": 17250,
+      "sha256": "6e9b0d9ae5f18c968e9eedb9503b85a3cea7ef53e7496a6b6353a62ee5aa548d"
+    },
+    {
+      "path": "backups/three_mnist_models/20261008_094833_711265/src/bayesfl/models/factory.py",
+      "size_bytes": 4206,
+      "sha256": "bb8acd08eda6490b9fa3b0de3ed4613c14d512c18f68b5a253e17207cec3a773"
+    },
+    {
+      "path": "backups/three_mnist_models/20261008_094833_711265/src/bayesfl/models/mnist_mlp.py",
+      "size_bytes": 2832,
+      "sha256": "906e980ba101c0803641557981f419226018651d02466c109deddf16312428e8"
+    },
+    {
+      "path": "modified_source/src/bayesfl/config.py",
+      "size_bytes": 18413,
+      "sha256": "c7203fceb90d689695c8045fd2458ab9b9586faa3064c182fe25f326265df5d9"
+    },
+    {
+      "path": "modified_source/src/bayesfl/experiment_state.py",
+      "size_bytes": 24426,
+      "sha256": "bc85810767a697fce20b08aa73d790db312b9dbc05057a0a65ffcfe9989f5849"
+    },
+    {
+      "path": "modified_source/src/bayesfl/training/deterministic.py",
+      "size_bytes": 2077,
+      "sha256": "d3914cdc8f28dbdebb443da0bf53e9b40073961270a7684bf039b68acad3eecc"
+    }
+  ],
+  "protected_unchanged_source": [
+    {
+      "path": "src/bayesfl/training/fola.py",
+      "sha256": "d6c36ecede38028a76896b0381d22f88ae3259c3fd4c6d20e227ce3b70c2c2c1"
+    },
+    {
+      "path": "src/bayesfl/training/deterministic.py",
+      "sha256": "d3914cdc8f28dbdebb443da0bf53e9b40073961270a7684bf039b68acad3eecc"
+    },
+    {
+      "path": "src/bayesfl/training/bbb.py",
+      "sha256": "e6e8a92ea4509019097e6e0e9487977b8ff5bc1052bc11b621793179f15110a2"
+    },
+    {
+      "path": "src/bayesfl/posterior/sparse.py",
+      "sha256": "837927d25e4c0e8a5f34adaf2d870726bd8c8241e624b4fe3eb98e5f73b0ce5d"
+    },
+    {
+      "path": "src/bayesfl/posterior/aggregation.py",
+      "sha256": "519dcba730256f1c0e6c6218f0b888de00acbd8939a9fd70f0601a7b5d5b5133"
+    },
+    {
+      "path": "src/bayesfl/posterior/gaussian.py",
+      "sha256": "d8cb01128c50b0e4eb8e79b567412dd0e7db3e89d81604db624367a434472ce3"
+    },
+    {
+      "path": "src/bayesfl/posterior/packing.py",
+      "sha256": "36d3c1b68a8504c9c6e55a2c5ae6532b09257876e1ef64b217075d15ca5ef041"
+    },
+    {
+      "path": "src/bayesfl/data/partition.py",
+      "sha256": "63b9c043799017bc2a0be4f4bdd9d6f2f554dd0d31a4522595b70a531becf2cd"
+    },
+    {
+      "path": "src/bayesfl/wireless/allocation.py",
+      "sha256": "5fecf53981384b52da961c4d9c4ee1dc8157ed713af8dc43c2629d8866a906a3"
+    },
+    {
+      "path": "src/bayesfl/wireless/channel.py",
+      "sha256": "89b5efed9c15c47f843112d305b751b996d4b6191cf6e25b9a4d039ec0af7459"
+    },
+    {
+      "path": "src/bayesfl/wireless/controller.py",
+      "sha256": "4a9ae2c639c9d3d8ce75012c51d37cb8fdc5707d13eb9250c54266f9230e5cb2"
+    },
+    {
+      "path": "src/bayesfl/wireless/protocol.py",
+      "sha256": "aa22c63dad9b9967328051f3882fc71d0c6081653ea5f552ab2fd734b7ec651f"
+    },
+    {
+      "path": "src/bayesfl/wireless/oracle.py",
+      "sha256": "961f49e743c5530f5f33e76608633a9c5e937ee07c9ea45aa8d895e9b48fa467"
+    },
+    {
+      "path": "src/bayesfl/wireless/state.py",
+      "sha256": "28ddc1889e45820122a0002a8fc15f4d203d4f0d024aa93b188e938008d0546f"
+    },
+    {
+      "path": "src/bayesfl/wireless/client.py",
+      "sha256": "7a5724db3999fa1f9fb8493b30e3f5047759281554ba571c69c88eba3b00a85e"
+    },
+    {
+      "path": "src/bayesfl/wireless/runner.py",
+      "sha256": "9ff4795e0316c38b60150158fa04c425adab0c65d263f9e244c4ed2547f6a313"
+    }
+  ],
+  "reorganized_docs": "docs/archive/2026-11-12-snapshot/RELOCATION_MAP.json",
+  "new_active_docs": [
+    "README.md",
+    "AGENTS.md",
+    "docs/README.md",
+    "docs/ARCHITECTURE.md",
+    "docs/ALGORITHMS.md",
+    "docs/WIRELESS.md",
+    "docs/EXPERIMENTS.md",
+    "docs/RESULTS.md",
+    "docs/REPRODUCIBILITY.md",
+    "docs/ARCHIVE_INDEX.md"
+  ],
+  "new_reporting_api": [
+    "src/bayesfl/wireless/research_report.py",
+    "scripts/export_research_report.py",
+    "reports/README.md",
+    "reports/REPORT_TEMPLATE.md"
+  ],
+  "results_policy": "Full release preserves outputs and plots byte-for-byte; source-only release excludes them; report mode never rewrites outputs."
+}

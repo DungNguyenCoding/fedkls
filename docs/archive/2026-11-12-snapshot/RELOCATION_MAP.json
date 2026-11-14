@@ -1,0 +1,465 @@
+{
+  "excluded_from_clean_release": [
+    "backups/",
+    "modified_source/"
+  ],
+  "moved_files": [
+    {
+      "from": "AGENTS.md",
+      "sha256": "52ea3797f09017db5e67f24106d2e9a44b3b9e4a4b7fbda33af94469155b85ca",
+      "to": "docs/archive/2026-11-12-snapshot/AGENTS.md"
+    },
+    {
+      "from": "CHANGE_MANIFEST.json",
+      "sha256": "0fc92f7900f75be4837d8c3156a30f3ffec73eb046a7e38125ad2de70ef55ae5",
+      "to": "docs/archive/2026-11-12-snapshot/CHANGE_MANIFEST.json"
+    },
+    {
+      "from": "CIFAR10_WIRELESS_PILOT_SETUP_MANIFEST.json",
+      "sha256": "9847205074889e5a8b9fba769a9a099de6b9b53128e7571fffa952c41d450963",
+      "to": "docs/archive/2026-11-12-snapshot/CIFAR10_WIRELESS_PILOT_SETUP_MANIFEST.json"
+    },
+    {
+      "from": "CIFAR_PAIRED_PRELONG_MANIFEST.json",
+      "sha256": "b10be6ee01cc75efc0f485c3302d237d23dc262df658bd9f6b96209c430aec57",
+      "to": "docs/archive/2026-11-12-snapshot/CIFAR_PAIRED_PRELONG_MANIFEST.json"
+    },
+    {
+      "from": "DOCS_UPDATE_MANIFEST.json",
+      "sha256": "d24767bcba46f0ecdf3cd66c0aeb13adce95f3813c5a6d15b378acb615c38cf6",
+      "to": "docs/archive/2026-11-12-snapshot/DOCS_UPDATE_MANIFEST.json"
+    },
+    {
+      "from": "IMPLEMENTATION_REPORT.md",
+      "sha256": "72c3ee4563c980aa4e21a98d62a24cb876817889293d30334185d165236feaac",
+      "to": "docs/archive/2026-11-12-snapshot/IMPLEMENTATION_REPORT.md"
+    },
+    {
+      "from": "INSTALL_CIFAR10_PILOT.md",
+      "sha256": "3d96fda4b903281de9178e66aea5ffbb7b00516692763d6c3638b443850cf043",
+      "to": "docs/archive/2026-11-12-snapshot/INSTALL_CIFAR10_PILOT.md"
+    },
+    {
+      "from": "INSTALL_CIFAR_PAIRED_PRELONG.md",
+      "sha256": "be748ce5995dc1d48e4da67284e412f41e782021950e42b06844425bbc647da2",
+      "to": "docs/archive/2026-11-12-snapshot/INSTALL_CIFAR_PAIRED_PRELONG.md"
+    },
+    {
+      "from": "PACKAGE_MANIFEST.txt",
+      "sha256": "72c79974ceb38ae8c502d666cd4be3e70de1aae3d492a058f60a453f571ad39c",
+      "to": "docs/archive/2026-11-12-snapshot/PACKAGE_MANIFEST.txt"
+    },
+    {
+      "from": "README.md",
+      "sha256": "c5d8910249aa11afeaee9095d50478d9c6011d46c194b61d25c29a4ce71a1de7",
+      "to": "docs/archive/2026-11-12-snapshot/README.md"
+    },
+    {
+      "from": "README_JOINT_SENSITIVITY.txt",
+      "sha256": "5320070a7db2ca280ae813f9c56e4ed0970e724569bc8303789693c7982d76ba",
+      "to": "docs/archive/2026-11-12-snapshot/README_JOINT_SENSITIVITY.txt"
+    },
+    {
+      "from": "SPARSE_README.md",
+      "sha256": "75d843a5a1e0b30cc9c4c1d943b152a3836cca7d5b6f9a445d3cd7b004b50670",
+      "to": "docs/archive/2026-11-12-snapshot/SPARSE_README.md"
+    },
+    {
+      "from": "VALIDATION.md",
+      "sha256": "6f32ecbac8df12f902d983ad3fb244f7f76f0e3f641b8a9f60f289e252621f43",
+      "to": "docs/archive/2026-11-12-snapshot/VALIDATION.md"
+    },
+    {
+      "from": "VALIDATION_SPARSE.md",
+      "sha256": "9d65bc9042af5ef03a131680d73998696f1931d462acc66a1b7419010ab63dc8",
+      "to": "docs/archive/2026-11-12-snapshot/VALIDATION_SPARSE.md"
+    },
+    {
+      "from": "WIRELESS_CHANGE_MANIFEST.json",
+      "sha256": "3c0124dfd14a30852f9ef72a59a502db799df2fbe3686ec73b79b0a035d6a418",
+      "to": "docs/archive/2026-11-12-snapshot/WIRELESS_CHANGE_MANIFEST.json"
+    },
+    {
+      "from": "WIRELESS_IMPLEMENTATION_REPORT.md",
+      "sha256": "3dba8df2bb59bb4e1f6439bf686a8ce15ae96aa0ec0d633d904a5cfa2833df66",
+      "to": "docs/archive/2026-11-12-snapshot/WIRELESS_IMPLEMENTATION_REPORT.md"
+    },
+    {
+      "from": "docs/ALGORITHM_NOTES.md",
+      "sha256": "c1d26ef7a7102f8a57fe2996cc3f581061bb1987fc3d6c012d450fcd337e916c",
+      "to": "docs/archive/2026-11-12-snapshot/docs/ALGORITHM_NOTES.md"
+    },
+    {
+      "from": "docs/BASELINE_ARCHIVE_README.md",
+      "sha256": "e1e7d0513e863d73b9b2f96f5888161f8afd7908742c61b10476b30db7f82d51",
+      "to": "docs/archive/2026-11-12-snapshot/docs/BASELINE_ARCHIVE_README.md"
+    },
+    {
+      "from": "docs/BASELINE_HANDOFF_README.md",
+      "sha256": "1a42447bb2dd2648772895f584adabd219b707cb414546d87c3a3b634f71b93d",
+      "to": "docs/archive/2026-11-12-snapshot/docs/BASELINE_HANDOFF_README.md"
+    },
+    {
+      "from": "docs/CHAT_HANDOFF.md",
+      "sha256": "447d942f5768d7a1d609a6850c40b0a09a31c031eb724b33974335bda65efbda",
+      "to": "docs/archive/2026-11-12-snapshot/docs/CHAT_HANDOFF.md"
+    },
+    {
+      "from": "docs/CLEANUP_STATE.md",
+      "sha256": "cf9c44011258ae4f7bcc1c17cfda909e7be4730d81be70ecaf5d0da23658af9e",
+      "to": "docs/archive/2026-11-12-snapshot/docs/CLEANUP_STATE.md"
+    },
+    {
+      "from": "docs/COMMAND_RULES.md",
+      "sha256": "7915b81e031b75dd90bde5b1b679010815e623a51a0b8b0ca4e296305f367d2d",
+      "to": "docs/archive/2026-11-12-snapshot/docs/COMMAND_RULES.md"
+    },
+    {
+      "from": "docs/COMMUNICATION_ACCOUNTING.md",
+      "sha256": "c3fbf1c516e4533c02a90d100ad95112d2f8d64f5086dede2eec2a360eb2861d",
+      "to": "docs/archive/2026-11-12-snapshot/docs/COMMUNICATION_ACCOUNTING.md"
+    },
+    {
+      "from": "docs/DATA_AND_GIT.md",
+      "sha256": "cf3cbfe1237458805dfcca9afbd527d6c08140ece1e49e1116ee57429122aeda",
+      "to": "docs/archive/2026-11-12-snapshot/docs/DATA_AND_GIT.md"
+    },
+    {
+      "from": "docs/DECISIONS_AND_NEXT_WORK.md",
+      "sha256": "0de60c176181dbe556cd1510095d827fdd7433de2500d5cde1ca13643e7affbd",
+      "to": "docs/archive/2026-11-12-snapshot/docs/DECISIONS_AND_NEXT_WORK.md"
+    },
+    {
+      "from": "docs/DOCUMENTATION_VALIDATION.md",
+      "sha256": "3ecf9ba6c65c5c3700a03134165a05c0f09fd2b52d5b7f3d66bce35524a70048",
+      "to": "docs/archive/2026-11-12-snapshot/docs/DOCUMENTATION_VALIDATION.md"
+    },
+    {
+      "from": "docs/DOC_CHANGELOG.md",
+      "sha256": "f91f0723c7e55f6149fb11a49732c22c16b1a3798e6e97165c9cda53f85e894f",
+      "to": "docs/archive/2026-11-12-snapshot/docs/DOC_CHANGELOG.md"
+    },
+    {
+      "from": "docs/EVIDENCE_AND_GAPS.md",
+      "sha256": "3cec1c263aff4099371c12c6207115aa77a4742236bda84efd89ead1334d92a4",
+      "to": "docs/archive/2026-11-12-snapshot/docs/EVIDENCE_AND_GAPS.md"
+    },
+    {
+      "from": "docs/LOCKED_EXPERIMENTS.md",
+      "sha256": "5f8ef50bfd2ebf2910504d56c30e9d3355b970f2751c631cd1b5a5557121e8fa",
+      "to": "docs/archive/2026-11-12-snapshot/docs/LOCKED_EXPERIMENTS.md"
+    },
+    {
+      "from": "docs/PAPER_CIFAR10_PROFILE.md",
+      "sha256": "d351747e2b2b11dd0efc18109dab6aaa9b47b8f50bb98f1e8f13e441886ade7a",
+      "to": "docs/archive/2026-11-12-snapshot/docs/PAPER_CIFAR10_PROFILE.md"
+    },
+    {
+      "from": "docs/README.md",
+      "sha256": "113c035d5ef499323415aaa66284833f69e8eeba69b82f960f900c2e10e17365",
+      "to": "docs/archive/2026-11-12-snapshot/docs/README.md"
+    },
+    {
+      "from": "docs/REPOSITORY_MAP.md",
+      "sha256": "fff5ca9a2e358a347066180a7510db323ce4b9f952487e6213f70d52cdb5d632",
+      "to": "docs/archive/2026-11-12-snapshot/docs/REPOSITORY_MAP.md"
+    },
+    {
+      "from": "docs/RESULTS_AND_PLOTTING.md",
+      "sha256": "188d833662d77be9138be02ee15604109767c8048797da2f43f4494b7ab2877a",
+      "to": "docs/archive/2026-11-12-snapshot/docs/RESULTS_AND_PLOTTING.md"
+    },
+    {
+      "from": "docs/RUNBOOK.md",
+      "sha256": "5be784cf746a7af1d359041960e36cf0c158ea6af9cd1c624e04bae0ec396180",
+      "to": "docs/archive/2026-11-12-snapshot/docs/RUNBOOK.md"
+    },
+    {
+      "from": "docs/RUN_REGISTRY.md",
+      "sha256": "4ff02ba759dd3ee1da5506a0e63122cfef422f7ab4d589f046b2701384e5b0e3",
+      "to": "docs/archive/2026-11-12-snapshot/docs/RUN_REGISTRY.md"
+    },
+    {
+      "from": "docs/SCRIPT_REGISTRY.md",
+      "sha256": "83e86e3cfc05ea7e326d66c97775fc89d09acc51ba4d6cce7934cd4d79a47f64",
+      "to": "docs/archive/2026-11-12-snapshot/docs/SCRIPT_REGISTRY.md"
+    },
+    {
+      "from": "docs/SPARSE_IMPLEMENTATION_GUIDELINE.md",
+      "sha256": "fdcb5053a9ec5649144a834001178d9d558b00feceb1f989ec33cc7d1feea145",
+      "to": "docs/archive/2026-11-12-snapshot/docs/SPARSE_IMPLEMENTATION_GUIDELINE.md"
+    },
+    {
+      "from": "docs/START_HERE.md",
+      "sha256": "462c960b61ae52943db90bd779c92990f35d78679f77ca90d77303e669d7ee54",
+      "to": "docs/archive/2026-11-12-snapshot/docs/START_HERE.md"
+    },
+    {
+      "from": "docs/wireless/CHAT_HANDOFF_PAIRED_R11.md",
+      "sha256": "97819ebb8aee1c127bc5c8f9984c7fa4bee2d73b9a6f28768687ecf0fa42265f",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/CHAT_HANDOFF_PAIRED_R11.md"
+    },
+    {
+      "from": "docs/wireless/CIFAR10_STAGED_PLAN.md",
+      "sha256": "03ecd11da75c4dff5f87b238b1c79959010017b8a5fa3f81db85fcf6a193d604",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/CIFAR10_STAGED_PLAN.md"
+    },
+    {
+      "from": "docs/wireless/CIFAR_PAIRED_PRELONG_GATE.md",
+      "sha256": "4f685291052fb2afe7ff8640d8433d974102be06f55da34e905be6d9a6b8c9c6",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/CIFAR_PAIRED_PRELONG_GATE.md"
+    },
+    {
+      "from": "docs/wireless/CONFIGURATION.md",
+      "sha256": "881ba106377440977d8b779822de28ef1f34012c6e941000d88e1c3a668c1482",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/CONFIGURATION.md"
+    },
+    {
+      "from": "docs/wireless/DECISIONS_AND_OPEN_ITEMS.md",
+      "sha256": "497098abb9ec4866a45dae76c88b14b5b4d20e675480a2fa5e2c640e0b35e1b8",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/DECISIONS_AND_OPEN_ITEMS.md"
+    },
+    {
+      "from": "docs/wireless/DESIGN_REVIEW.md",
+      "sha256": "acc2d3433133272ec4cf27674c01a43ebe66e7060fe0d40e8a58fd4ff6795eef",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/DESIGN_REVIEW.md"
+    },
+    {
+      "from": "docs/wireless/IMPLEMENTATION.md",
+      "sha256": "07b90352a8d078faa054ce36d616fe376ad2463ab5739ab159c5489bc00df613",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/IMPLEMENTATION.md"
+    },
+    {
+      "from": "docs/wireless/IMPLEMENTATION_PLAN.md",
+      "sha256": "f528656a9aea6e872e269935b33f0ebbb28972443cfe918e756dbf61aed9dff2",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/IMPLEMENTATION_PLAN.md"
+    },
+    {
+      "from": "docs/wireless/JOINT_CIFAR10_SENSITIVITY_R150_20261112.md",
+      "sha256": "73f1d092368afb24e8ad1768cfbb128bba085ca98db1a9de86483f71a6d1c647",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_CIFAR10_SENSITIVITY_R150_20261112.md"
+    },
+    {
+      "from": "docs/wireless/JOINT_ONLY_SIX_SCENARIO_SENSITIVITY_PLAN_v1.md",
+      "sha256": "2561b713591e0df10f8a78d6c037c7a330bc610f5321b9c7c2cf8d560bd4d414",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_ONLY_SIX_SCENARIO_SENSITIVITY_PLAN_v1.md"
+    },
+    {
+      "from": "docs/wireless/JOINT_R150_AUDIT_RUNBOOK_v1.md",
+      "sha256": "735672a8733affca7213caa784f409f59e13ccbcd7c4685258890de49ed04844",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_R150_AUDIT_RUNBOOK_v1.md"
+    },
+    {
+      "from": "docs/wireless/JOINT_SENSITIVITY_PLOTS_RUNBOOK_v1.md",
+      "sha256": "3358acfc69ef2f7d4d0705cec0c84b40ad8bce6ac81ecc1bb8d65bbe326e4c5f",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/JOINT_SENSITIVITY_PLOTS_RUNBOOK_v1.md"
+    },
+    {
+      "from": "docs/wireless/OUTPUTS.md",
+      "sha256": "48656904d45292b7adb5811d3f284c24f16807156fa540ea8d06c6c581602ab1",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/OUTPUTS.md"
+    },
+    {
+      "from": "docs/wireless/README.md",
+      "sha256": "f24a86da72f3e6f2ce0aa2f4fdcf2d725b0384e6ad155f7be94eb2e391ec1ed2",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/README.md"
+    },
+    {
+      "from": "docs/wireless/RUNBOOK.md",
+      "sha256": "2d6def8bc37d5255e48b50987734187f84f4ec4199a1761f9792340a467d61a6",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/RUNBOOK.md"
+    },
+    {
+      "from": "docs/wireless/SAME_POSTERIOR_PROBE.md",
+      "sha256": "c466fb800d8877e7f71f6fd7c0a5a0fd7b8945830915c5fc0fef261637d4a8d0",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/SAME_POSTERIOR_PROBE.md"
+    },
+    {
+      "from": "docs/wireless/SOURCE_AUDIT.md",
+      "sha256": "d6c96d791e65fb7716a7ef3addf89d57f007d7e928bd5b054d8e0daaa94f807b",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/SOURCE_AUDIT.md"
+    },
+    {
+      "from": "docs/wireless/STATUS.md",
+      "sha256": "7c5b98b7b7171799db721dcf4fe6d49b5943e37d5c5a0dc1d872498516a029bd",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/STATUS.md"
+    },
+    {
+      "from": "docs/wireless/VALIDATION.md",
+      "sha256": "c3dad0c05693e42aca1d5d6fa999485dcdb9ec3e86c2397c82ca61f67c33a2b3",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/VALIDATION.md"
+    },
+    {
+      "from": "docs/wireless/VALIDATION_PLAN.md",
+      "sha256": "4e8ed94d2cedf24d6775546216b66b3118f60920d0be2e750da7502d56f1e794",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/VALIDATION_PLAN.md"
+    },
+    {
+      "from": "docs/wireless/evidence/cifar10_scheduling_pilot_v1/resource_preflight.txt",
+      "sha256": "9f2bcb3d03cf160bb42e661f1a58948df2b5bf1a56de1736c68fd687c39c4cce",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/evidence/cifar10_scheduling_pilot_v1/resource_preflight.txt"
+    },
+    {
+      "from": "docs/wireless/evidence/cifar10_scheduling_pilot_v1/setup_checks.json",
+      "sha256": "f8c5d4a7827dd56d8f2b41d23706166ca1452ea8bfb382b43cfb675413274b9e",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/evidence/cifar10_scheduling_pilot_v1/setup_checks.json"
+    },
+    {
+      "from": "docs/wireless/preimplementation/DECISIONS_AND_OPEN_ITEMS.md",
+      "sha256": "064e95da8749212e062dc27815c6158d35c8230225ba4a4daa4999844f0867db",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/DECISIONS_AND_OPEN_ITEMS.md"
+    },
+    {
+      "from": "docs/wireless/preimplementation/DESIGN_REVIEW.md",
+      "sha256": "7a76903044e99a11c98b5b98d58c3ad27ef8d4b7d60912003c387ab9c429d209",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/DESIGN_REVIEW.md"
+    },
+    {
+      "from": "docs/wireless/preimplementation/IMPLEMENTATION_PLAN.md",
+      "sha256": "89c4e9f7b2e90848f285d78dd12fc7f71170efdacbd9fb2057106ea93644957f",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/IMPLEMENTATION_PLAN.md"
+    },
+    {
+      "from": "docs/wireless/preimplementation/README.md",
+      "sha256": "ce620b3f10680b456c9e0758dcd1e862e669f2ce0ed1506d51b778ab6b54ba59",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/README.md"
+    },
+    {
+      "from": "docs/wireless/preimplementation/REVIEW_MANIFEST.json",
+      "sha256": "ba4b808b48ee49d339626e8f4f4586de7e47ab206699e9ab3095fed3f310c820",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/REVIEW_MANIFEST.json"
+    },
+    {
+      "from": "docs/wireless/preimplementation/SOURCE_AUDIT.md",
+      "sha256": "6044e91f6a036afecf28a555674c96055759ab4875804dd45fc14d967ea07cc9",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/SOURCE_AUDIT.md"
+    },
+    {
+      "from": "docs/wireless/preimplementation/VALIDATION_PLAN.md",
+      "sha256": "0048e160e929bc20b9926802e587cec6b212f623e336c1e975b58bfb07883be5",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/VALIDATION_PLAN.md"
+    },
+    {
+      "from": "docs/wireless/preimplementation/evidence/baseline_primary_endpoints.txt",
+      "sha256": "0c87a2cdc332692d0fcd768178d3ea58d7b501a969b8bd61b874c187a30b926a",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/baseline_primary_endpoints.txt"
+    },
+    {
+      "from": "docs/wireless/preimplementation/evidence/baseline_pytest.txt",
+      "sha256": "0b1cc1480e0401627606bb630baba2ae21d166c2ed447903aac8b66a66d2ee57",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/baseline_pytest.txt"
+    },
+    {
+      "from": "docs/wireless/preimplementation/evidence/baseline_source_excerpts.txt",
+      "sha256": "04be18beac5667787bc74576b80e79f27e6ea07aed9d24fc3d8ed8afdadb0d42",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/baseline_source_excerpts.txt"
+    },
+    {
+      "from": "docs/wireless/preimplementation/evidence/primary_configuration_audit.json",
+      "sha256": "887b6c840591085644bfe7cd9c43d8c56ac1e60c6cfdbb09ee1e798340074a77",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/primary_configuration_audit.json"
+    },
+    {
+      "from": "docs/wireless/preimplementation/evidence/proposal_sources.txt",
+      "sha256": "051608ac2ed304a2716acfb23e7b5ddeafb2c0e91212d523922f85643036115b",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/proposal_sources.txt"
+    },
+    {
+      "from": "docs/wireless/preimplementation/evidence/review_checks.json",
+      "sha256": "7d95ba4b18a858c08a8f50c164f30bff241c3d24646bdbd49d41d515e01eb4b4",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/review_checks.json"
+    },
+    {
+      "from": "docs/wireless/preimplementation/evidence/review_checks.py",
+      "sha256": "305f70fbf89817f0755e344f1ecc99af1237f474987217033687ed984e340268",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/review_checks.py"
+    },
+    {
+      "from": "docs/wireless/preimplementation/evidence/source_manifest.json",
+      "sha256": "3a2df599dde4d1635ff63c9cc831b1f22e06b6c3db695527b1e30770db37bcc2",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/preimplementation/evidence/source_manifest.json"
+    },
+    {
+      "from": "docs/wireless/proposal/README.md",
+      "sha256": "b988fb9899acbfb4fd72f91678496f09f8d683d462800508246f48e8cc184d0f",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/proposal/README.md"
+    },
+    {
+      "from": "docs/wireless/r150_joint_20261110/JOINT_R150_REVIEW.md",
+      "sha256": "3069b96c5e5c2e5312ac2f2c714e5834d31831fba96ed82eb429b0a525605e3f",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/JOINT_R150_REVIEW.md"
+    },
+    {
+      "from": "docs/wireless/r150_joint_20261110/independent_summary.json",
+      "sha256": "d2d53dc5ad5c5d36194e163748ad24d0ff367e64eaa1199debc966798e5326ab",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/independent_summary.json"
+    },
+    {
+      "from": "docs/wireless/r150_joint_20261110/joint_accuracy_R150.png",
+      "sha256": "8705b020c29f629fb9ca5f259980e386aea0be48e4b9e718e35077b157acc21d",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_accuracy_R150.png"
+    },
+    {
+      "from": "docs/wireless/r150_joint_20261110/joint_client_retention_summary.csv",
+      "sha256": "f55fdf9f384ae716d3f3c8fbf48d13b0efad973b34a9b68f126464b099fdf0a8",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_client_retention_summary.csv"
+    },
+    {
+      "from": "docs/wireless/r150_joint_20261110/joint_clients_true_weighted_KL.csv",
+      "sha256": "20b79bcefa3508722ec96a972d1a3c7f83bd61a5f960386457cb4ad520964131",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_clients_true_weighted_KL.csv"
+    },
+    {
+      "from": "docs/wireless/r150_joint_20261110/joint_control_event_breakdown.csv",
+      "sha256": "46aec07e747a98b7a928db05dcde3973728a7d99b909e3645542d2489b1f4617",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_control_event_breakdown.csv"
+    },
+    {
+      "from": "docs/wireless/r150_joint_20261110/joint_discarded_KL_R2_R150.png",
+      "sha256": "cfba3b4101966a42deb1c8a5f9bb02153eb1d8421b621fd24e2494ba3f7c681b",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_discarded_KL_R2_R150.png"
+    },
+    {
+      "from": "docs/wireless/r150_joint_20261110/joint_nll_R150.png",
+      "sha256": "42fb5fba43c55815896708abab941e99fb5c1e67f77a5816057ac4e2c62885a5",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_nll_R150.png"
+    },
+    {
+      "from": "docs/wireless/r150_joint_20261110/joint_retention_R150.png",
+      "sha256": "6b06d0897ea0439593abc22f7163b1f75b300c80596c602d009efdc3cd0b81fb",
+      "to": "docs/archive/2026-11-12-snapshot/docs/wireless/r150_joint_20261110/joint_retention_R150.png"
+    },
+    {
+      "from": "src/bayesfl/config.py.before_matched_init",
+      "sha256": "ccdd5376793e683e00e9643c5c0a6e4f713997fb0a26f7f916df67c84691f48f",
+      "to": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/config.py.before_matched_init"
+    },
+    {
+      "from": "src/bayesfl/config.py.before_paper00_strict",
+      "sha256": "994a8f34bfbac9dcc84e7f3cc26356f76cf445552be0fae12aa04e81005e1c95",
+      "to": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/config.py.before_paper00_strict"
+    },
+    {
+      "from": "src/bayesfl/experiment_state.py.before_paper00_strict",
+      "sha256": "6e497033ae66357d1902686ba8e0b4edb5e231f0f5664872087f7a92ce096a56",
+      "to": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/experiment_state.py.before_paper00_strict"
+    },
+    {
+      "from": "src/bayesfl/models/factory.py.before_matched_init",
+      "sha256": "e3b204157c990c1053adfd6cb39a4ec815b4ee1870c129a49721142ff24e0a64",
+      "to": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/models/factory.py.before_matched_init"
+    },
+    {
+      "from": "src/bayesfl/server.py.before_matched_init",
+      "sha256": "5fc030a865afbb8747b158dde0d79264349b608f0fc8c203b41a991a094958a7",
+      "to": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/server.py.before_matched_init"
+    },
+    {
+      "from": "src/bayesfl/training/deterministic.py.before_paper00_strict",
+      "sha256": "8d441862ca9f8166b4cab9076b68dd137bf3d09d6b6a3bf6c964671cf4899f7a",
+      "to": "docs/archive/2026-11-12-snapshot/scratch_source/src/bayesfl/training/deterministic.py.before_paper00_strict"
+    }
+  ],
+  "recovery_source": "original bayesfl.zip supplied by user",
+  "schema": "fedkls-repository-cleanup-v1"
+}

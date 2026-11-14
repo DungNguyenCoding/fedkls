@@ -55,3 +55,6 @@ outputs/*
 /outputs/**/communication/events.jsonl
 /outputs/**/metrics/client_metrics.csv
 /outputs/**/metrics/round_train_metrics.csv
+# Analysis reports are generated from completed runs; keep format/docs only.
+/reports/report_*/
+/reports/.tmp_report_*/
